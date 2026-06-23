@@ -329,19 +329,27 @@ You are an AGENTIC advisor: you proactively suggest next steps, related topics, 
 async function askCyberGuard(user, conversationHistory, userMessage) {
   const systemPrompt = buildSystemPrompt(user);
 
-  const response = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      model: "claude-sonnet-4-6",
-      max_tokens: 1000,
-      system: systemPrompt,
-      messages: [
-        ...conversationHistory,
-        { role: "user", content: userMessage },
-      ],
-    }),
-  });
+const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
+    "HTTP-Referer": "http://localhost:3000", // required by OpenRouter
+    "X-Title": "My Nemotron App"
+  },
+body: JSON.stringify({
+  model: "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  messages: [
+    { role: "system", content: systemPrompt},
+    ...conversationHistory,
+    {role: "user", content: userMessage}
+  ],
+  max_tokens: 1000,
+  extra_body: {
+    reasoning: { enabled: true }
+  }
+})
+});
 
   if (!response.ok) {
     const err = await response.json().catch(() => ({}));
@@ -601,7 +609,7 @@ function AgentPanel() {
             CyberGuard AI
             <span className="agent-age-badge">{group.label}</span>
           </div>
-          <div className="agent-sub">Agentic cybersecurity advisor · powered by Claude</div>
+          <div className="agent-sub">Agentic cybersecurity advisor · powered by ILMU</div>
         </div>
       </div>
 
@@ -888,7 +896,7 @@ function AboutPage() {
       </p>
       <div className="card" style={{ marginBottom: "2.5rem", maxWidth: "60ch" }}>
         <p style={{ lineHeight: 1.75, color: "#555", fontSize: "0.95rem" }}>
-          This platform is a modular system — each section is independently developed and composed together. The agentic AI module uses the Claude API (claude-sonnet-4-6) with an age-aware system prompt to tailor every response to the logged-in user.
+          This platform is a modular system — each section is independently developed and composed together. The agentic AI module uses the ILMU-Claw API (claude-sonnet-4-6) with an age-aware system prompt to tailor every response to the logged-in user.
         </p>
       </div>
       <p style={{ fontFamily: "Space Grotesk, sans-serif", fontWeight: 600, marginBottom: "1.25rem" }}>Team</p>

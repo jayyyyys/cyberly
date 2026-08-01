@@ -1,0 +1,4 @@
+﻿matchType,workbookRecordId,matchedRecordId,matchedTitle,reason,fieldsCompared,confidence,recommendedDisposition
+exact,workbook:02_Content_Inventory:14,live:resource:3,Misinformation & Fake News,Exact match on source_url.,['source_url'],high,possible_duplicate
+exact,workbook:02_Content_Inventory:50,live:resource:8,Password Security,Exact match on source_url.,['source_url'],high,possible_duplicate
+exact,workbook:02_Content_Inventory:59,live:resource:9,Digital Citizenship,"Exact match on slug, title+category.","['slug', 'title+category']",high,skip_exact_duplicate

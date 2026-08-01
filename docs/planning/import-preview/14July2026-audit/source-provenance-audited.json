@@ -1,0 +1,410 @@
+{
+  "items": [
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:8",
+      "excelRow": 8,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:9",
+      "excelRow": 9,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:10",
+      "excelRow": 10,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:11",
+      "excelRow": 11,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:17",
+      "excelRow": 17,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:18",
+      "excelRow": 18,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:19",
+      "excelRow": 19,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:20",
+      "excelRow": 20,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:26",
+      "excelRow": 26,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:27",
+      "excelRow": 27,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:28",
+      "excelRow": 28,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:29",
+      "excelRow": 29,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:35",
+      "excelRow": 35,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:36",
+      "excelRow": 36,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:37",
+      "excelRow": 37,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:38",
+      "excelRow": 38,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:44",
+      "excelRow": 44,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:45",
+      "excelRow": 45,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:46",
+      "excelRow": 46,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:47",
+      "excelRow": 47,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:53",
+      "excelRow": 53,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:54",
+      "excelRow": 54,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:55",
+      "excelRow": 55,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:56",
+      "excelRow": 56,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:62",
+      "excelRow": 62,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:63",
+      "excelRow": 63,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:64",
+      "excelRow": 64,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:65",
+      "excelRow": 65,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:5",
+      "excelRow": 5,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:6",
+      "excelRow": 6,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:14",
+      "excelRow": 14,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:15",
+      "excelRow": 15,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:23",
+      "excelRow": 23,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:24",
+      "excelRow": 24,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:32",
+      "excelRow": 32,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:33",
+      "excelRow": 33,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:41",
+      "excelRow": 41,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:42",
+      "excelRow": 42,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:50",
+      "excelRow": 50,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:51",
+      "excelRow": 51,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:59",
+      "excelRow": 59,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:60",
+      "excelRow": 60,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:12",
+      "excelRow": 12,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:21",
+      "excelRow": 21,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:30",
+      "excelRow": 30,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:39",
+      "excelRow": 39,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:48",
+      "excelRow": 48,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:57",
+      "excelRow": 57,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:66",
+      "excelRow": 66,
+      "importReadiness": "planning_only",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:7",
+      "excelRow": 7,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:16",
+      "excelRow": 16,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:25",
+      "excelRow": 25,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:34",
+      "excelRow": 34,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:43",
+      "excelRow": 43,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:52",
+      "excelRow": 52,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    },
+    {
+      "contentCompleteness": "content_brief",
+      "dryRunId": "workbook:02_Content_Inventory:61",
+      "excelRow": 61,
+      "importReadiness": "blocked_missing_content",
+      "sourceSheet": "02_Content_Inventory"
+    }
+  ],
+  "originalPhase2C1Manifest": {
+    "fileName": "content-import-manifest.json",
+    "lastModified": "2026-07-16T00:55:57.270116",
+    "path": "docs/planning/import-preview/14July2026/content-import-manifest.json",
+    "sha256": "43B2E679B0EB7A864AEF5472511598581F2C770FE2882456ED01DEAA88DF25C9",
+    "sizeBytes": 285622
+  },
+  "workbook": {
+    "fileName": "Cyberly_AI_Preparation_Workbook_14July2026.xlsx",
+    "lastModified": "2026-07-14T13:33:28.001410",
+    "path": "docs/planning/Cyberly_AI_Preparation_Workbook_14July2026.xlsx",
+    "sha256": "5F9E610C91FBC8CC9C5A3F33ECAD1E9483A6AB60CB41C026444B407C52DF758B",
+    "sizeBytes": 176169
+  }
+}

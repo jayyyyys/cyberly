@@ -1,0 +1,1589 @@
+{
+  "categoryPlanRowsSample": [
+    {
+      "row": 1,
+      "values": [
+        "Cyberly Content Category Plan"
+      ]
+    },
+    {
+      "row": 2,
+      "values": [
+        "Purpose: Translate the current 02_Content_Inventory into a clearer category/subcategory plan for content expansion, RAG coverage, action cards, and Agentic learning routes."
+      ]
+    },
+    {
+      "row": 4,
+      "values": [
+        "Total subcategories",
+        49.0,
+        "Coverage Status",
+        "Count",
+        "Priority",
+        "Count",
+        "Planning Use"
+      ]
+    },
+    {
+      "row": 5,
+      "values": [
+        "Existing / Partial",
+        21.0,
+        "Existing",
+        17.0,
+        "High",
+        29.0,
+        "MVP content + demo"
+      ]
+    },
+    {
+      "row": 6,
+      "values": [
+        "Missing gaps",
+        28.0,
+        "Partial",
+        4.0,
+        "Medium",
+        19.0,
+        "Near-term expansion"
+      ]
+    },
+    {
+      "row": 7,
+      "values": [
+        "High priority",
+        29.0,
+        "Missing",
+        28.0,
+        "Low",
+        1.0,
+        "Future enhancement"
+      ]
+    },
+    {
+      "row": 10,
+      "values": [
+        "main_category_code",
+        "main_category_name",
+        "subcategory_code",
+        "subcategory_name",
+        "related_topic_code",
+        "learner_level",
+        "priority",
+        "current_coverage",
+        "needed_content",
+        "reason",
+        "suggested_source_type",
+        "example_content_or_gap",
+        "relationship_use",
+        "notes"
+      ]
+    },
+    {
+      "row": 11,
+      "values": [
+        "CAT-BEGINNER",
+        "Beginner / Digital Foundations",
+        "SUB-DIGITAL-CITIZENSHIP",
+        "Digital Citizenship",
+        "TOPIC-BEGINNER",
+        "L1",
+        "High",
+        "Existing",
+        "Resource / FAQ / Scenario",
+        "Builds the entry-level foundation before learners move into specific risks.",
+        "Education / Government",
+        "Existing beginner content covers basic responsible online behaviour.",
+        "prerequisite",
+        "Use as the first route step for low-confidence learners."
+      ]
+    },
+    {
+      "row": 12,
+      "values": [
+        "CAT-BEGINNER",
+        "Beginner / Digital Foundations",
+        "SUB-SOCIAL-ENGINEERING-BASICS",
+        "Social Engineering Basics",
+        "TOPIC-BEGINNER",
+        "L1",
+        "High",
+        "Existing",
+        "Resource / Scenario",
+        "Helps learners understand manipulation before phishing or scam content.",
+        "Education / Cybersecurity agency",
+        "Existing content explains social engineering and stranger information requests.",
+        "prepare_before",
+        "Can prepare learners for scams and password safety topics."
+      ]
+    },
+    {
+      "row": 13,
+      "values": [
+        "CAT-BEGINNER",
+        "Beginner / Digital Foundations",
+        "SUB-SAFE-DIGITAL-HABITS",
+        "Safe Digital Habits",
+        "TOPIC-BEGINNER",
+        "L1",
+        "High",
+        "Partial",
+        "FAQ / Safety Summary",
+        "Gives simple daily habits for teens using phones, school accounts, and social platforms.",
+        "Education / NGO",
+        "Needs a more concise safety summary for repeated CyberGuard use.",
+        "remedial",
+        "Useful after weak initial assessment results."
+      ]
+    },
+    {
+      "row": 14,
+      "values": [
+        "CAT-BEGINNER",
+        "Beginner / Digital Foundations",
+        "SUB-THINK-BEFORE-CLICKING",
+        "Think Before Clicking",
+        "TOPIC-BEGINNER",
+        "L1",
+        "High",
+        "Missing",
+        "FAQ / Scenario",
+        "Connects beginner awareness to phishing links, fake QR codes, and social media messages.",
+        "Cybersecurity agency / Education",
+        "Need short scenario on suspicious link decision-making.",
+        "prepare_before",
+        "Good prerequisite for phishing routes."
+      ]
+    },
+    {
+      "row": 15,
+      "values": [
+        "CAT-BEGINNER",
+        "Beginner / Digital Foundations",
+        "SUB-TRUSTED-ADULT",
+        "Asking Trusted Adults / Teachers",
+        "TOPIC-BEGINNER",
+        "L1",
+        "Medium",
+        "Missing",
+        "FAQ / Safety Summary",
+        "Teen learners need safe escalation guidance without feeling blamed.",
+        "Education / Child safety NGO",
+        "Need guidance on when to ask parent, teacher, counsellor, or platform support.",
+        "remedial",
+        "Use after cyberbullying, grooming, sextortion, or scam distress content."
+      ]
+    },
+    {
+      "row": 16,
+      "values": [
+        "CAT-BEGINNER",
+        "Beginner / Digital Foundations",
+        "SUB-RESPECTFUL-ONLINE",
+        "Respectful Online Behaviour",
+        "TOPIC-BEGINNER",
+        "L1",
+        "Medium",
+        "Missing",
+        "FAQ / Scenario",
+        "Supports cyber wellness, digital citizenship, and cyberbullying prevention.",
+        "Education / NGO",
+        "Need scenario on respectful posting and group chat behaviour.",
+        "related_topic",
+        "Links to cyberbullying and digital wellbeing."
+      ]
+    },
+    {
+      "row": 17,
+      "values": [
+        "CAT-SCAMS",
+        "Scams & Social Engineering",
+        "SUB-PHISHING",
+        "Phishing",
+        "TOPIC-SCAMS",
+        "L1-L2",
+        "High",
+        "Existing",
+        "Resource / Scenario / FAQ",
+        "Phishing is a core risk and a strong demo topic for RAG and Agentic routes.",
+        "FTC / CISA / Malaysia official",
+        "Existing resource and scenario coverage is strong enough for MVP.",
+        "practice_after",
+        "Use as flagship CyberGuard demo prompt."
+      ]
+    },
+    {
+      "row": 18,
+      "values": [
+        "CAT-SCAMS",
+        "Scams & Social Engineering",
+        "SUB-ONLINE-FINANCIAL-SCAMS",
+        "Online Financial Scams",
+        "TOPIC-SCAMS",
+        "L2",
+        "High",
+        "Existing",
+        "Resource / FAQ / Safety Summary",
+        "Malaysia-specific scam response is important for practical cyber wellness.",
+        "Malaysia official source",
+        "Existing NSRC content provides local reporting context.",
+        "next_step",
+        "Should connect to password, OTP, and reporting guidance."
+      ]
+    },
+    {
+      "row": 19,
+      "values": [
+        "CAT-SCAMS",
+        "Scams & Social Engineering",
+        "SUB-QR-CODE-SCAMS",
+        "QR Code Scams",
+        "TOPIC-SCAMS",
+        "L2",
+        "High",
+        "Missing",
+        "FAQ / Scenario",
+        "QR code scams are common in modern payments, posters, and social media links.",
+        "Malaysia official / Cybersecurity agency",
+        "Need practical teen scenario about scanning a fake QR code.",
+        "practice_after",
+        "Useful for mobile-first learners."
+      ]
+    },
+    {
+      "row": 20,
+      "values": [
+        "CAT-SCAMS",
+        "Scams & Social Engineering",
+        "SUB-SIM-SWAP-OTP",
+        "SIM Swap / OTP Fraud",
+        "TOPIC-SCAMS",
+        "L2-L3",
+        "High",
+        "Missing",
+        "Resource / FAQ / Scenario",
+        "Connects scams with account takeover and banking fraud risks.",
+        "Banking / telecom / cybersecurity agency",
+        "Need local-safe explanation of OTP protection and SIM swap warning signs.",
+        "next_step",
+        "Bridge between scams and password/account security."
+      ]
+    },
+    {
+      "row": 21,
+      "values": [
+        "CAT-SCAMS",
+        "Scams & Social Engineering",
+        "SUB-CATFISHING",
+        "Catfishing",
+        "TOPIC-SCAMS",
+        "L2",
+        "Medium",
+        "Missing",
+        "FAQ / Scenario",
+        "Supports teen safety in social media and online relationships.",
+        "Online safety NGO / Education",
+        "Need scenario on fake identity and emotional manipulation.",
+        "related_topic",
+        "Links to online grooming and privacy."
+      ]
+    },
+    {
+      "row": 22,
+      "values": [
+        "CAT-SCAMS",
+        "Scams & Social Engineering",
+        "SUB-CRYPTO-INVESTMENT",
+        "Crypto / Investment Scams",
+        "TOPIC-SCAMS",
+        "L2-L3",
+        "Medium",
+        "Missing",
+        "Resource / FAQ",
+        "Teens may encounter fake investment groups or influencer-driven scams.",
+        "Financial education / official source",
+        "Need age-appropriate content without investment advice.",
+        "next_step",
+        "Keep defensive and awareness-focused."
+      ]
+    },
+    {
+      "row": 23,
+      "values": [
+        "CAT-SCAMS",
+        "Scams & Social Engineering",
+        "SUB-RANSOMWARE-AWARENESS",
+        "Ransomware Awareness",
+        "TOPIC-SCAMS",
+        "L2",
+        "Medium",
+        "Missing",
+        "FAQ / Safety Summary",
+        "Explains why suspicious downloads and links can harm devices and data.",
+        "Cybersecurity agency",
+        "Need non-technical awareness content for teenagers.",
+        "related_topic",
+        "Connects to phishing and device safety."
+      ]
+    },
+    {
+      "row": 24,
+      "values": [
+        "CAT-PASSWORD",
+        "Passwords & Account Security",
+        "SUB-STRONG-PASSWORDS",
+        "Strong Passwords",
+        "TOPIC-PASSWORD",
+        "L1",
+        "High",
+        "Existing",
+        "Resource / FAQ",
+        "Core defensive habit and high-value CyberGuard safety prompt.",
+        "Cybersecurity agency / FTC",
+        "Existing strong password content is available.",
+        "remedial",
+        "Use for weak account-security learners."
+      ]
+    },
+    {
+      "row": 25,
+      "values": [
+        "CAT-PASSWORD",
+        "Passwords & Account Security",
+        "SUB-MFA-2FA",
+        "Multi-Factor Authentication",
+        "TOPIC-PASSWORD",
+        "L2",
+        "High",
+        "Existing",
+        "Resource / FAQ",
+        "MFA is a key protection against account takeover.",
+        "Cybersecurity agency / platform guidance",
+        "Existing MFA content is available.",
+        "next_step",
+        "Often follows password safety."
+      ]
+    },
+    {
+      "row": 26,
+      "values": [
+        "CAT-PASSWORD",
+        "Passwords & Account Security",
+        "SUB-OTP-PROTECTION",
+        "OTP Protection",
+        "TOPIC-PASSWORD",
+        "L2",
+        "High",
+        "Partial",
+        "FAQ / Scenario",
+        "OTP theft is common in scams and should be explained separately from MFA setup.",
+        "Banking / NSRC / cybersecurity agency",
+        "Need clearer scenario about not sharing OTP codes.",
+        "practice_after",
+        "Bridge to scams and account takeover."
+      ]
+    },
+    {
+      "row": 27,
+      "values": [
+        "CAT-PASSWORD",
+        "Passwords & Account Security",
+        "SUB-PASSWORD-MANAGER",
+        "Password Managers",
+        "TOPIC-PASSWORD",
+        "L2",
+        "Medium",
+        "Missing",
+        "FAQ / Resource",
+        "Useful for explaining unique passwords without overwhelming learners.",
+        "Cybersecurity agency / Education",
+        "Need beginner-friendly explanation and safety caveats.",
+        "next_step",
+        "Optional after strong password basics."
+      ]
+    },
+    {
+      "row": 28,
+      "values": [
+        "CAT-PASSWORD",
+        "Passwords & Account Security",
+        "SUB-ACCOUNT-RECOVERY",
+        "Account Recovery Safety",
+        "TOPIC-PASSWORD",
+        "L2",
+        "Medium",
+        "Missing",
+        "FAQ / Safety Summary",
+        "Learners need safe steps after losing access or seeing suspicious login activity.",
+        "Platform help / cybersecurity agency",
+        "Need defensive recovery checklist.",
+        "remedial",
+        "Use after account-compromise questions."
+      ]
+    },
+    {
+      "row": 29,
+      "values": [
+        "CAT-PASSWORD",
+        "Passwords & Account Security",
+        "SUB-SUSPICIOUS-LOGIN",
+        "Suspicious Login Alerts",
+        "TOPIC-PASSWORD",
+        "L2",
+        "Medium",
+        "Missing",
+        "Scenario / FAQ",
+        "Practical decision point for teenagers using email, social, and game accounts.",
+        "Platform guidance / Education",
+        "Need scenario on login alert and device session review.",
+        "practice_after",
+        "Good scenario candidate."
+      ]
+    },
+    {
+      "row": 30,
+      "values": [
+        "CAT-PRIVACY",
+        "Privacy & Personal Data Protection",
+        "SUB-PERSONAL-DATA",
+        "Personal Data",
+        "TOPIC-PRIVACY",
+        "L1-L2",
+        "High",
+        "Existing",
+        "Resource / FAQ / Safety Summary",
+        "Core cyber wellness topic and important for Malaysian data-protection context.",
+        "JPDP / Government",
+        "Existing JPDP and privacy resources are available.",
+        "prepare_before",
+        "Foundation for privacy routes."
+      ]
+    },
+    {
+      "row": 31,
+      "values": [
+        "CAT-PRIVACY",
+        "Privacy & Personal Data Protection",
+        "SUB-PUBLIC-WIFI",
+        "Public Wi-Fi Safety",
+        "TOPIC-PRIVACY",
+        "L2",
+        "High",
+        "Existing",
+        "Resource / FAQ",
+        "Practical risk for students using public spaces and shared devices.",
+        "FTC / cybersecurity agency",
+        "Existing public Wi-Fi content is available.",
+        "practice_after",
+        "Can connect to e-wallet and login safety."
+      ]
+    },
+    {
+      "row": 32,
+      "values": [
+        "CAT-PRIVACY",
+        "Privacy & Personal Data Protection",
+        "SUB-DIGITAL-FOOTPRINT",
+        "Digital Footprint",
+        "TOPIC-PRIVACY",
+        "L1-L2",
+        "High",
+        "Existing",
+        "FAQ / Safety Summary",
+        "Supports long-term cyber wellness and responsible sharing.",
+        "Education / NGO",
+        "Existing digital footprint content is available.",
+        "next_step",
+        "Links to social media privacy and cyberbullying."
+      ]
+    },
+    {
+      "row": 33,
+      "values": [
+        "CAT-PRIVACY",
+        "Privacy & Personal Data Protection",
+        "SUB-IDENTITY-THEFT",
+        "Identity Theft",
+        "TOPIC-PRIVACY",
+        "L2",
+        "High",
+        "Missing",
+        "FAQ / Resource / Scenario",
+        "Connects personal data exposure to real-world harm.",
+        "Government / cybersecurity agency",
+        "Need local-safe response guidance and prevention tips.",
+        "remedial",
+        "Use after privacy or scam risk."
+      ]
+    },
+    {
+      "row": 34,
+      "values": [
+        "CAT-PRIVACY",
+        "Privacy & Personal Data Protection",
+        "SUB-APP-PERMISSIONS",
+        "App Permissions",
+        "TOPIC-PRIVACY",
+        "L1-L2",
+        "Medium",
+        "Missing",
+        "FAQ / Scenario",
+        "Mobile apps are central to teen digital behaviour.",
+        "Platform guidance / Education",
+        "Need scenario on granting camera/location/contact permissions.",
+        "practice_after",
+        "Useful in mobile privacy route."
+      ]
+    },
+    {
+      "row": 35,
+      "values": [
+        "CAT-PRIVACY",
+        "Privacy & Personal Data Protection",
+        "SUB-SOCIAL-MEDIA-PRIVACY",
+        "Social Media Privacy",
+        "TOPIC-PRIVACY",
+        "L1-L2",
+        "High",
+        "Missing",
+        "Resource / Scenario",
+        "High relevance for teenagers and online safety.",
+        "Platform guidance / Child safety NGO",
+        "Need content on privacy settings, friend requests, and public posts.",
+        "related_topic",
+        "Links to cyberbullying, grooming, and digital footprint."
+      ]
+    },
+    {
+      "row": 36,
+      "values": [
+        "CAT-PRIVACY",
+        "Privacy & Personal Data Protection",
+        "SUB-EWALLET-SECURITY",
+        "E-Wallet / Online Banking Safety",
+        "TOPIC-PRIVACY",
+        "L2",
+        "Medium",
+        "Missing",
+        "FAQ / Safety Summary",
+        "Useful for Malaysian context and financial scam prevention.",
+        "Bank Negara / banking safety source",
+        "Need defensive content on app locks, OTP, and scam reporting.",
+        "next_step",
+        "Bridge to scams and password security."
+      ]
+    },
+    {
+      "row": 37,
+      "values": [
+        "CAT-PRIVACY",
+        "Privacy & Personal Data Protection",
+        "SUB-LOCATION-SHARING",
+        "Location Sharing",
+        "TOPIC-PRIVACY",
+        "L1-L2",
+        "Medium",
+        "Missing",
+        "FAQ / Scenario",
+        "Teen safety risk in social platforms and gaming communities.",
+        "Child safety NGO / Platform guidance",
+        "Need scenario on sharing live location or school location.",
+        "related_topic",
+        "Links to online grooming and doxxing."
+      ]
+    },
+    {
+      "row": 38,
+      "values": [
+        "CAT-SAFETY",
+        "Online Safety & Digital Wellbeing",
+        "SUB-CYBERBULLYING",
+        "Cyberbullying",
+        "TOPIC-SAFETY",
+        "L1-L2",
+        "High",
+        "Existing",
+        "Resource / FAQ / Scenario",
+        "Core cyber wellness harm for teenagers.",
+        "UNICEF / child safety NGO",
+        "Existing cyberbullying content is available.",
+        "practice_after",
+        "Should include support-seeking guidance."
+      ]
+    },
+    {
+      "row": 39,
+      "values": [
+        "CAT-SAFETY",
+        "Online Safety & Digital Wellbeing",
+        "SUB-ONLINE-GROOMING",
+        "Online Grooming",
+        "TOPIC-SAFETY",
+        "L2",
+        "High",
+        "Existing",
+        "FAQ / Safety Summary",
+        "High-risk teen safety issue requiring careful language.",
+        "Child safety NGO / official source",
+        "Existing FAQ content is available.",
+        "remedial",
+        "Use safe, non-graphic, support-oriented guidance."
+      ]
+    },
+    {
+      "row": 40,
+      "values": [
+        "CAT-SAFETY",
+        "Online Safety & Digital Wellbeing",
+        "SUB-SEXTORTION",
+        "Sextortion",
+        "TOPIC-SAFETY",
+        "L2-L3",
+        "High",
+        "Existing",
+        "FAQ / Safety Summary",
+        "Important high-risk topic; needs reviewed safety guidance.",
+        "Child safety NGO / official source",
+        "Existing FAQ content is available but should be reviewed carefully.",
+        "remedial",
+        "Avoid explicit detail; focus on help-seeking and reporting."
+      ]
+    },
+    {
+      "row": 41,
+      "values": [
+        "CAT-SAFETY",
+        "Online Safety & Digital Wellbeing",
+        "SUB-DOXXING",
+        "Doxxing",
+        "TOPIC-SAFETY",
+        "L2",
+        "High",
+        "Missing",
+        "FAQ / Scenario",
+        "Connects privacy exposure with harassment and safety risk.",
+        "Child safety NGO / cybersecurity source",
+        "Need scenario on personal information being posted online.",
+        "related_topic",
+        "Bridge between privacy and online harm."
+      ]
+    },
+    {
+      "row": 42,
+      "values": [
+        "CAT-SAFETY",
+        "Online Safety & Digital Wellbeing",
+        "SUB-ONLINE-GAMING-SAFETY",
+        "Online Gaming Safety",
+        "TOPIC-SAFETY",
+        "L1-L2",
+        "Medium",
+        "Missing",
+        "FAQ / Scenario",
+        "Gaming is a major teen interaction space and scam/grooming vector.",
+        "Child safety NGO / platform guidance",
+        "Need scenario on stranger chat, item scams, and account sharing.",
+        "practice_after",
+        "Links to account security and online grooming."
+      ]
+    },
+    {
+      "row": 43,
+      "values": [
+        "CAT-SAFETY",
+        "Online Safety & Digital Wellbeing",
+        "SUB-STRANGER-INTERACTION",
+        "Stranger Interaction",
+        "TOPIC-SAFETY",
+        "L1-L2",
+        "High",
+        "Missing",
+        "FAQ / Scenario",
+        "Simple safe-boundary content for chat apps, games, and social media.",
+        "Child safety NGO / Education",
+        "Need support-oriented content on red flags and trusted adults.",
+        "prepare_before",
+        "Prerequisite for grooming and catfishing content."
+      ]
+    },
+    {
+      "row": 44,
+      "values": [
+        "CAT-SAFETY",
+        "Online Safety & Digital Wellbeing",
+        "SUB-DIGITAL-WELLBEING",
+        "Digital Wellbeing",
+        "TOPIC-SAFETY",
+        "L1",
+        "Medium",
+        "Missing",
+        "Resource / FAQ",
+        "Supports cyber wellness beyond technical security.",
+        "Health / education source",
+        "Need screen time, emotional safety, and healthy online habits.",
+        "next_step",
+        "Useful as non-punitive wellbeing route."
+      ]
+    },
+    {
+      "row": 45,
+      "values": [
+        "CAT-SAFETY",
+        "Online Safety & Digital Wellbeing",
+        "SUB-REPORTING-HARM",
+        "Reporting Harm",
+        "TOPIC-SAFETY",
+        "L1-L2",
+        "High",
+        "Partial",
+        "Safety Summary / FAQ",
+        "Learners need safe escalation steps for bullying, grooming, sextortion, or threats.",
+        "Official / child safety NGO",
+        "Need Malaysia-specific reviewed reporting guidance later.",
+        "remedial",
+        "Important for safety responses and CyberGuard refusals."
+      ]
+    },
+    {
+      "row": 46,
+      "values": [
+        "CAT-MISINFO",
+        "Misinformation & Media Literacy",
+        "SUB-FAKE-NEWS",
+        "Fake News",
+        "TOPIC-MISINFORMATION",
+        "L1-L2",
+        "High",
+        "Existing",
+        "Resource / FAQ",
+        "Core media literacy topic and good CyberGuard explanation prompt.",
+        "Sebenarnya.my / UNESCO",
+        "Existing content covers fake news and viral verification.",
+        "practice_after",
+        "Use for misinformation scenario route."
+      ]
+    },
+    {
+      "row": 47,
+      "values": [
+        "CAT-MISINFO",
+        "Misinformation & Media Literacy",
+        "SUB-FACT-CHECKING",
+        "Fact-Checking Tools",
+        "TOPIC-MISINFORMATION",
+        "L1-L2",
+        "High",
+        "Existing",
+        "Resource / FAQ",
+        "Gives learners practical method to verify claims.",
+        "Sebenarnya.my / fact-checking source",
+        "Existing Sebenarnya.my content is available.",
+        "next_step",
+        "Good internal Resource after fake news explanations."
+      ]
+    },
+    {
+      "row": 48,
+      "values": [
+        "CAT-MISINFO",
+        "Misinformation & Media Literacy",
+        "SUB-RESPONSIBLE-SHARING",
+        "Responsible Sharing",
+        "TOPIC-MISINFORMATION",
+        "L1-L2",
+        "High",
+        "Existing",
+        "FAQ / Safety Summary",
+        "Focuses on behaviour change before forwarding viral content.",
+        "UNESCO / education source",
+        "Existing think-before-sharing content is available.",
+        "remedial",
+        "Useful after misinformation scenario mistakes."
+      ]
+    },
+    {
+      "row": 49,
+      "values": [
+        "CAT-MISINFO",
+        "Misinformation & Media Literacy",
+        "SUB-CLICKBAIT",
+        "Clickbait",
+        "TOPIC-MISINFORMATION",
+        "L1",
+        "Medium",
+        "Missing",
+        "FAQ / Scenario",
+        "Common teen-facing tactic on social media and video platforms.",
+        "Media literacy source",
+        "Need scenario on misleading headlines and emotional titles.",
+        "prepare_before",
+        "Good prerequisite for fake news."
+      ]
+    },
+    {
+      "row": 50,
+      "values": [
+        "CAT-MISINFO",
+        "Misinformation & Media Literacy",
+        "SUB-EMOTIONAL-MANIPULATION",
+        "Emotional Manipulation",
+        "TOPIC-MISINFORMATION",
+        "L2",
+        "Medium",
+        "Missing",
+        "FAQ / Safety Summary",
+        "Explains why viral posts can pressure users to share quickly.",
+        "Media literacy / psychology education",
+        "Need simple content about urgency, fear, anger, and outrage cues.",
+        "related_topic",
+        "Links to scams and misinformation."
+      ]
+    },
+    {
+      "row": 51,
+      "values": [
+        "CAT-MISINFO",
+        "Misinformation & Media Literacy",
+        "SUB-SOURCE-EVALUATION",
+        "Source Evaluation",
+        "TOPIC-MISINFORMATION",
+        "L2",
+        "Medium",
+        "Partial",
+        "FAQ / Resource",
+        "Teaches learners to check author, date, evidence, and source quality.",
+        "UNESCO / education source",
+        "Existing media literacy resource partly covers this; can be expanded.",
+        "next_step",
+        "Useful for RAG answer quality explanations."
+      ]
+    },
+    {
+      "row": 52,
+      "values": [
+        "CAT-MISINFO",
+        "Misinformation & Media Literacy",
+        "SUB-IMAGE-VIDEO-VERIFY",
+        "Image / Video Verification",
+        "TOPIC-MISINFORMATION",
+        "L2",
+        "Medium",
+        "Missing",
+        "FAQ / Scenario",
+        "Needed for modern misinformation and AI-generated media.",
+        "Fact-checking / media literacy source",
+        "Need reverse image search and context-checking content.",
+        "next_step",
+        "Bridge to AI deepfake content."
+      ]
+    },
+    {
+      "row": 53,
+      "values": [
+        "CAT-AI-TECH",
+        "AI & Technology Safety",
+        "SUB-DEEPFAKES",
+        "Deepfakes",
+        "TOPIC-AI_TECH",
+        "L2",
+        "High",
+        "Existing",
+        "Resource / Scenario / FAQ",
+        "Modern cyber wellness issue and good AI-related project differentiator.",
+        "CISA / media literacy source",
+        "Existing deepfake content is available.",
+        "practice_after",
+        "Strong link to misinformation."
+      ]
+    },
+    {
+      "row": 54,
+      "values": [
+        "CAT-AI-TECH",
+        "AI & Technology Safety",
+        "SUB-AI-GENERATED-CONTENT",
+        "AI-Generated Content",
+        "TOPIC-AI_TECH",
+        "L1-L2",
+        "High",
+        "Existing",
+        "FAQ / Safety Summary",
+        "Helps learners question AI-created text, images, and scams.",
+        "Cybersecurity / education source",
+        "Existing AI-generated content content is available.",
+        "next_step",
+        "Good route after misinformation basics."
+      ]
+    },
+    {
+      "row": 55,
+      "values": [
+        "CAT-AI-TECH",
+        "AI & Technology Safety",
+        "SUB-AI-PHISHING",
+        "AI-Enabled Phishing",
+        "TOPIC-AI_TECH",
+        "L2-L3",
+        "High",
+        "Missing",
+        "Resource / Scenario",
+        "Connects AI technology with phishing and social engineering.",
+        "Cybersecurity agency / education source",
+        "Need content on realistic AI-written scam messages.",
+        "related_topic",
+        "Bridge between AI safety and scams."
+      ]
+    },
+    {
+      "row": 56,
+      "values": [
+        "CAT-AI-TECH",
+        "AI & Technology Safety",
+        "SUB-VOICE-CLONING",
+        "Voice Cloning Scams",
+        "TOPIC-AI_TECH",
+        "L2-L3",
+        "High",
+        "Missing",
+        "FAQ / Scenario",
+        "Emerging scam risk with practical relevance to families and students.",
+        "Cybersecurity agency / official source",
+        "Need defensive content on verifying urgent voice requests.",
+        "practice_after",
+        "Connect to social engineering and scam response."
+      ]
+    },
+    {
+      "row": 57,
+      "values": [
+        "CAT-AI-TECH",
+        "AI & Technology Safety",
+        "SUB-AI-CHATBOT-PRIVACY",
+        "AI Chatbot Privacy",
+        "TOPIC-AI_TECH",
+        "L1-L2",
+        "Medium",
+        "Missing",
+        "FAQ / Safety Summary",
+        "Directly relevant because Cyberly itself uses AI.",
+        "AI safety / privacy source",
+        "Need guidance not to paste private data into AI tools.",
+        "prepare_before",
+        "Important for responsible CyberGuard usage."
+      ]
+    },
+    {
+      "row": 58,
+      "values": [
+        "CAT-AI-TECH",
+        "AI & Technology Safety",
+        "SUB-SYNTHETIC-MEDIA-VERIFY",
+        "Synthetic Media Verification",
+        "TOPIC-AI_TECH",
+        "L2",
+        "Medium",
+        "Missing",
+        "FAQ / Scenario",
+        "Teaches learners to slow down before trusting AI-generated images or videos.",
+        "Media literacy / cybersecurity source",
+        "Need simple verification checklist.",
+        "next_step",
+        "Bridge to misinformation verification."
+      ]
+    },
+    {
+      "row": 59,
+      "values": [
+        "CAT-AI-TECH",
+        "AI & Technology Safety",
+        "SUB-PROMPT-DATA-LEAKAGE",
+        "Prompt / Data Leakage Basics",
+        "TOPIC-AI_TECH",
+        "L2-L3",
+        "Low",
+        "Missing",
+        "FAQ",
+        "Advanced but useful for explaining safe AI tool usage.",
+        "AI safety / privacy source",
+        "Need simple non-technical content only; avoid sensitive technical exploit detail.",
+        "future",
+        "Keep as later expansion, not MVP priority."
+      ]
+    }
+  ],
+  "contentRows": [
+    {
+      "dryRunId": "workbook:02_Content_Inventory:8",
+      "excelRow": 8,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-SC-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:9",
+      "excelRow": 9,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-SC-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:10",
+      "excelRow": 10,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-SC-003"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:11",
+      "excelRow": 11,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-SC-004"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:17",
+      "excelRow": 17,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-MS-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:18",
+      "excelRow": 18,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-MS-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:19",
+      "excelRow": 19,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-MS-003"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:20",
+      "excelRow": 20,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-MS-004"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:26",
+      "excelRow": 26,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-AIT-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:27",
+      "excelRow": 27,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-AIT-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:28",
+      "excelRow": 28,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-AIT-003"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:29",
+      "excelRow": 29,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-AIT-004"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:35",
+      "excelRow": 35,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-PRIV-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:36",
+      "excelRow": 36,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-PRIV-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:37",
+      "excelRow": 37,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-PRIV-003"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:38",
+      "excelRow": 38,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-PRIV-004"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:44",
+      "excelRow": 44,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-SAF-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:45",
+      "excelRow": 45,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-SAF-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:46",
+      "excelRow": 46,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-SAF-003"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:47",
+      "excelRow": 47,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-SAF-004"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:53",
+      "excelRow": 53,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-PASS-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:54",
+      "excelRow": 54,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-PASS-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:55",
+      "excelRow": 55,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-PASS-003"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:56",
+      "excelRow": 56,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-PASS-004"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:62",
+      "excelRow": 62,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-BEG-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:63",
+      "excelRow": 63,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-BEG-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:64",
+      "excelRow": 64,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-BEG-003"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:65",
+      "excelRow": 65,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "FAQ-BEG-004"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:5",
+      "excelRow": 5,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-SC-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:6",
+      "excelRow": 6,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-SC-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:14",
+      "excelRow": 14,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-MS-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:15",
+      "excelRow": 15,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-MS-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:23",
+      "excelRow": 23,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-AIT-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:24",
+      "excelRow": 24,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-AIT-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:32",
+      "excelRow": 32,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-PRIV-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:33",
+      "excelRow": 33,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-PRIV-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:41",
+      "excelRow": 41,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-SAF-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:42",
+      "excelRow": 42,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-SAF-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:50",
+      "excelRow": 50,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-PASS-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:51",
+      "excelRow": 51,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-PASS-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:59",
+      "excelRow": 59,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-BEG-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:60",
+      "excelRow": 60,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "RES-BEG-002"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:12",
+      "excelRow": 12,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SAFE-SC-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:21",
+      "excelRow": 21,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SAFE-MS-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:30",
+      "excelRow": 30,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SAFE-AIT-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:39",
+      "excelRow": 39,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SAFE-PRIV-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:48",
+      "excelRow": 48,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SAFE-SAF-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:57",
+      "excelRow": 57,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SAFE-PASS-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:66",
+      "excelRow": 66,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SAFE-BEG-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:7",
+      "excelRow": 7,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SCN-SC-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:16",
+      "excelRow": 16,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SCN-MS-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:25",
+      "excelRow": 25,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SCN-AIT-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:34",
+      "excelRow": 34,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SCN-PRIV-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:43",
+      "excelRow": 43,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SCN-SAF-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:52",
+      "excelRow": 52,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SCN-PASS-001"
+    },
+    {
+      "dryRunId": "workbook:02_Content_Inventory:61",
+      "excelRow": 61,
+      "sourceSheet": "02_Content_Inventory",
+      "workbookContentId": "SCN-BEG-001"
+    }
+  ],
+  "sheets": [
+    {
+      "blankRowsInsideDataRanges": 959,
+      "dimensions": {
+        "columns": 8,
+        "nonEmptyRows": 41,
+        "rows": 1000
+      },
+      "duplicateHeaders": [
+        "0"
+      ],
+      "formulaCellsWithoutCachedValues": "not inspected in data_only read_only mode",
+      "headerRows": [],
+      "hiddenRowsColumns": "not inspected in read_only mode",
+      "mergedCells": "not available in read_only mode",
+      "name": "01_Learner_Level_Policy",
+      "visibility": "visible"
+    },
+    {
+      "blankRowsInsideDataRanges": 991,
+      "dimensions": {
+        "columns": 26,
+        "nonEmptyRows": 68,
+        "rows": 1059
+      },
+      "duplicateHeaders": [
+        "creating a secure password",
+        "dealing with online bullying",
+        "digital citizenship",
+        "how can i check if information is true",
+        "how can i protect my privacy online",
+        "how can i stay safe online",
+        "how can i tell if content is ai generated",
+        "how to avoid a scam",
+        "how to recognize and avoid phishing scams",
+        "media and information literacy",
+        "online privacy and security",
+        "online safety",
+        "protect your accounts",
+        "protecting your personal information",
+        "safe digital habits",
+        "should i use a password manager",
+        "staying safe online",
+        "think before you share",
+        "turn on multi factor authentication",
+        "uncovering deepfakes",
+        "use strong passwords",
+        "using ai safely online",
+        "verifying viral news before sharing",
+        "what is a deepfake",
+        "what is a digital citizen",
+        "what is a digital footprint",
+        "what is ai generated content",
+        "what is cyberbullying",
+        "what is fake news",
+        "what is online grooming",
+        "what is personal data",
+        "what is sextortion",
+        "what is social engineering",
+        "what makes a strong password",
+        "what should i do if i see fake news",
+        "who should contact nsrc",
+        "why do people share fake news",
+        "why should i think before clicking"
+      ],
+      "formulaCellsWithoutCachedValues": "not inspected in data_only read_only mode",
+      "headerRows": [
+        {
+          "headers": [
+            "content_code",
+            "content_type",
+            "topic_code",
+            "slug",
+            "title_en",
+            "title_ms",
+            "title_zh",
+            "summary_en",
+            "summary_ms",
+            "summary_zh",
+            "difficulty_level",
+            "estimated_minutes",
+            "source_organisation",
+            "source_url",
+            "review_status",
+            "rag_ready",
+            "last_reviewed_at",
+            "reviewed_by",
+            "notes"
+          ],
+          "row": 4
+        },
+        {
+          "headers": [
+            "content_code",
+            "Keep even with MySQL auto IDs. Stable codes survive across dev/test/prod environments.",
+            "1. Scams"
+          ],
+          "row": 71
+        }
+      ],
+      "hiddenRowsColumns": "not inspected in read_only mode",
+      "mergedCells": "not available in read_only mode",
+      "name": "02_Content_Inventory",
+      "visibility": "visible"
+    },
+    {
+      "blankRowsInsideDataRanges": 944,
+      "dimensions": {
+        "columns": 26,
+        "nonEmptyRows": 56,
+        "rows": 1000
+      },
+      "duplicateHeaders": [
+        "count"
+      ],
+      "formulaCellsWithoutCachedValues": "not inspected in data_only read_only mode",
+      "headerRows": [],
+      "hiddenRowsColumns": "not inspected in read_only mode",
+      "mergedCells": "not available in read_only mode",
+      "name": "Cyberly_Content_Category_Plan",
+      "visibility": "visible"
+    },
+    {
+      "blankRowsInsideDataRanges": 921,
+      "dimensions": {
+        "columns": 26,
+        "nonEmptyRows": 78,
+        "rows": 999
+      },
+      "duplicateHeaders": [
+        "1 0",
+        "2 0"
+      ],
+      "formulaCellsWithoutCachedValues": "not inspected in data_only read_only mode",
+      "headerRows": [
+        {
+          "headers": [
+            "relationship_id",
+            "source_content_code",
+            "target_content_code",
+            "relationship_type",
+            "topic_code",
+            "priority",
+            "sequence_order",
+            "reason_en",
+            "reason_zh",
+            "is_active",
+            "notes"
+          ],
+          "row": 4
+        }
+      ],
+      "hiddenRowsColumns": "not inspected in read_only mode",
+      "mergedCells": "not available in read_only mode",
+      "name": "03_Content_Relationships",
+      "visibility": "visible"
+    },
+    {
+      "blankRowsInsideDataRanges": 985,
+      "dimensions": {
+        "columns": 15,
+        "nonEmptyRows": 18,
+        "rows": 1003
+      },
+      "duplicateHeaders": [
+        "24 0",
+        "8 0"
+      ],
+      "formulaCellsWithoutCachedValues": "not inspected in data_only read_only mode",
+      "headerRows": [],
+      "hiddenRowsColumns": "not inspected in read_only mode",
+      "mergedCells": "not available in read_only mode",
+      "name": "04_AI_Safety_Test_Set",
+      "visibility": "visible"
+    },
+    {
+      "blankRowsInsideDataRanges": 987,
+      "dimensions": {
+        "columns": 20,
+        "nonEmptyRows": 14,
+        "rows": 1001
+      },
+      "duplicateHeaders": [
+        "talian kasih 15999"
+      ],
+      "formulaCellsWithoutCachedValues": "not inspected in data_only read_only mode",
+      "headerRows": [],
+      "hiddenRowsColumns": "not inspected in read_only mode",
+      "mergedCells": "not available in read_only mode",
+      "name": "05_MY_Response_Guidance",
+      "visibility": "visible"
+    },
+    {
+      "blankRowsInsideDataRanges": 975,
+      "dimensions": {
+        "columns": 17,
+        "nonEmptyRows": 25,
+        "rows": 1000
+      },
+      "duplicateHeaders": [
+        "3 0",
+        "4 0",
+        "5 0"
+      ],
+      "formulaCellsWithoutCachedValues": "not inspected in data_only read_only mode",
+      "headerRows": [],
+      "hiddenRowsColumns": "not inspected in read_only mode",
+      "mergedCells": "not available in read_only mode",
+      "name": "06_AI_Quality_Rubric",
+      "visibility": "visible"
+    },
+    {
+      "blankRowsInsideDataRanges": 963,
+      "dimensions": {
+        "columns": 10,
+        "nonEmptyRows": 37,
+        "rows": 1000
+      },
+      "duplicateHeaders": [
+        "yes"
+      ],
+      "formulaCellsWithoutCachedValues": "not inspected in data_only read_only mode",
+      "headerRows": [],
+      "hiddenRowsColumns": "not inspected in read_only mode",
+      "mergedCells": "not available in read_only mode",
+      "name": "07_Agent_Tool_Catalogue",
+      "visibility": "visible"
+    }
+  ],
+  "workbook": {
+    "authoritativeVersion": "14July2026",
+    "fileName": "Cyberly_AI_Preparation_Workbook_14July2026.xlsx",
+    "lastModified": "2026-07-14T13:33:28.001410",
+    "path": "docs/planning/Cyberly_AI_Preparation_Workbook_14July2026.xlsx",
+    "sha256": "5F9E610C91FBC8CC9C5A3F33ECAD1E9483A6AB60CB41C026444B407C52DF758B",
+    "sizeBytes": 176169
+  }
+}

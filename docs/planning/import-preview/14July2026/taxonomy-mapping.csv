@@ -1,0 +1,8 @@
+﻿original_topic,normalized_topic,mapped_category,live_category_code,proposed_subcategory,mapping_method,confidence,manual_review_note
+TOPIC-AI&TECHNOLOGY,topic ai and technology,AI & Technology Safety,AI & Technology,,alias_exact,high,Matched deterministic legacy topic alias.
+TOPIC-BEGINNER,topic beginner,Beginner / Digital Foundations,Beginner,,alias_exact,high,Matched deterministic legacy topic alias.
+TOPIC-MISINFORMATION,topic misinformation,Misinformation & Media Literacy,Misinformation,,alias_exact,high,Matched deterministic legacy topic alias.
+TOPIC-PASSWORD,topic password,Passwords & Account Security,Passwords,,alias_exact,high,Matched deterministic legacy topic alias.
+TOPIC-PRIVACY,topic privacy,Privacy & Personal Data Protection,Privacy,,alias_exact,high,Matched deterministic legacy topic alias.
+TOPIC-SAFETY,topic safety,Online Safety & Digital Wellbeing,Safety,,alias_exact,high,Matched deterministic legacy topic alias.
+TOPIC-SCAMS,topic scams,Scams & Social Engineering,Scams,,alias_exact,high,Matched deterministic legacy topic alias.

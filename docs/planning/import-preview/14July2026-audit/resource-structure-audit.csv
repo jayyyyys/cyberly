@@ -1,0 +1,15 @@
+﻿dry_run_id,content_type,title,has_title,has_summary,has_body,has_source_url,body_availability,content_completeness,disposition,import_readiness
+workbook:02_Content_Inventory:5,resource,How To Recognize and Avoid Phishing Scams,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:6,resource,National Scam Response Centre (NSRC) Malaysia,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:14,resource,Sebenarnya.my – Malaysia's Official Fact Check Portal,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:15,resource,Media and Information Literacy,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:23,resource,AI in Cybercrime: Understanding AI-Enabled Threats,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:24,resource,Understanding Deepfakes and Synthetic Media,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:32,resource,Department of Personal Data Protection (JPDP),True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:33,resource,Online Privacy and Security,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:41,resource,Cyberbullying: What Is It and How to Stop It,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:42,resource,Online Safety,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:50,resource,Use Strong Passwords,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:51,resource,Turn On Multi-Factor Authentication,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:59,resource,Digital Citizenship,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content
+workbook:02_Content_Inventory:60,resource,Social Engineering Explained,True,True,False,True,no body field found in Content Inventory,content_brief,missing_required_fields,blocked_missing_content

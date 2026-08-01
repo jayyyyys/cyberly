@@ -1,0 +1,2211 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "assessment": "Assessment",
+    "scenarios": "Scenarios",
+    "resources": "Resources",
+    "aiChat": "AI Chatbot",
+    "admin": "Admin",
+    "about": "About",
+    "profile": "Profile",
+    "settings": "Settings",
+    "signOut": "Sign out",
+    "language": "Language",
+    "languageControlTitle": "Change language",
+    "languageAriaLabel": "Choose interface language",
+    "brandHomeAriaLabel": "Go to Cyberly Home",
+    "brandDashboardAriaLabel": "Go to Cyberly Dashboard",
+    "primaryAriaLabel": "Primary navigation",
+    "openMenuAriaLabel": "Open navigation menu",
+    "closeMenuAriaLabel": "Close navigation menu",
+    "mobileNavigationLabel": "Mobile navigation",
+    "accountMenu": {
+      "triggerAriaLabel": "Open account menu for {{name}}",
+      "menuAriaLabel": "Account menu",
+      "userFallback": "User",
+      "personalProgress": "Personal Progress",
+      "profileSettings": "Profile & Settings",
+      "adminConsole": "Admin Console",
+      "logOut": "Log out"
+    },
+    "logoutModal": {
+      "title": "Log out of Cyberly?",
+      "description": "You can safely cancel and keep learning. If you log out, your current session on this device will end.",
+      "cancel": "Cancel",
+      "confirm": "Log out"
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "getStarted": "Get started",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "Display name",
+    "age": "Age",
+    "confirmPassword": "Confirm password",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "loading": "Loading",
+    "invalidCredentials": "Invalid credentials",
+    "networkError": "Network error",
+    "accountCreated": "Account created",
+    "signInPrompt": "Already have an account?",
+    "registerPrompt": "New to Cyberly?",
+    "createAccount": "Create your account",
+    "accountDetailsHint": "Account details stay with your user account. Learning preferences are saved after onboarding.",
+    "passwordRequirements": "Password must be at least 8 characters and include a letter and a number.",
+    "registerFailed": "Unable to create the account.",
+    "goToLogin": "Sign in",
+    "emailPlaceholder": "you@example.com",
+    "displayNamePlaceholder": "Your name",
+    "agePlaceholder": "e.g. 16",
+    "passwordPlaceholder": "At least 8 characters",
+    "welcomeBack": "Welcome back",
+    "loginDescription": "Sign in to continue your cyber wellness journey.",
+    "emailInvalid": "Please enter a valid email address.",
+    "passwordRequired": "Please enter your password.",
+    "signInButton": "Sign in",
+    "goToRegister": "Create an account",
+    "displayNameRequired": "Display name must be 2 to 50 characters.",
+    "ageInvalid": "Please enter a whole-number age from 1 to 120."
+  },
+  "onboarding": {
+    "account": "Account",
+    "nickname": "Nickname",
+    "education": "Education",
+    "language": "Language",
+    "experience": "Experience",
+    "goals": "Goals",
+    "learningStyle": "Learning style",
+    "progress": "Step {{step}} of {{total}} — {{label}}",
+    "previous": "Previous",
+    "next": "Next",
+    "completeSetup": "Complete setup",
+    "aiNickname": "AI nickname",
+    "educationLevel": "Education level",
+    "preferredLanguage": "Preferred language",
+    "familiarityLevel": "Familiarity level",
+    "helpTopics": "Help topics",
+    "learningStyleLabel": "Learning style",
+    "nicknameQuestion": "What should the AI call you?",
+    "nicknameHint": "This can be a nickname or alias. It is just for CyberGuard.",
+    "educationQuestion": "What education level best fits you?",
+    "languageQuestion": "Which language do you prefer?",
+    "familiarityQuestion": "How familiar are you with cybersecurity?",
+    "helpTopicsQuestion": "What would you like help with?",
+    "helpTopicsHint": "Choose up to 3 topics.",
+    "learningStyleQuestion": "How do you prefer learning?",
+    "nicknameRequired": "Please enter a nickname for the AI to use.",
+    "educationRequired": "Please choose an education level.",
+    "languageRequired": "Please choose a preferred language.",
+    "familiarityRequired": "Please choose your familiarity level.",
+    "helpTopicsRequired": "Please choose at least one topic.",
+    "learningStyleRequired": "Please choose a learning style.",
+    "profileSaveFailed": "Your account was created, but your learner profile was not saved. Please retry saving your profile before continuing.",
+    "savingProfile": "Saving profile...",
+    "settingUp": "Setting up...",
+    "retrySavingProfile": "Retry saving profile",
+    "letsGo": "🚀 Let's go!",
+    "continue": "Continue →",
+    "nicknamePlaceholder": "e.g. Alex, Koko, ZK...",
+    "selectedCount": "{{count}}/{{max}} selected"
+  },
+  "profileOptions": {
+    "education": {
+      "form_1": "Form 1",
+      "form_2": "Form 2",
+      "form_3": "Form 3",
+      "form_4": "Form 4",
+      "form_5": "Form 5",
+      "other": "Other",
+      "prefer_not_to_say": "Prefer not to say"
+    },
+    "language": {
+      "english": "English",
+      "bahasa_melayu": "Bahasa Melayu",
+      "chinese": "中文",
+      "mixed": "Mixed"
+    },
+    "familiarity": {
+      "beginner": {
+        "label": "Beginner",
+        "description": "I'm just getting started; the basics are new to me."
+      },
+      "intermediate": {
+        "label": "Intermediate",
+        "description": "I know the fundamentals and want to go deeper."
+      },
+      "advanced": {
+        "label": "Advanced",
+        "description": "I'm confident and looking for advanced challenges."
+      }
+    },
+    "helpTopics": {
+      "staying_safe_online": "Staying safe online",
+      "learning_cybersecurity": "Learning cybersecurity",
+      "avoiding_scams": "Avoiding scams",
+      "protecting_privacy": "Protecting privacy",
+      "understanding_cyber_threats": "Understanding cyber threats",
+      "cybersecurity_careers": "Exploring cybersecurity careers"
+    },
+    "learningStyle": {
+      "step_by_step": "Step-by-step guidance",
+      "short_explanations": "Short explanations",
+      "quizzes_and_challenges": "Quizzes & challenges"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {{name}}",
+    "yourDashboard": "Your Dashboard",
+    "recommendations": "Recommendations",
+    "assessmentStatus": "Assessment status",
+    "scenarioProgress": "Scenario progress",
+    "resources": "Resources",
+    "continueLearning": "Continue learning",
+    "startAssessment": "Start assessment",
+    "resumeAssessment": "Resume assessment",
+    "startScenario": "Start scenario",
+    "resumeScenario": "Resume scenario",
+    "noRecommendationYet": "No active recommendation yet.",
+    "recommendedNextStep": "Recommended next step",
+    "measuredProgress": "Learning activity",
+    "welcomeBack": "Welcome back, {{name}}",
+    "beginner": "Beginner",
+    "levelDisplay": "{{level}} level",
+    "learningProfile": "Your learning profile",
+    "learningProfileDescription": "Learning Profile Description",
+    "profileSavedDescription": "Learner preferences are saved to your profile and restored after refresh or login.",
+    "editProfile": "Edit profile",
+    "stats": {
+      "learningTopics": "Learning Topics",
+      "languages": "Languages",
+      "powered": "Powered"
+    },
+    "sectionNav": {
+      "title": "Dashboard sections",
+      "ariaLabel": "Dashboard section navigation",
+      "overview": "Learning Path",
+      "learningProfile": "Learning Profile",
+      "initialAssessment": "Initial Assessment",
+        "measuredProgress": "Learning Progress",
+      "recommendedNextStep": "Recommended Next Step",
+      "scenarioPractice": "Scenario Practice",
+        "topicMastery": "Assessment Results",
+      "quickActions": "Quick Actions",
+      "cyberGuardAi": "CyberGuard AI"
+    },
+    "assessment": {
+      "completed": "Initial assessment completed",
+      "inProgress": "Initial assessment in progress",
+      "pending": "Initial assessment pending",
+      "checking": "Checking assessment status...",
+      "completedDescription": "Your assessment results are available in My Learning Journey.",
+      "resumeDescription": "Resume your saved answers and continue when ready.",
+      "pendingDescription": "Complete it now or later. Adaptive recommendations remain inactive until this baseline exists.",
+      "viewResults": "View assessment results",
+      "resume": "Resume",
+      "start": "Start / do later"
+    },
+    "tips": {
+      "phishing": "Never click links in unexpected emails or SMS. Visit the official website directly instead.",
+      "password": "Use a different password for every account. A password manager makes this easier.",
+      "fakeNews": "Before sharing news online, verify it through Sebenarnya.my, Malaysia's official fact-checking website.",
+      "phoneScam": "If someone claims to represent a bank or government agency, hang up and call the official number."
+    },
+    "actions": {
+      "resources": "Browse Resources",
+      "resourcesDescription": "Guides on scams, privacy and more",
+      "assessment": "Initial Assessment",
+      "assessmentDescription": "Create your assessment baseline",
+      "scenarios": "Practice Scenarios",
+      "scenariosDescription": "Make safe choices in realistic situations",
+      "profile": "Edit Profile",
+      "profileDescription": "Update your learner preferences",
+      "about": "About the Project",
+      "aboutDescription": "Meet the team behind Cyberly",
+      "progress": "My Progress",
+      "progressDescription": "View your learning statistics and topics",
+      "home": "Back to Home",
+      "homeDescription": "Return to the landing page"
+    },
+    "progress": {
+      "progress": "Progress",
+      "title": "Learning activity",
+      "loading": "Loading your recorded activity...",
+      "assessmentTopicsLabel": "assessment topic results",
+      "summary": "{{count}} assessment topics recorded · {{activityCount}} learning activity records.",
+      "recordedActivitiesLabel": "recorded activities",
+      "activitySummary": "{{scenarios}} completed scenario(s) · {{recommendations}} completed recommendation(s)",
+      "viewJourney": "View My Learning Journey",
+      "empty": "Complete the initial assessment to start recording your learning activity."
+    },
+    "recommendation": {
+      "title": "Recommended next step",
+      "loading": "Checking recommendation...",
+      "initialAssessment": "Initial assessment",
+      "practiceScenario": "View recommended scenario",
+      "readResource": "Read resource",
+      "startAssessment": "Start assessment",
+      "empty": "No active recommendation yet."
+    },
+    "scenarios": {
+      "practiceTitle": "Scenario practice",
+      "loadingActivity": "Loading scenario activity...",
+      "completed": "Completed",
+      "inProgress": "In progress",
+      "latest": "Latest",
+      "continueScenario": "Continue scenario",
+      "openLibrary": "Open scenario library",
+      "recommendedTitle": "Recommended scenario",
+      "finding": "Finding a matching scenario...",
+      "minutes": "{{count}} min",
+      "unlockDescription": "Complete the assessment to unlock scenario recommendations."
+    },
+      "topicMastery": {
+        "title": "Assessment results",
+        "viewProgress": "View progress"
+      },
+    "dailyTip": "Daily Cyber Tip",
+    "quickActions": {
+      "title": "Quick actions",
+      "description": "Jump to what you need."
+    },
+    "cyberGuard": {
+      "title": "CyberGuard AI",
+      "description": "Preview the chat interface. Live AI replies will use the backend AI Gateway in a later phase.",
+      "badge": "Saved profile preview"
+    }
+  },
+  "settings": {
+    "accountInformation": "Account Information",
+    "learningPreferences": "Learning Preferences",
+    "email": "Email",
+    "displayName": "Display name",
+    "age": "Age",
+    "ageGroup": "Age group",
+    "aiNickname": "AI nickname",
+    "educationLevel": "Education level",
+    "preferredLanguage": "Preferred language",
+    "familiarity": "Familiarity",
+    "helpTopics": "Help topics",
+    "learningStyle": "Learning style",
+    "saveAccount": "Save account",
+    "savePreferences": "Save preferences",
+    "saving": "Saving...",
+    "saved": "Saved.",
+    "accountSaved": "Account saved.",
+    "preferencesSaved": "Preferences saved.",
+    "cancel": "Cancel",
+    "displayNameRequired": "Display name must be 2 to 50 characters.",
+    "ageInvalid": "Please enter a whole-number age from 1 to 120.",
+    "nicknameRequired": "Please enter a nickname for the AI to use.",
+    "chooseOne": "Choose one",
+    "learnerProfile": "Learner Profile",
+    "title": "Shape your Cyberly experience",
+    "description": "These preferences are saved separately from your account identity. Age and education level stay separate.",
+    "finishOnboarding": "Finish onboarding",
+    "finishOnboardingDescription": "Your account is signed in, but your learner profile is incomplete. Save this profile to continue to the dashboard.",
+    "displayNamePlaceholder": "Your display name",
+    "aiNicknamePlaceholder": "What should CyberGuard call you?",
+    "saveProfile": "Save profile",
+    "profileSaved": "Profile saved.",
+    "accountSaveFailed": "Unable to save account information.",
+    "profileSaveFailed": "Unable to save learner profile.",
+    "identityNote": "Display name and age belong to your account information. Age is not inferred from education level, and neither is treated as learning ability.",
+    "ageGroups": {
+      "child": "Child (1–12)",
+      "teen": "Teen (13–17)",
+      "young_adult": "Young adult (18–24)",
+      "adult": "Adult (25–120)",
+      "invalid": "Invalid age"
+    }
+  },
+  "assessment": {
+    "title": "Initial Cyber Wellness Assessment",
+    "introduction": "A 12-question baseline check that helps future Cyberly lessons understand your measured cyber wellness level.",
+    "start": "Start assessment",
+    "resume": "Resume assessment",
+    "questionProgress": "Question {{current}} of {{total}}",
+    "answeredProgress": "{{answered}}/{{total}} answered",
+    "previous": "Previous",
+    "next": "Next",
+    "submit": "Submit assessment",
+    "submitting": "Submitting...",
+    "confirmSubmit": "Submit your initial assessment? This baseline result will be preserved.",
+    "score": "Score",
+    "level": "Level",
+    "measuredLevel": "Measured level",
+    "topicBreakdown": "Topic breakdown",
+    "loading": "Loading assessment...",
+    "error": "Unable to load assessment.",
+    "retry": "Retry",
+    "completed": "Assessment completed",
+    "answerAll": "Please answer all questions before submitting.",
+    "finalSubmissionReminder": "Answer all questions before final submission.",
+    "loadingTitle": "Loading assessment",
+    "errorTitle": "Assessment could not load",
+    "submitConfirmTitle": "Submit assessment?",
+    "leaveTitle": "Leave this assessment?",
+    "leaveDescription": "Your saved answers will remain available, and you can resume this assessment later.",
+    "result": "Initial result",
+    "resultSummary": "Score {{score}}/{{maxScore}}. This measured level is based only on your answers.",
+    "questionReview": "Question review",
+    "reviewAnswers": "Review answers",
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "yourAnswer": "Your answer",
+    "correctAnswer": "Correct answer",
+    "explanation": "Explanation",
+    "backToDashboard": "Back to dashboard",
+    "viewProgress": "View progress",
+    "relativeStrength": "Relative strength",
+    "areaToImprove": "Area to improve",
+    "strengths": "Strengths",
+    "areasToImprove": "Areas to improve",
+    "noStrengthsYet": "No topic crossed the strength threshold yet. That is okay; this is a starting baseline.",
+    "allTopicsMetThreshold": "All topics met the current strength threshold.",
+    "baselineLabel": "Baseline Assessment",
+    "measurementNote": "Your self-reported familiarity stays separate from this measured result. No AI is used for questions, scoring, or feedback.",
+    "doLater": "Do later",
+    "stats": {
+      "questions": "single-choice questions",
+      "minutes": "minutes",
+      "negativeMarks": "negative marks",
+      "topicAreas": "topic areas"
+    }
+  },
+  "scenario": {
+    "title": "Scenario Practice",
+    "library": "Scenario library",
+    "filterByTopic": "Filter by topic",
+    "start": "Start",
+    "resume": "Resume",
+    "stepProgress": "Step {{current}} of {{total}}",
+    "chooseResponse": "Choose a response",
+    "submitChoice": "Submit choice",
+    "continue": "Continue",
+    "result": "Scenario result",
+    "score": "Score",
+    "feedback": "Feedback",
+    "recommendation": "Recommendation",
+    "completed": "Completed",
+    "loading": "Loading scenarios...",
+    "error": "Unable to load scenarios.",
+    "retry": "Retry",
+    "allTopics": "All topics",
+    "allDifficulty": "All difficulty",
+    "recommended": "Recommended",
+    "completeScenario": "Complete scenario"
+  },
+  "scenarios": {
+    "library": {
+      "title": "Scenario Library",
+      "description": "Practice realistic cyber safety decisions with immediate feedback after each final choice.",
+      "recommended": "Recommended",
+      "recommendedNext": "Recommended next",
+      "all": "All scenarios",
+      "loadingTitle": "Loading scenarios",
+      "loading": "Loading scenarios...",
+      "empty": "No scenarios found",
+      "emptyDescription": "Try a different topic or difficulty filter.",
+      "targetUnavailable": "The recommended scenario is no longer available. Here are other learning scenarios.",
+      "backToLibrary": "Back to Scenario Library",
+      "backToDashboard": "Back to dashboard"
+    },
+    "leaveTitle": "Leave this Scenario?",
+    "leaveDescription": "Your saved decisions will remain available. You can resume this Scenario later from the Scenario Library.",
+    "filters": {
+      "topic": "Topic filter",
+      "difficulty": "Difficulty filter",
+      "allTopics": "All topics",
+      "allDifficulties": "All difficulties"
+    },
+    "card": {
+      "estimatedTime": "Estimated time",
+      "minutes": "{{count}} min",
+      "decisions": "{{count}} decisions",
+      "start": "Start scenario",
+      "resume": "Resume scenario",
+      "viewResult": "View result"
+    },
+    "intro": {
+      "details": "Scenario details",
+      "topic": "Topic",
+      "difficulty": "Difficulty",
+      "estimatedDuration": "Estimated duration",
+      "whatYouWillPractise": "What you will practise",
+      "choiceNotice": "Choices are final once submitted. Feedback appears after each decision, and scoring is calculated by the backend.",
+      "startPractice": "Start practice",
+      "continueSavedAttempt": "Continue saved attempt"
+    },
+    "attempt": {
+      "stepProgress": "Step {{current}} of {{total}}",
+      "confirmChoice": "Confirm choice",
+      "savingDecision": "Saving decision...",
+      "decisionSaved": "Decision saved",
+      "complete": "Complete scenario",
+      "completing": "Completing...",
+      "exit": "Exit scenario",
+      "progressSaved": "Progress saved",
+      "chooseOption": "Choose an option before continuing",
+      "readyToComplete": "Ready to complete",
+      "readyToCompleteDescription": "All decisions are submitted. Complete the scenario to calculate your result and apply progress."
+    },
+    "result": {
+      "completed": "Scenario completed",
+      "result": "Result",
+      "score": "Score",
+      "percentage": "Percentage",
+      "performanceLevel": "Performance level",
+      "masteryDelta": "Mastery delta",
+      "decisionsReviewed": "Decisions reviewed",
+      "yourChoice": "Your choice",
+      "recommendedChoice": "Recommended choice",
+      "feedback": "Feedback",
+      "keyLesson": "Key lesson",
+      "tryAnother": "Try another scenario",
+      "returnToLibrary": "Return to scenario library",
+      "viewProgress": "View progress",
+      "step": "Step {{step}}",
+      "stepChoice": "Step {{step}}: your choice {{choice}}",
+      "updatedRecommendation": "Updated recommendation"
+    },
+    "continueScenario": "Continue Scenario",
+    "leaveScenario": "Leave Scenario",
+    "localeFallback": "This Scenario is currently shown in {{displayed}} because {{requested}} is not available yet."
+  },
+  "home": {
+    "hero": {
+      "title": "Stay Safe in the Digital World 🛡",
+      "description": "Cyberly is your personal cybersecurity guide — powered by AI that adapts to your level, language, and learning style.",
+      "cta": "Get started free →",
+      "continueLearning": "Let's Start!",
+      "chips": {
+        "students": "Built for Malaysian students",
+        "languages": "Supports 3 languages",
+        "aiPersonalised": "AI-personalised"
+      }
+    },
+    "threats": {
+      "eyebrow": "Did you know? — Cyber threats facing Malaysian teens right now"
+    },
+    "stats": {
+      "scamVictim": "of Malaysian teens have fallen victim to an online scam",
+      "scamMessages": "of students have received scam-related emails or SMS",
+      "noWorkshop": "of students never attended a scam awareness workshop",
+      "dailyOnline": "of Malaysian teens aged 12–17 go online every single day"
+    },
+    "why": {
+      "title": "Why Cyberly?",
+      "description": "Cybersecurity education that meets you where you are.",
+      "cards": {
+        "adaptive": {
+          "title": "Adaptive AI",
+          "description": "Our AI adjusts explanations based on your experience level and preferred language."
+        },
+        "skills": {
+          "title": "Real Skills",
+          "description": "Learn practical skills — spotting scams, protecting accounts, and browsing safely."
+        },
+        "topics": {
+          "title": "Focused Topics",
+          "description": "Choose what matters to you — from online safety to cybersecurity careers."
+        }
+      }
+    },
+    "threatOfWeek": {
+      "badge": "THREAT OF THE WEEK",
+      "title": "AI Voice & Video Scams (Deepfakes)",
+      "description": "Scammers in Malaysia are now using AI to clone the voices and faces of celebrities and family members to trick people into sending money. If you get an unexpected video call or voice message asking for money — even if it looks real — always verify through another channel before acting."
+    },
+    "quickTopics": {
+      "title": "What do you want to learn today?",
+      "description": "Pick a topic and jump straight in."
+    },
+    "topics": {
+      "phishing": "Phishing",
+      "onlineScams": "Online Scams",
+      "fakeNews": "Fake News",
+      "aiDeepfakes": "AI & Deepfakes",
+      "passwords": "Passwords",
+      "privacy": "Privacy"
+    },
+    "how": {
+      "title": "How Cyberly works",
+      "description": "Up and running in three simple steps."
+    },
+    "steps": {
+      "signUp": {
+        "title": "Sign up free",
+        "description": "Create your profile in under a minute — tell us your age, language, and what you want to learn."
+      },
+      "aiTutor": {
+        "title": "Meet your AI tutor",
+        "description": "CyberGuard AI adapts to your level and chats with you in English, BM, or Chinese."
+      },
+      "levelUp": {
+        "title": "Learn & level up",
+        "description": "Explore guides, beat simulations, and track your progress as your cyber skills grow."
+      }
+    },
+    "bottomCta": {
+      "title": "Ready to level up your cyber skills?",
+      "description": "Join thousands of Malaysian teens learning how to stay safe online — for free, in your language, at your pace.",
+      "note": "No credit card needed · Available in English, BM & 中文"
+    }
+  },
+  "resources": {
+    "title": "Cyber Wellness Resources",
+    "description": "Curated guides on the cyber threats that matter most to Malaysian teens. Click any card to read the full guide.",
+    "loading": "Loading resources...",
+    "error": "Unable to load resources.",
+    "empty": "No resources found.",
+    "stats": {
+      "learningTopics": "Learning Topics",
+      "guides": "Guides",
+      "freeAccess": "Free Access",
+      "malaysiaFocused": "Malaysia focused"
+    },
+    "focus": {
+      "title": "Recommended focus",
+      "description": "Showing guides for {{topic}} based on your available assessment result.",
+      "showAll": "Show all guides"
+    },
+    "guideCount_one": "{{count}} guide",
+    "guideCount_other": "{{count}} guides",
+    "readGuide": "Read guide →",
+    "source": "Source",
+    "tip": {
+      "title": "Pro tip",
+      "prefix": "Not sure where to start? Try",
+      "phishing": "Phishing",
+      "or": "or",
+      "passwordSecurity": "Password Security",
+      "suffix": "— they are the most common threats facing Malaysian teens right now."
+    },
+    "categories": {
+      "All": "All",
+      "Scams": "Scams & Social Engineering",
+      "Misinformation": "Misinformation & Media Literacy",
+      "AI & Technology": "AI & Technology Safety",
+      "Privacy": "Privacy & Personal Data Protection",
+      "Safety": "Online Safety & Digital Wellbeing",
+      "Passwords": "Passwords & Account Security",
+      "Beginner": "Beginner / Digital Foundations"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Capstone Project · Group 20 · Taylor's University",
+      "title": "Interactive Cyber Wellness Toolkit for Teens",
+      "description": "An AI-driven platform built to enhance cybersecurity awareness and promote safer digital behaviour among Malaysian teenagers aged 13–17.",
+      "collaboration": "In collaboration with Cybersecurity Hub DISS – Impact Lab"
+    },
+    "why": {
+      "title": "Why this matters",
+      "description": "The cyber threat landscape facing Malaysian teenagers is serious and growing."
+    },
+    "stats": {
+      "identifyScams": "of Malaysian teens say they can identify scams",
+      "scamVictim": "have already fallen victim to an online scam",
+      "noWorkshop": "of students never attended a scam awareness workshop",
+      "dailyOnline": "of teens aged 12–17 go online daily"
+    },
+    "built": {
+      "title": "What we built",
+      "description": "A modular, AI-powered toolkit with six core capabilities."
+    },
+    "features": {
+      "agentic": {
+        "title": "Agentic AI Guidance",
+        "description": "Autonomous, goal-oriented learning support with scenario-based decision assistance and real-time personalised recommendations."
+      },
+      "chatbot": {
+        "title": "Cyber Wellness Chatbot",
+        "description": "Real-time conversational support that answers cybersecurity questions through natural language interaction."
+      },
+      "adaptive": {
+        "title": "Adaptive Difficulty",
+        "description": "Auto-selects difficulty based on the user's knowledge and progress for a more effective lesson experience."
+      },
+      "simulations": {
+        "title": "Cyber Threat Simulations",
+        "description": "Simulate phishing, scams, and misinformation scenarios to sharpen critical thinking and cybersecurity decisions."
+      },
+      "progress": {
+        "title": "Progress Tracking",
+        "description": "Monitors learning progress and engagement patterns to assess effectiveness and drive adaptive recommendations."
+      },
+      "gamified": {
+        "title": "Gamified Challenges",
+        "description": "Optional quizzes, achievements, and interactive activities to boost motivation, engagement, and knowledge retention."
+      }
+    },
+    "how": {
+      "title": "How it works",
+      "description": "Every experience is shaped around the individual learner.",
+      "steps": {
+        "signUp": {
+          "title": "You sign up",
+          "description": "Complete a short onboarding profile — your age, language, familiarity, and learning goals."
+        },
+        "path": {
+          "title": "AI builds your path",
+          "description": "The Agentic AI module constructs a personalised learning path based on your responses."
+        },
+        "learn": {
+          "title": "Learn your way",
+          "description": "Chat with CyberGuard AI, explore resources, and tackle simulations — all adapted to your level."
+        },
+        "track": {
+          "title": "Track your growth",
+          "description": "Your progress is tracked to continuously refine recommendations over time."
+        }
+      }
+    },
+    "objectives": {
+      "title": "Project objectives",
+      "description": "Five goals that guide everything we build.",
+      "items": {
+        "toolkit": "Design and develop an AI-driven Cyber Wellness Toolkit that enhances cybersecurity awareness among Malaysian teenagers aged 13–17.",
+        "chatbot": "Create an intelligent cybersecurity chatbot for real-time conversational learning in multiple languages.",
+        "agentic": "Build an Agentic AI module for personalised learning recommendations and adaptive difficulty adjustment.",
+        "gamified": "Incorporate optional gamified learning areas — quizzes, simulations, and real-life cyber threat scenarios.",
+        "evaluate": "Evaluate the system through user interaction analysis, pre/post assessments, and feedback collection."
+      }
+    },
+    "team": {
+      "title": "Meet the team",
+      "description": "Group 20 — Taylor's University Capstone Project",
+      "supervisor": {
+        "role": "Project Supervisor · Cybersecurity Hub DISS – Impact Lab",
+        "description": "Provides guidance, professional oversight, and industry client direction throughout the project."
+      },
+      "members": {
+        "jayron": {
+          "role": "Web Developer",
+          "description": "Ensures logic and webpage usability are functional, and leads implementation of Agentic AI features and adaptive learning tools."
+        },
+        "jinHong": {
+          "role": "UI/UX Designer",
+          "description": "Develops the core wireframe and low-fidelity prototype design, ensuring the interface is tailored to our teenage target demographic."
+        },
+        "edward": {
+          "role": "System Architect & Chatbot Lead",
+          "description": "Handles backend architecture and AI workflow planning, ensuring components are streamlined for adaptive learning features."
+        },
+        "arman": {
+          "role": "Agentic AI Personalisation",
+          "description": "Builds Agentic AI analytics for personalised features and adaptive learning, focusing on user behaviour analysis."
+        },
+        "puah": {
+          "role": "Agentic AI Module Lead",
+          "description": "Leads the implementation of system architecture and the Agentic AI module, with support in chatbot functionalities."
+        }
+      }
+    }
+  },
+  "progress": {
+    "title": "My Learning Journey",
+    "heroTitle": "{{name}}'s Learning Journey 📊",
+    "baselineSummary": "{{count}} assessment topics recorded",
+    "profileFamiliaritySummary": "{{level}} profile familiarity",
+    "backToDashboard": "Back to Dashboard",
+    "selectedTopics": "{{count}} selected",
+    "sectionNav": {
+      "title": "Progress sections",
+      "ariaLabel": "Progress page sections",
+      "overview": "Overview",
+      "assessmentResults": "Assessment Results",
+      "recommendation": "Recommendations",
+      "learningActivity": "Activity History",
+      "badges": "Achievements"
+    },
+    "snapshot": {
+      "assessmentStatus": "Assessment status",
+      "baselineAvailable": "Baseline recorded",
+      "noBaseline": "No baseline yet",
+      "language": "Language",
+      "style": "Style",
+      "topics": "Learning interests"
+    },
+    "learningPath": {
+      "title": "Cyberly Learning Path Progress",
+      "shortDescription": "Your progress through Cyberly’s learning experience.",
+      "shortDisclaimer": "This is not a measure of your overall cybersecurity ability.",
+      "disclaimer": "This shows your progress through Cyberly’s current learning experience. It is not a measure of your overall cybersecurity ability.",
+      "coreReached": "Core learning progress reached.",
+      "viewJourney": "View My Learning Journey",
+      "percentAria": "Cyberly Learning Path Progress {{percent}} percent",
+      "barAriaLabel": "Learning path progress contribution bar, {{percent}} percent displayed",
+      "breakdownTitle": "Component Breakdown",
+      "pointsOutOf": "{{earned}} / {{maximum}} points",
+      "assessmentCount": "{{correct}} of {{total}} correct",
+      "scenarioCount": "{{completed}} of {{total}} completed",
+      "recommendationCount": "{{count}} completed",
+      "noAssessment": "No assessment completed yet",
+      "noEligibleScenarios": "No eligible scenarios available",
+      "noCompletedRecommendations": "No completed recommendations yet",
+      "components": {
+        "assessment": "Assessment Contribution",
+        "scenarios": "Scenario Contribution",
+        "engagement": "Engagement Bonus"
+      },
+      "segments": {
+        "assessment": "Assessment",
+        "scenarios": "Scenarios",
+        "engagement": "Engagement Bonus",
+        "remaining": "Remaining"
+      }
+    },
+    "assessmentResults": {
+      "title": "Assessment Results",
+      "description": "Topic results from your initial cyber wellness assessment. These are a starting baseline, not a complete measure of ability.",
+      "correctOutOfTotal": "{{correct}}/{{total}} correct",
+      "noQuestionCount": "Question count unavailable",
+      "resultLevel": "{{level}} · {{percent}}% on this assessment topic",
+      "assessmentResult": "Assessment result: {{level}}",
+      "source": "Source: initial assessment"
+    },
+    "recommendation": {
+      "title": "Current recommendation",
+      "markComplete": "Mark complete",
+      "completedSaved": "Recommendation marked complete."
+    },
+    "currentFocus": {
+      "title": "Current learning focus",
+      "basedOn": "Based on available learning records",
+      "suggestedNextStep": "Suggested next step"
+    },
+    "activityComposition": {
+      "title": "Learning Activity Overview",
+      "description": "Your progress is built from the learning activities recorded across Cyberly.",
+      "recordedActivities": "{{count}} recorded activity",
+      "recordedActivities_plural": "{{count}} recorded activities",
+      "recordedActivitiesCount": "Recorded activities: {{count}}",
+      "barAriaLabel": "Activity mix across recorded Cyberly learning activities",
+      "legendLabel": "Activity mix legend",
+      "shareOfActivity": "{{share}}% of recorded activity",
+      "segmentShare": "{{label}}: {{count}} recorded unit(s), {{share}}% of recorded activity",
+      "explanation": "Each segment represents a different type of recorded activity. Segment sizes show their relative share, not their learning value.",
+      "disclaimer": "This overview reflects your recorded Cyberly learning activities. It does not measure your overall cybersecurity ability.",
+      "empty": "No learning activity has been recorded yet.",
+      "assessmentOnlyNote": "Your current activity overview is based mainly on your completed assessment.",
+      "singleCategory": "Current recorded activity: {{label}}",
+      "segments": {
+        "assessment_topics": "Assessment topics",
+        "completed_scenarios": "Completed scenarios",
+        "completed_recommendations": "Completed recommendations",
+        "learning_events": "Learning events"
+      },
+      "segmentCounts": {
+        "assessment_topics": "{{count}} assessed topic(s)",
+        "assessment_topics_plural": "{{count}} assessed topic(s)",
+        "completed_scenarios": "{{count}} completed scenario(s)",
+        "completed_scenarios_plural": "{{count}} completed scenario(s)",
+        "completed_recommendations": "{{count}} completed recommendation(s)",
+        "completed_recommendations_plural": "{{count}} completed recommendation(s)",
+        "learning_events": "{{count}} learning event(s)",
+        "learning_events_plural": "{{count}} learning event(s)"
+      }
+    },
+    "recentActivity": {
+      "title": "Recent Learning Activity",
+      "description": "Recent items use only activity Cyberly has recorded.",
+      "empty": "No recent learning activity yet.",
+      "types": {
+        "assessment_completed": "Initial assessment completed",
+        "scenario_completed": "Scenario completed",
+        "recommendation_completed": "Recommendation completed"
+      }
+    },
+    "learningActivity": {
+      "title": "Activity History",
+      "description": "This section shows activities currently recorded by Cyberly.",
+      "recordedActivity": "{{count}} recorded activity item",
+      "recordedActivity_plural": "{{count}} recorded activity items",
+      "recordedActivityDescription": "This comes from supported activity records such as scenario progress, not from a hidden overall score.",
+      "exploreAll": "Explore all guides →"
+    },
+    "learningInterests": {
+      "title": "Your Learning Interests",
+      "description": "These are the topics selected in your learner profile.",
+      "selected": "Selected",
+      "notSelected": "Not selected"
+    },
+    "achievements": {
+      "title": "Achievements",
+      "description": "Milestones unlocked from real Cyberly activity.",
+      "joined": "Joined Cyberly",
+      "resourceExplorer": "Resource Explorer",
+      "setGoals": "Set Learning Goals",
+      "multilingual": "Multilingual Learner",
+      "assessmentCompleted": "Assessment Completed",
+      "baselineAssessmentCompleted": "Baseline Assessment Completed",
+      "earned": "Earned ✓"
+    }
+  },
+  "agent": {
+    "title": "CyberGuard AI",
+    "welcome": "Hi {{name}}! CyberGuard's chat interface is ready, but live AI replies will be enabled after the backend AI Gateway phase.",
+    "thinking": "CyberGuard is thinking...",
+    "placeholder": "Ask about cybersecurity...",
+    "send": "Send"
+  },
+  "chat": {
+    "title": "Cyber Wellness Assistant",
+    "welcome": "Hi {{name}}! This chat UI is ready, but live CyberGuard replies will be enabled after the backend AI Gateway phase.",
+    "disabledReply": "CyberGuard chat is ready visually, but live AI replies are disabled until the backend AI Gateway phase. Your message is kept only in this page session for now.",
+    "guest": "Guest",
+    "signInPrompt": "Sign in to preview the CyberGuard chat interface with your session profile.",
+    "signInCta": "Sign in / Sign up",
+    "thinking": "Thinking...",
+    "sending": "Sending...",
+    "aiDisabledNotice": "Live CyberGuard AI responses will be enabled in a later phase. Your message is saved securely, but no assistant reply is generated yet.",
+    "placeholder": "Type a question...",
+    "send": "Send",
+    "page": {
+      "title": "AI Chatbot",
+      "description": "Use CyberGuard AI as a focused learning companion. Live AI replies will connect during the AI Gateway phase.",
+      "chatAreaLabel": "Active chat conversation"
+    },
+    "actions": {
+      "fullPage": "Full Page",
+      "newChat": "New Chat",
+      "continueChat": "Continue Chat",
+      "startConversation": "Start Conversation",
+      "chatHistory": "Chat History",
+      "collapseHistory": "Collapse history",
+      "expandHistory": "Expand history",
+      "openHistory": "Open chat history",
+      "closeHistory": "Close chat history",
+      "startResource": "Start Resource",
+      "startScenario": "Start Scenario",
+      "viewProgress": "View Progress",
+      "continueLearning": "Continue Learning",
+      "reviewRecommendation": "Review Recommendation",
+      "openResources": "Open Resources",
+      "openScenarios": "Open Scenarios",
+      "startAssessment": "Start Assessment",
+      "actionUnavailable": "Action unavailable",
+      "rename": "Rename",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "renameConversation": "Rename conversation",
+      "deleteConversation": "Delete conversation"
+    },
+    "conversation": {
+      "newTitle": "New chat"
+    },
+    "history": {
+      "title": "Conversation history",
+      "description": "Saved securely to your account.",
+      "ariaLabel": "Conversation history",
+      "emptyTitle": "No conversations yet",
+      "emptyDescription": "Start a chat and your secure account history will appear here.",
+      "lastUpdated": "Last updated {{time}}",
+      "unknownTime": "Unknown time",
+      "noActive": "No active conversation yet"
+    },
+    "loading": {
+      "conversations": "Loading conversations",
+      "messages": "Loading messages",
+      "pleaseWait": "Please wait a moment."
+    },
+    "errors": {
+      "syncFailed": "Chat sync failed",
+      "unableToCreate": "Unable to create this chat.",
+      "unableToSend": "Unable to send this message.",
+      "unableToRename": "Unable to rename this conversation.",
+      "unableToDelete": "Unable to delete this conversation."
+    },
+    "generation": {
+      "preparing": "CyberGuard is preparing a reply...",
+      "preparingShort": "Preparing...",
+      "failedTitle": "Reply could not be generated.",
+      "failedDescription": "CyberGuard could not prepare a reply. Try again shortly.",
+      "retry": "Retry reply"
+    },
+    "actionCards": {
+      "groupLabel": "Suggested learning actions",
+      "openAction": "Open {{title}}",
+      "unavailable": "Unavailable"
+    },
+    "proposals": {
+      "suggestedAction": "Suggested action",
+      "reviewAction": "Review action",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "dismiss": "Dismiss",
+      "nothingChanged": "Nothing has changed yet.",
+      "confirmationRequired": "This action requires your confirmation.",
+      "processing": "Processing...",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "expired": "Expired",
+      "failed": "This action could not be prepared.",
+      "noLongerAvailable": "This proposal is no longer available.",
+      "openResource": "Open resource",
+      "viewScenario": "View scenario",
+      "viewRecommendation": "View recommendation",
+      "markRecommendationViewed": "Mark recommendation as viewed",
+      "markRecommendationCompleted": "Mark recommendation as completed",
+      "updateLearningPreferences": "Update learning preferences",
+      "statusOnly": "This updates recommendation status only.",
+      "noScoreProgressChange": "This does not change your score, mastery or progress.",
+      "learnerConfirmationRequired": "Learner confirmation required",
+      "automaticExecutionDisabled": "Automatic execution disabled",
+      "replayProtectionEnabled": "Replay protection enabled",
+      "writeToolsExposedNone": "Write tools exposed to AI: none",
+      "canIgnore": "You can ignore or cancel any suggestion."
+    },
+    "sources": {
+      "heading": "Sources",
+      "groupLabel": "Reviewed sources for this reply",
+      "summaryOne": "Based on {{count}} reviewed source",
+      "summaryMany": "Based on {{count}} reviewed sources",
+      "show": "Show sources",
+      "hide": "Hide sources",
+      "openResource": "Open resource",
+      "openExternal": "Open external source for {{title}}",
+      "externalLabel": "External source",
+      "sourceUnavailable": "Source unavailable"
+    },
+    "migrationNotice": {
+      "title": "Chat history now saves to your account",
+      "description": "New conversations are saved securely to your Cyberly account. Older device-only chat history stays on this device and will not be uploaded or deleted.",
+      "acknowledge": "Got it"
+    },
+    "validation": {
+      "titleRequired": "Enter a conversation title.",
+      "titleTooLong": "Keep the title to {{max}} characters or fewer."
+    },
+    "delete": {
+      "title": "Delete conversation?",
+      "description": "Delete “{{title}}”? This removes the conversation from your account."
+    },
+    "empty": {
+      "title": "Ask CyberGuard anything",
+      "description": "Start with a question about scams, privacy, passwords, misinformation, or safe online choices.",
+      "shortDescription": "Start a conversation when you are ready."
+    },
+    "dashboard": {
+      "ready": "Ready for a new conversation",
+      "latestConversation": "Latest conversation",
+      "description": "Open the full chatbot page to continue learning with CyberGuard.",
+      "launcherTitle": "Start a fresh CyberGuard chat",
+      "launcherDescription": "Ask one question here and Cyberly will open a dedicated chat page with that new conversation.",
+      "launcherPlaceholder": "Ask your first question..."
+    },
+    "accessibility": {
+      "messageHistory": "Chat message history",
+      "composer": "Type your chat message",
+      "send": "Send chat message",
+      "fullPage": "Open chatbot full page",
+      "newChat": "Start a new chat",
+      "collapseHistory": "Collapse chat history",
+      "expandHistory": "Expand chat history",
+      "openHistory": "Open chat history",
+      "closeHistory": "Close chat history",
+      "openWidget": "Open chat widget",
+      "conversationMenu": "Open menu for {{title}}",
+      "deleteConversation": "Delete conversation {{title}}",
+      "dashboardLauncher": "Ask CyberGuard a new question from the dashboard",
+      "retryGeneration": "Retry CyberGuard reply",
+      "retryMessages": "Retry loading chat messages"
+    }
+  },
+  "footer": {
+    "builtWithCare": "Built with care",
+    "description": "Cyber wellness education for everyone · AI Gateway coming in a later phase."
+  },
+  "app": {
+    "loadingTitle": "Loading Cyberly...",
+    "checkingSession": "Checking your session."
+  },
+  "admin": {
+    "badge": "Admin foundation",
+    "title": "Admin Console",
+    "description": "Content governance, RAG governance, and AI safety management foundation.",
+    "workspace": {
+      "badge": "Admin workspace",
+      "title": "Admin Console",
+      "description": "Governance tools for content, RAG, and AI safety."
+    },
+    "navigation": {
+      "label": "Admin sections",
+      "resources": "Resources",
+      "resourcesDescription": "Review publication, approval, and CyberGuard retrieval for learning Resources.",
+      "scenarios": "Scenarios",
+      "scenariosDescription": "Manage existing scenario practice content.",
+      "assessments": "Assessments",
+      "assessmentsDescription": "Assessment governance will be added later.",
+      "faqGuidance": "FAQ & Guidance",
+      "faqGuidanceDescription": "FAQ and guidance governance will be added later.",
+      "aiAgentic": "AI & Agentic",
+      "aiAgenticDescription": "Provider diagnostics, purpose routing, and Agentic safety boundaries.",
+      "comingLater": "Coming later"
+    },
+    "accessDenied": {
+      "badge": "Restricted",
+      "title": "Admin access required",
+      "description": "This area is only available to Cyberly administrators."
+    },
+    "status": {
+      "title": "Access status",
+      "loading": "Checking admin access...",
+      "verified": "Admin access verified",
+      "role": "Role",
+      "modules": "Planned modules",
+      "error": "Unable to verify admin access."
+    },
+    "ai": {
+      "badge": "AI gateway",
+      "overview": {
+        "badge": "Admin overview",
+        "serviceStatus": "AI Service Status",
+        "cyberGuardStatus": "CyberGuard status",
+        "readyWithSafeguards": "Ready with safeguards",
+        "needsProvider": "Provider setup needed",
+        "currentProvider": "Current provider",
+        "backupProviders": "Backup provider availability",
+        "available": "Available",
+        "notAvailable": "Not available",
+        "notConfigured": "Not configured",
+        "geminiStatus": "Gemini status",
+        "geminiUnavailable": "Gemini unavailable",
+        "lastProviderTest": "Last provider test",
+        "responseStatus": "Response status",
+        "capabilityBadge": "Capabilities",
+        "whatCyberGuardCanDo": "What CyberGuard Can Do",
+        "answerCyberSafetyQuestions": "Answer cyber-safety and cyber wellness questions.",
+        "recommendLearningContent": "Recommend reviewed Resources and published Scenarios.",
+        "useLearningRecords": "Use learning records for personalized guidance.",
+        "provideWellnessGuidance": "Provide non-diagnostic Cyber Wellness guidance.",
+        "prepareConfirmedActions": "Prepare learner-controlled actions for confirmation.",
+        "boundaryBadge": "Safety",
+        "safetyBoundaries": "Safety Boundaries",
+        "cannotChangeScores": "CyberGuard cannot directly change scores.",
+        "cannotChangeMastery": "CyberGuard cannot directly change mastery signals.",
+        "cannotChangeProgress": "CyberGuard cannot directly change progress records.",
+        "cannotCompleteScenarios": "CyberGuard cannot complete Scenarios for learners.",
+        "cannotAccessOtherLearners": "CyberGuard cannot access another learner's data.",
+        "confirmationRequired": "CyberGuard cannot act without learner confirmation.",
+        "nonDiagnostic": "CyberGuard cannot diagnose mental health.",
+        "focusedDomain": "CyberGuard focuses on cybersecurity, online safety, cyber wellness and Cyberly learning.",
+        "advancedTechnicalDetails": "Advanced Technical Details"
+      },
+      "providers": {
+        "title": "AI providers",
+        "description": "View server-side provider configuration for OpenAI, Gemini, and ILMU. Connection tests run only when an Admin clicks Test connection.",
+        "configuration": "Provider configuration",
+        "provider": "Provider",
+        "status": "Provider status",
+        "configured": "Configured",
+        "notConfigured": "Not configured",
+        "notConfiguredHelp": "Add the server-side API key and restart the backend before testing this provider.",
+        "runtimeAvailable": "Available",
+        "runtimeUnavailable": "Unavailable",
+        "runtimeUnavailableNote": "This provider is configured but currently unavailable for runtime requests.",
+        "runtimeAuthFailed": "Runtime authentication failed",
+        "runtimeState": "Runtime state",
+        "geminiRuntimeUnavailableNote": "Gemini adapter is installed but currently unavailable for runtime requests. No automatic retries.",
+        "model": "Model",
+        "capabilities": "Capabilities",
+        "testConnection": "Test connection",
+        "testing": "Testing...",
+        "connectionSuccessful": "Connection successful",
+        "connectionFailed": "Connection failed",
+        "safeFailure": "The provider test failed safely.",
+        "testLatency": "Test latency: {{latency}} ms",
+        "latency": "Latency",
+        "runtimeOk": "Runtime OK",
+        "lastTest": "Last test",
+        "notTested": "Not tested",
+        "finishReason": "Finish reason",
+        "requestIdAvailable": "Request ID available",
+        "costNoteLabel": "Provider test cost note",
+        "costNoteTitle": "Cost awareness",
+        "costNote": "This test sends a small real request to the selected provider and may use provider quota.",
+        "defaultProvider": "Default: {{provider}}",
+        "usedFor": "Used for: {{purposes}}",
+        "loading": "Loading AI provider diagnostics...",
+        "errors": {
+          "load": "Unable to load AI provider diagnostics."
+        }
+      },
+      "capabilities": {
+        "chat": "Chat",
+        "structuredOutput": "Structured output",
+        "toolCalling": "Tool calling",
+        "streaming": "Streaming",
+        "usageReporting": "Usage reporting"
+      },
+      "purposes": {
+        "title": "Purpose routing",
+        "heading": "Backend-controlled provider selection",
+        "cyberguard": "CyberGuard chat",
+        "agentRouter": "Agent Router",
+        "lightweight": "Lightweight selection",
+        "translation": "Translation assistance",
+        "safety": "Safety evaluation"
+      },
+      "safety": {
+        "badge": "Agentic safety boundary",
+        "title": "Current Agentic limits",
+        "readOnlyTools": "Read-only tools only",
+        "backendControlled": "Tool execution remains backend-controlled",
+        "noScoreChanges": "No automatic score or mastery changes",
+        "noProgressMutation": "No automatic progress mutation",
+        "learnerControlled": "Learners accept, modify, or ignore recommendations"
+      },
+      "agentic": {
+        "badge": "Controlled Agentic Runtime",
+        "title": "Controlled Agentic Runtime",
+        "description": "CyberGuard may use one approved read-only tool before the final answer. There is no autonomous loop and no write action.",
+        "productionRouter": "Production agent router",
+        "executionMode": "Execution mode",
+        "singleStep": "Single-step execution",
+        "maxModelCalls": "Maximum model calls",
+        "maxToolExecutions": "Maximum tool executions",
+        "approvedTools": "Approved tools",
+        "readOnly": "Read-only only",
+        "readOnlyShort": "Read-only",
+        "autonomousLoop": "Autonomous loop",
+        "writeActions": "Write actions",
+        "disabled": "Disabled",
+        "backendControlled": "Backend-controlled execution",
+        "deterministicFallback": "Deterministic fallback",
+        "toolValidation": "Tool validation",
+        "secureSessionIdentity": "Learner identity from secure session",
+        "noAutomaticProgressChanges": "No automatic progress changes",
+        "toolListLabel": "Approved controlled Agentic tools",
+        "mode": "Mode",
+        "allowedRole": "Allowed role",
+        "riskLevel": "Risk level"
+      },
+      "learnerActions": {
+        "badge": "Learner-Controlled Actions",
+        "title": "Learner-Controlled Actions",
+        "description": "CyberGuard can prepare a safe action proposal, but the learner must review it before anything happens.",
+        "status": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "executionAuthority": "Execution authority",
+        "learnerConfirmation": "Learner confirmation",
+        "automaticExecution": "Automatic execution",
+        "maxProposals": "Maximum proposals per response",
+        "writeToolsExposed": "Write tools exposed to AI",
+        "revalidation": "Confirmation revalidation",
+        "replayProtection": "Replay protection",
+        "cancelAllowed": "Learner may cancel",
+        "enabledActions": "Enabled learner-controlled actions",
+        "deferred": "Deferred",
+        "noWriteTools": "Write tools exposed to AI: none",
+        "noAutomaticExecution": "Automatic execution is disabled",
+        "prohibitedSummary": "Prohibited actions include scores, mastery, progress, scenario decisions, assessment results, and Admin content.",
+        "actions": {
+          "open_resource": "Open resource",
+          "open_scenario": "View scenario",
+          "open_recommendation": "View recommendation",
+          "mark_recommendation_viewed": "Mark recommendation viewed",
+          "mark_recommendation_completed": "Mark recommendation completed",
+          "update_learning_preferences": "Update learning preferences",
+          "change_score": "Change scores",
+          "change_mastery": "Change mastery",
+          "change_progress": "Change progress",
+          "start_scenario_attempt": "Start scenario attempt",
+          "restore_scenario_attempt": "Restore scenario attempt",
+          "submit_scenario_decision": "Submit scenario decision",
+          "complete_assessment_attempt": "Complete assessment attempt",
+          "create_recommendation": "Create recommendation",
+          "publish_content": "Publish content",
+          "delete_content": "Delete content",
+          "execute_sql": "Execute SQL",
+          "read_api_keys": "Read API keys",
+          "bypass_safety_rules": "Bypass safety rules"
+        }
+      },
+      "adaptive": {
+        "badge": "Adaptive Learning Intelligence",
+        "title": "Adaptive Learning Intelligence",
+        "description": "CyberGuard synthesizes existing learner signals into deterministic, explainable support guidance. It does not change scores, progress, or recommendations.",
+        "status": "Status",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "mode": "Mode",
+        "deterministicExplainable": "Deterministic and explainable",
+        "dataSources": "Adaptive data sources",
+        "persistentAiRecommendations": "Persistent AI recommendations",
+        "automaticDifficultyChanges": "Automatic difficulty changes",
+        "automaticScoreChanges": "Automatic score changes",
+        "learnerChoiceRequired": "Learner choice required",
+        "basedOnAvailableRecords": "Based on available learning records",
+        "limitedLearningData": "Limited learning data is acknowledged",
+        "whyThisSuggestion": "Why this suggestion?",
+        "youAreAlwaysInControl": "You are always in control",
+        "sources": {
+          "learner_profile": "Learner profile",
+          "initial_assessment": "Initial assessment",
+          "topic_progress": "Topic progress",
+          "scenario_outcomes": "Scenario outcomes",
+          "active_recommendations": "Active recommendations"
+        },
+        "rules": {
+          "strengths": "Strengths",
+          "support_priorities": "Support priorities",
+          "confidence_data_quality": "Signal quality",
+          "response_guidance": "Response guidance",
+          "suggested_next_steps": "Suggested next steps"
+        }
+      },
+      "wellness": {
+        "badge": "Cyber Wellness",
+        "title": "Cyber Wellness Guidance",
+        "description": "CyberGuard can prepare deterministic, non-diagnostic digital wellbeing guidance for ordinary online situations.",
+        "status": "Status",
+        "enabled": "Enabled",
+        "mode": "Mode",
+        "deterministicNonDiagnostic": "Deterministic and non-diagnostic",
+        "targetUsers": "Target users",
+        "teenagers13To17": "Teenagers aged 13-17",
+        "highRiskSafetyHandling": "High-risk safety handling",
+        "existingSafetyPathway": "Existing safety pathway",
+        "domainListLabel": "Cyber Wellness domains",
+        "psychologicalDiagnosisDisabled": "Psychological diagnosis disabled",
+        "riskScoringDisabled": "Wellness risk scoring disabled",
+        "automaticInterventionDisabled": "Automatic intervention disabled",
+        "learnerChoiceRequired": "Learner choice required",
+        "practicalNextSteps": "Practical next steps",
+        "takeShortBreak": "Take a short break",
+        "reduceDistractions": "Reduce distractions",
+        "pauseBeforeResponding": "Pause before responding",
+        "protectYourBoundaries": "Protect your boundaries",
+        "blockOrReport": "Block or report",
+        "talkToTrustedAdult": "Talk to a trusted adult",
+        "reviewSecuritySteps": "Review your security steps",
+        "youAreInControl": "You are in control",
+        "limitedContext": "Limited context",
+        "domains": {
+          "digital_balance": "Digital balance",
+          "focus_and_distraction": "Focus and distraction",
+          "online_pressure_and_boundaries": "Online pressure and boundaries",
+          "healthy_online_communication": "Healthy online communication",
+          "safe_help_seeking": "Safe help-seeking",
+          "digital_resilience": "Digital resilience"
+        }
+      },
+      "traces": {
+        "badge": "Audit trail",
+        "title": "Agentic execution traces",
+        "description": "Review sanitized CyberGuard execution metadata without prompts, learner private data, tool arguments, or secrets.",
+        "refresh": "Refresh",
+        "filters": "Trace filters",
+        "loading": "Loading recent traces...",
+        "loadingDetail": "Loading trace detail...",
+        "error": "Unable to load traces.",
+        "detailError": "Unable to load trace detail.",
+        "empty": "No traces found.",
+        "tableLabel": "Recent agentic execution traces",
+        "detailLabel": "Agentic trace detail",
+        "detailTitle": "Trace detail",
+        "viewDetails": "View details",
+        "status": "Status",
+        "proposalStatus": "Proposal status",
+        "all": "All",
+        "learner": "Learner reference",
+        "provider": "Provider",
+        "tool": "Tool",
+        "proposal": "Proposal",
+        "wellness": "Wellness",
+        "wellnessPrepared": "Cyber Wellness guidance prepared",
+        "scope": "Scope",
+        "scopeTypes": {
+          "in_scope": "In scope",
+          "casual_allowed": "Casual",
+          "out_of_scope": "Out of scope",
+          "unsafe": "Unsafe",
+          "high_risk": "High risk"
+        },
+        "actions": "Actions",
+        "requestId": "Request ID",
+        "previous": "Previous",
+        "next": "Next",
+        "total": "{{total}} total",
+        "statuses": {
+          "completed": "Completed",
+          "completedWithFallback": "Completed with fallback",
+          "safetyBlocked": "Safety blocked",
+          "failedSafely": "Failed safely"
+        },
+        "proposals": {
+          "pending": "Pending",
+          "completed": "Completed",
+          "cancelled": "Cancelled",
+          "expired": "Expired",
+          "rejected": "Rejected"
+        }
+      }
+    },
+    "resourceReview": {
+      "badge": "Read-only review",
+      "title": "Resource Review Metadata",
+      "description": "A small governance snapshot for published resources, source quality, and future RAG readiness.",
+      "readOnly": "Read-only",
+      "loading": "Loading resource review summary...",
+      "error": "Unable to load resource review summary.",
+      "metrics": {
+        "totalResources": "Total resources",
+        "needsReview": "Needs review",
+        "ragReady": "RAG-ready",
+        "replacementSourceNeeded": "Source replacement needed",
+        "malaysiaGuidance": "Malaysia guidance flagged"
+      },
+      "fields": {
+        "source": "Source",
+        "sourceType": "Source type",
+        "translationCount": "Translations",
+        "flags": "Flags"
+      },
+      "flags": {
+        "ragReady": "RAG-ready",
+        "notRagReady": "Not RAG-ready",
+        "malaysiaGuidance": "Malaysia guidance",
+        "sensitiveTopic": "Sensitive topic",
+        "replacementNeeded": "Replacement source needed"
+      }
+    },
+    "resourceGovernance": {
+      "badge": "Resource governance",
+      "title": "Resource Publishing and RAG Control",
+      "description": "Search resources, review their governance state, and control whether CyberGuard can retrieve them.",
+      "summaryLabel": "Resource governance summary",
+      "summaryScope": "Summary cards show all Resources. The table below follows the active filters.",
+      "loading": "Loading resources...",
+      "loadingDetail": "Loading resource detail...",
+      "empty": "No resources match these filters.",
+      "reviewAction": "Review governance",
+      "quickReviewAction": "Quick Review",
+      "drawerActionsLabel": "Resource drawer actions",
+      "drawerLabel": "Resource governance detail",
+      "drawerBadge": "Governance detail",
+      "unsaved": "Unsaved changes",
+      "saved": "Resource governance saved.",
+      "savedWithRagDisabled": "Resource saved. RAG readiness was automatically disabled because the resource is not published and approved.",
+      "confirmation": {
+        "badge": "Confirm change",
+        "confirm": "Confirm",
+        "saveConfirm": "Save change",
+        "discardTitle": "Discard unsaved changes?",
+        "discardMessage": "Your edits in this Resource drawer have not been saved.",
+        "discardConfirm": "Discard changes",
+        "publicationTitle": "Change learner visibility",
+        "publicationMessage": "Unpublishing or archiving this Resource will remove it from the learner Resource page after refresh.",
+        "aiUseTitle": "Change CyberGuard retrieval",
+        "aiUseMessage": "Disabling AI use will prevent CyberGuard from retrieving this Resource in new responses. Existing saved responses will not be changed.",
+        "publicationAndAiUseMessage": "This change will affect learner visibility and prevent CyberGuard from retrieving this Resource in new responses. Existing saved responses will not be changed."
+      },
+      "metrics": {
+        "total": "Total",
+        "published": "Published",
+        "needsReview": "Needs review",
+        "approved": "Approved",
+        "ragReady": "RAG-ready",
+        "effectivelyEligible": "Effectively eligible"
+      },
+      "filters": {
+        "search": "Search",
+        "searchPlaceholder": "Title or slug",
+        "publicationStatus": "Publication",
+        "reviewStatus": "Review status",
+        "ragReady": "RAG readiness",
+        "all": "All",
+        "clear": "Clear filters"
+      },
+      "publicationStatus": {
+        "published": "Published",
+        "draft": "Draft",
+        "archived": "Archived"
+      },
+      "reviewStatus": {
+        "approved": "Approved",
+        "needs_review": "Needs review",
+        "draft": "Draft review",
+        "rejected": "Rejected"
+      },
+      "ragDocumentReviewStatus": {
+        "approved": "Approved",
+        "pending": "Pending review",
+        "rejected": "Rejected"
+      },
+      "flags": {
+        "ragReady": "RAG-ready",
+        "notRagReady": "Not RAG-ready",
+        "effective": "CyberGuard enabled",
+        "notEffective": "CyberGuard disabled",
+        "cyberGuardEnabled": "CyberGuard enabled",
+        "cyberGuardDisabled": "CyberGuard disabled"
+      },
+      "eligibilityReasons": {
+        "resource_not_published": "Resource is not published.",
+        "resource_not_approved": "Resource is not approved.",
+        "resource_rag_disabled": "RAG readiness is disabled."
+      },
+      "table": {
+        "resource": "Resource",
+        "category": "Category",
+        "publication": "Publication",
+        "review": "Review",
+        "rag": "RAG",
+        "updated": "Updated",
+        "action": "Action",
+        "scrollLabel": "Resource governance table. Use horizontal scrolling to view all columns."
+      },
+      "pagination": "Page {{page}} of {{totalPages}} · {{totalItems}} resources",
+      "detail": {
+        "overview": "Learner preview",
+        "source": "Source metadata",
+        "rag": "CyberGuard retrieval",
+        "controls": "Editable governance controls",
+        "translations": "{{count}} translations available",
+        "flags": "Malaysia guidance: {{malaysia}} · Sensitive topic: {{sensitive}}",
+        "retrievableChunks": "{{count}} retrievable chunks",
+        "chunks": "{{count}} chunks"
+      },
+      "fields": {
+        "ragReady": "Allow CyberGuard retrieval when published and approved",
+        "nextReviewAt": "Next review date",
+        "reviewNotes": "Review notes"
+      },
+      "errors": {
+        "list": "Unable to load resources.",
+        "detail": "Unable to load resource detail.",
+        "save": "Unable to save resource governance."
+      }
+    },
+    "translation": {
+      "tabsLabel": "Content language tabs",
+      "coverage": "Translation coverage",
+      "coverageValue": "{{complete}} / {{total}} complete",
+      "required": "Required",
+      "optional": "Optional",
+      "requiredReady": "Required English complete",
+      "requiredMissing": "Required English missing",
+      "locales": {
+        "en": "English",
+        "ms": "Bahasa Melayu",
+        "zh-CN": "Simplified Chinese"
+      },
+      "status": {
+        "complete": "Complete",
+        "incomplete": "Incomplete",
+        "missing": "Missing",
+        "unsaved": "Unsaved"
+      }
+    },
+    "publication": {
+      "label": "Publication readiness",
+      "ready": "Ready to publish",
+      "cannotPublish": "Cannot publish",
+      "missing": "Missing",
+      "publishResource": "Publish Resource",
+      "publishScenario": "Publish Scenario",
+      "returnToDraft": "Return to Draft",
+      "publishWithFallback": "Publish with English fallback",
+      "restoreInLifecycle": "Restore from the lifecycle dialog before publishing.",
+      "publishedResource": "Resource published.",
+      "returnedResourceToDraft": "Resource returned to Draft.",
+      "returnedScenarioToDraft": "Scenario returned to Draft.",
+      "optionalLocaleWarning": "Optional translations missing: {{locales}}. Learners using those languages may see English fallback.",
+      "confirmPublishResource": "Learners will be able to view this Resource. CyberGuard retrieval still requires approved review status and RAG readiness.",
+      "confirmPublishScenario": "Learners will be able to start this Scenario. Its scoring structure becomes learner-facing.",
+      "confirmReturnToDraft": "Learners will no longer see or start this item. Saved content and historical references remain.",
+      "confirmOptionalFallback": "Missing optional translations: {{locales}}. Learners may see English fallback.",
+      "status": {
+        "draft": "Draft",
+        "published": "Published",
+        "archived": "Archived"
+      },
+      "reasons": {
+        "unknown": "A required check is incomplete.",
+        "english_required": "English content is incomplete.",
+        "english_title_required": "English title is missing.",
+        "english_summary_required": "English summary is missing.",
+        "english_body_required": "English body is missing.",
+        "category_required": "Category is missing.",
+        "archived": "Archived content must be restored first.",
+        "resource_archived": "Archived Resource must be restored first.",
+        "title_required": "Title is missing.",
+        "summary_required": "Summary is missing.",
+        "topic_invalid": "Topic is invalid.",
+        "difficulty_invalid": "Difficulty is invalid.",
+        "duration_invalid": "Duration is invalid.",
+        "total_steps_invalid": "Total step count is invalid.",
+        "step_count_mismatch": "Step count does not match the expected total.",
+        "step_situation_required": "A step situation is missing.",
+        "step_prompt_required": "A step prompt is missing.",
+        "choice_text_required": "A choice text is missing.",
+        "choice_feedback_required": "Choice feedback is missing.",
+        "choice_safety_explanation_required": "Choice safety explanation is missing."
+      },
+      "errors": {
+        "publishResource": "Unable to publish Resource.",
+        "unpublishResource": "Unable to return Resource to Draft."
+      }
+    },
+    "resourceLifecycle": {
+      "badge": "Resource lifecycle",
+      "headerLabel": "Resource action header",
+      "tabsLabel": "Resource sections",
+      "actionsLabel": "Resource lifecycle actions",
+      "moreActions": "More actions",
+      "loading": "Loading lifecycle...",
+      "loadingInformation": "Loading lifecycle information...",
+      "archiveOrDelete": "Archive or delete Resource",
+      "archiveDeleteShort": "Archive / Delete",
+      "manageTitle": "Archive or delete Resource",
+      "manageDescription": "Review the current lifecycle state before archiving, restoring, or permanently deleting this Resource.",
+      "archiveTitle": "Archive Resource",
+      "archiveDescription": "Learners will no longer see this Resource, and CyberGuard will no longer retrieve it. Content, metadata, and historical source records will remain so it can be reviewed later.",
+      "deleteTitle": "Permanently delete Resource",
+      "restoreTitle": "Restore Resource",
+      "restoreDescription": "Restore this Resource to Draft and keep CyberGuard retrieval disabled until review is completed again.",
+      "deleteDescription": "This cannot be undone. All owned translations and metadata for this draft Resource will be deleted. Type the exact slug to confirm.",
+      "deleteUnavailableDescription": "This Resource has publication, review, RAG, or historical references. It cannot be permanently deleted; archive it instead.",
+      "archiveButton": "Archive Resource",
+      "restoreButton": "Restore Resource",
+      "deleteButton": "Permanently Delete",
+      "archiveShort": "Archive",
+      "deleteShort": "Permanently delete",
+      "confirmSlugLabel": "Type the exact slug to confirm",
+      "blockingReasons": "Blocking reasons",
+      "archiveStillAvailable": "Archive remains available for this Resource.",
+      "restoreStillAvailable": "Restore remains available for this archived Resource.",
+      "breadcrumbLabel": "Resource breadcrumb",
+      "breadcrumbResources": "Resources",
+      "cyberGuardStatus": "CyberGuard status",
+      "deletionEligibility": "Deletion eligibility",
+      "deleteAvailable": "Permanent deletion available",
+      "deleteBlocked": "Permanent deletion blocked",
+      "countsLabel": "Lifecycle reference counts",
+      "counts": {
+        "translations": "Translations",
+        "ragDocuments": "RAG documents",
+        "ragChunks": "RAG chunks",
+        "chatSourceReferences": "Saved CyberGuard responses"
+      },
+      "tabs": {
+        "content": "Content",
+        "metadata": "Metadata",
+        "governance": "Governance"
+      },
+      "reasons": {
+        "resource_not_draft": "Resource is published or archived.",
+        "review_not_draft": "Resource review is not Draft.",
+        "resource_rag_ready": "Resource is RAG-ready.",
+        "rag_documents_exist": "{{count}} RAG document exists for this Resource.",
+        "rag_chunks_exist": "{{count}} RAG chunk exists for this Resource.",
+        "chat_sources_exist": "Saved CyberGuard responses reference this Resource.",
+        "chat_source_history_exists": "This Resource appears in {{count}} saved CyberGuard response.",
+        "content_relationships_exist": "{{count}} content relationship references this Resource.",
+        "resource_not_found": "Resource was not found."
+      },
+      "errors": {
+        "archive": "Unable to archive Resource.",
+        "restore": "Unable to restore Resource.",
+        "delete": "Unable to permanently delete Resource.",
+        "load": "Lifecycle details are still loading.",
+        "loadFailed": "Unable to load lifecycle information.",
+        "slugMismatch": "The confirmation slug does not match.",
+        "notEligible": "This Resource cannot be permanently deleted. Archive it instead."
+      }
+    },
+    "resourceEditor": {
+      "title": "Edit Resource content",
+      "description": "Update the learner-facing translation content for this existing Resource.",
+      "editContent": "Edit content",
+      "backToResources": "Back to Resources",
+      "loading": "Loading Resource content...",
+      "languageTabs": "Resource translation languages",
+      "unsavedChanges": "Unsaved changes",
+      "governanceStatus": "Resource governance status",
+      "previewLabel": "Learner preview",
+      "previewOnly": "Preview only",
+      "previewUntitled": "Untitled Resource",
+      "previewEmpty": "Main content will appear here as you type.",
+      "saved": "Content saved successfully.",
+      "savedRagSynced": "Content saved and CyberGuard retrieval was refreshed.",
+      "savedRagFailed": "Content saved, but CyberGuard refresh failed. Try refreshing RAG later.",
+      "reloadLatest": "Reload latest version",
+      "discardTitle": "Discard unsaved content changes?",
+      "discardLocaleMessage": "Your {{locale}} edits have not been saved.",
+      "discardBackMessage": "Your {{locale}} edits have not been saved. Back to Resources?",
+      "discardInterfaceLocaleMessage": "You have unsaved changes in the {{locale}} Resource translation. Changing the Cyberly interface language will discard them.",
+      "discardSectionMessage": "Your Resource content edits have not been saved.",
+      "logoutMessage": "Logging out will discard your unsaved Resource content edits.",
+      "navigationCancelled": "Navigation cancelled. Your edits are still here.",
+      "discardChanges": "Discard changes",
+      "discardAndChangeLanguage": "Discard and change language",
+      "continueEditing": "Continue editing",
+      "reset": "Reset",
+      "save": "Save changes",
+      "bodyHint": "{{count}}/{{max}} characters. Separate paragraphs with a blank line.",
+      "locales": {
+        "en": "English",
+        "ms": "Bahasa Melayu",
+        "zh-CN": "Simplified Chinese"
+      },
+      "status": {
+        "exists": "Translation exists",
+        "missing": "Missing translation",
+        "unsaved": "Unsaved"
+      },
+      "fields": {
+        "title": "Title",
+        "summary": "Summary",
+        "body": "Main content"
+      },
+      "validation": {
+        "titleRequired": "Title is required.",
+        "titleTooLong": "Title must be {{max}} characters or fewer.",
+        "summaryRequired": "Summary is required.",
+        "summaryTooLong": "Summary must be {{max}} characters or fewer.",
+        "bodyRequired": "Main content is required.",
+        "bodyTooLong": "Main content must be {{max}} characters or fewer."
+      },
+      "errors": {
+        "load": "Unable to load Resource content.",
+        "save": "Unable to save Resource content.",
+        "stale": "Translation changed elsewhere. Reload the latest version before saving.",
+        "notFound": "Resource content was not found."
+      }
+    },
+    "resourceCreate": {
+      "createResource": "Create Resource",
+      "createDraft": "Create draft",
+      "draftPreview": "Draft preview",
+      "title": "Create Resource",
+      "description": "Create a safe draft Resource with English content, source metadata, and governance defaults.",
+      "identity": "Resource identity",
+      "classification": "Classification",
+      "slug": "Slug",
+      "slugHint": "Lowercase letters, numbers, and hyphens only. The slug cannot be changed later in this phase.",
+      "invalidSlug": "Use lowercase letters, numbers, and single hyphens only.",
+      "invalidSourceUrl": "Enter a valid http or https source URL.",
+      "duplicateSlug": "A Resource with this slug already exists.",
+      "englishContent": "English content",
+      "created": "Resource created as a draft.",
+      "nextStepsTitle": "Next steps after creation",
+      "addMalay": "Add Malay translation in the content editor.",
+      "addChinese": "Add Simplified Chinese translation in the content editor.",
+      "reviewMetadata": "Review source metadata before governance approval.",
+      "reviewBeforePublishing": "Review governance before publication or CyberGuard retrieval.",
+      "unsavedTitle": "Discard new Resource draft?",
+      "unsavedMessage": "Your new Resource form has unsaved changes.",
+      "unsavedLogoutMessage": "Logging out will discard your unsaved Resource creation form.",
+      "errors": {
+        "options": "Unable to load Resource creation options.",
+        "create": "Unable to create Resource."
+      }
+    },
+    "resourceMetadata": {
+      "title": "Edit Resource metadata",
+      "editMetadata": "Edit metadata",
+      "sourceInformation": "Source information",
+      "sourceLabel": "Source label",
+      "sourceUrl": "Source URL",
+      "openSource": "Open source",
+      "missingSource": "No clickable source URL is set.",
+      "sourceClassification": "Source classification",
+      "sourceType": "Source type",
+      "sourceCountry": "Source country",
+      "authorityLevel": "Authority level",
+      "sourceMaintenance": "Source maintenance",
+      "lastSourceChecked": "Last source checked",
+      "markCheckedToday": "Mark checked today",
+      "markCheckedTodayHint": "Record that an Admin manually checked this source.",
+      "replacementSourceNeeded": "Replacement source needed",
+      "replacementWarning": "This Resource is flagged for source replacement. This does not automatically archive or disable it.",
+      "safetyMetadata": "Safety metadata",
+      "ageSuitability": "Age suitability",
+      "sensitiveTopic": "Sensitive topic",
+      "malaysiaGuidance": "Malaysia guidance",
+      "saveMetadata": "Save metadata",
+      "saved": "Metadata saved.",
+      "loading": "Loading Resource metadata...",
+      "unsavedTitle": "Discard metadata changes?",
+      "unsavedMessage": "Your Resource metadata changes have not been saved.",
+      "unsavedLogoutMessage": "Logging out will discard your unsaved Resource metadata changes.",
+      "sourceTypes": {
+        "government_cybersecurity_agency": "Government cybersecurity agency",
+        "government": "Government",
+        "education": "Education",
+        "ngo": "NGO",
+        "international_organisation": "International organisation",
+        "general_web": "General web",
+        "test_source": "Test source"
+      },
+      "sourceCountries": {
+        "MY": "Malaysia",
+        "SG": "Singapore",
+        "GLOBAL": "Global",
+        "OTHER": "Other"
+      },
+      "authorityLevels": {
+        "official_agency": "Official agency",
+        "recognised_organisation": "Recognised organisation",
+        "education_provider": "Education provider",
+        "general_reference": "General reference",
+        "unknown": "Unknown"
+      },
+      "ageOptions": {
+        "13-17": "13-17",
+        "all_teens": "All teenagers",
+        "older_teens": "Older teenagers",
+        "general": "General"
+      },
+      "errors": {
+        "load": "Unable to load Resource metadata.",
+        "save": "Unable to save Resource metadata.",
+        "stale": "Metadata changed elsewhere. Reload the latest version before saving."
+      }
+    },
+    "moduleStatus": {
+      "planned": "Planned"
+    },
+    "moduleApiNames": {
+      "dashboard": "Dashboard",
+      "resources": "Resources",
+      "rag": "RAG",
+      "aiSafety": "AI Safety",
+      "contentRelationships": "Content Relationships",
+      "malaysiaGuidance": "Malaysia Guidance"
+    },
+    "modules": {
+      "resourceReview": {
+        "title": "Resource Review",
+        "description": "Review learning resources, source metadata, and future RAG readiness."
+      },
+      "ragKnowledge": {
+        "title": "RAG Knowledge",
+        "description": "Future panel for approved knowledge, retrieval checks, and ingestion visibility."
+      },
+      "contentRelationships": {
+        "title": "Content Relationships",
+        "description": "Future management for prerequisite, next-step, practice, remedial, and related-topic links."
+      },
+      "malaysiaGuidance": {
+        "title": "Malaysia Guidance",
+        "description": "Future review area for official source-backed local reporting and safety guidance."
+      },
+      "aiSafety": {
+        "title": "AI Safety Evaluation",
+        "description": "Future checks for safe prompts, refusals, grounding, and model response quality."
+      },
+      "roleManagement": {
+        "title": "Role Management",
+        "description": "Future least-privilege access controls for admins and reviewers."
+      }
+    },
+    "scenarioManagement": {
+      "badge": "Scenario Admin",
+      "title": "Scenario Management",
+      "description": "Review, preview, and manage existing Cyberly scenario practice content without changing learner scores.",
+      "create": "Create draft scenario",
+      "summaryLabel": "Scenario management summary",
+      "metrics": {
+        "total": "Total",
+        "published": "Published",
+        "draft": "Draft",
+        "archived": "Archived",
+        "incomplete": "Needs structure"
+      },
+      "filters": {
+        "search": "Search",
+        "searchPlaceholder": "Search title, slug, or summary",
+        "status": "Status",
+        "topic": "Topic",
+        "difficulty": "Difficulty",
+        "all": "All",
+        "clear": "Clear filters"
+      },
+      "status": {
+        "published": "Published",
+        "draft": "Draft",
+        "archived": "Archived"
+      },
+      "table": {
+        "scenario": "Scenario",
+        "topic": "Topic",
+        "difficulty": "Difficulty",
+        "status": "Status",
+        "updated": "Updated",
+        "actions": "Actions",
+        "scrollLabel": "Scenario management table"
+      },
+      "structure": {
+        "ready": "Ready",
+        "needsWork": "Needs work"
+      },
+      "loading": "Loading scenarios...",
+      "empty": "No scenarios found.",
+      "pagination": "Page {{page}} of {{totalPages}}",
+      "preview": "Preview",
+      "quickPreview": "Quick Review",
+      "quickReview": "Quick Review",
+      "edit": "Edit",
+      "drawerLabel": "Scenario preview",
+      "loadingDetail": "Loading scenario details...",
+      "previewHeading": "Learner preview",
+      "stepsHeading": "Scenario steps",
+      "minutes": "{{count}} min",
+      "updatedAt": "Updated {{date}}",
+      "errors": {
+        "list": "Unable to load scenarios.",
+        "detail": "Unable to load scenario details."
+      }
+    },
+    "scenarioEditor": {
+      "createBadge": "New Scenario",
+      "editBadge": "Scenario Editor",
+      "createTitle": "Create draft scenario",
+      "createDraftScenario": "Create draft Scenario",
+      "createScenarioTitle": "Create Scenario",
+      "createDescription": "Create a safe Draft Scenario. It remains hidden from learners until it is complete and published.",
+      "backToScenarios": "← Back to Scenarios",
+      "learnerHidden": "Learner hidden",
+      "draftPreview": "Draft Preview",
+      "previewOnly": "Preview only. Learners will not see this Scenario until it is published.",
+      "previewSubmissionDisabled": "Learner submission is disabled in Preview mode.",
+      "previewSituationPlaceholder": "Step situation will appear here.",
+      "previewChoicePlaceholder": "Choice text will appear here.",
+      "previewFeedbackPlaceholder": "Sample feedback appears here after a learner chooses an option.",
+      "previewStepProgress": "Step {{current}} of {{total}}",
+      "currentStep": "Current step",
+      "decisionsCount": "{{count}} decisions",
+      "structureCompleteness": "Structure completeness",
+      "structureCompletenessValue": "{{ready}} / {{total}} ready",
+      "identityHeading": "Scenario identity",
+      "classificationHeading": "Classification",
+      "structureHeading": "Structure planning",
+      "description": "Manage metadata and structured decision steps. Scoring stays controlled by the backend.",
+      "discardTitle": "Discard scenario changes?",
+      "discardDescription": "You have unsaved scenario changes.",
+      "logoutDescription": "You have unsaved scenario changes. Save before signing out.",
+      "loading": "Loading scenario editor...",
+      "back": "← Back",
+      "tabsLabel": "Scenario editor sections",
+      "overviewHeading": "Overview",
+      "metadataHeading": "Metadata",
+      "stepsHeading": "Decision steps",
+      "previewHeading": "Preview",
+      "scenarioActions": "Scenario actions",
+      "attempts": "{{count}} attempts",
+      "attemptsLock": "This scenario has learner attempts, so structural step edits are locked to preserve historical results.",
+      "createDraft": "Create draft",
+      "saveMetadata": "Save metadata",
+      "saveSteps": "Save steps",
+      "publish": "Publish",
+      "archive": "Archive",
+      "restore": "Restore",
+      "publishScenario": "Publish Scenario",
+      "archiveScenario": "Archive Scenario",
+      "restoreScenario": "Restore Scenario",
+      "savedMetadata": "Scenario metadata saved.",
+      "savedSteps": "Scenario steps saved. Published scenarios return to draft after structural edits.",
+      "structuralDraftTitle": "Save structural changes?",
+      "structuralDraftDescription": "Saving structural changes will return this Scenario to Draft and hide it from learners until it is republished.",
+      "saveAndReturnToDraft": "Save and return to Draft",
+      "createDraftSaved": "Draft scenario created.",
+      "previewTitlePlaceholder": "Scenario title",
+      "previewSummaryPlaceholder": "Scenario summary will appear here.",
+      "previewPromptPlaceholder": "Step prompt",
+      "previewChoices": "choices ready",
+      "stepTitle": "Step {{number}}",
+      "optionTitle": "Choice {{key}}",
+      "fields": {
+        "slug": "Slug",
+        "title": "Title",
+        "summary": "Summary",
+        "topic": "Topic",
+        "difficulty": "Difficulty",
+        "minutes": "Estimated minutes",
+        "totalSteps": "Total steps",
+        "situation": "Situation text",
+        "prompt": "Prompt",
+        "optionText": "Choice text",
+        "score": "Score",
+        "outcome": "Outcome code",
+        "feedback": "Feedback",
+        "safetyExplanation": "Safety explanation"
+      },
+      "scores": {
+        "safest": "Safest (2)",
+        "partial": "Partial (1)",
+        "unsafe": "Unsafe (0)"
+      },
+      "validation": {
+        "correctFields": "Correct the highlighted fields.",
+        "required": "Required",
+        "slug": {
+          "required": "Slug is required.",
+          "format": "Use lowercase letters, numbers, and single hyphens only.",
+          "duplicate": "This slug is already used."
+        },
+        "title": {
+          "required": "Title is required.",
+          "tooLong": "Title is too long."
+        },
+        "summary": {
+          "required": "Summary is required.",
+          "tooLong": "Summary is too long."
+        },
+        "topicCode": {
+          "invalid": "Choose a supported topic."
+        },
+        "difficulty": {
+          "invalid": "Choose a supported difficulty."
+        },
+        "estimatedMinutes": {
+          "positiveInteger": "Estimated minutes must be a positive whole number.",
+          "tooLarge": "Estimated minutes is too large."
+        },
+        "totalSteps": {
+          "positiveInteger": "Total steps must be a positive whole number.",
+          "range": "Total steps must be between 3 and 5."
+        }
+      },
+      "lifecycle": {
+        "publish": "Scenario published.",
+        "archive": "Scenario archived.",
+        "restore": "Scenario restored as draft."
+      },
+      "tabs": {
+        "overview": "Overview",
+        "steps": "Steps",
+        "preview": "Preview"
+      },
+      "errors": {
+        "saveTranslation": "Unable to save scenario translation."
+      },
+      "slugHelp": "Use lowercase letters, numbers, and single hyphens only. Example: phishing-practice-plan",
+      "creating": "Creating...",
+      "translationTabsLabel": "Scenario translation languages",
+      "translationExists": "Translation exists",
+      "translationMissing": "Missing translation",
+      "missingTranslationNotice": "Missing translation. Add localized text without changing the shared Scenario structure.",
+      "saveTranslation": "Save translation",
+      "savedTranslation": "Scenario translation saved.",
+      "continueEditing": "Continue editing",
+      "discardAndSwitchTranslation": "Discard and switch language",
+      "locales": {
+        "en": "English",
+        "ms": "Bahasa Melayu",
+        "zh-CN": "Simplified Chinese"
+      },
+      "requestedLanguage": "Requested language",
+      "displayedLanguage": "Displayed language",
+      "addTranslation": "Add translation"
+    },
+    "scenarioLifecycle": {
+      "badge": "Scenario lifecycle",
+      "archiveDeleteShort": "Archive / Delete",
+      "restoreDeleteShort": "Restore / Delete",
+      "archiveOrDelete": "Archive or delete Scenario",
+      "archiveDeleteTitle": "Archive or delete Scenario",
+      "restoreDeleteTitle": "Restore or delete Scenario",
+      "description": "Review safe lifecycle actions for this Scenario. These actions do not change learner scores.",
+      "loading": "Loading Scenario lifecycle...",
+      "openForScenario": "Open lifecycle actions for {{title}}",
+      "archiveTitle": "Archive Scenario",
+      "archiveDescription": "Hide this Scenario from learners while preserving history and admin records.",
+      "archiveButton": "Archive Scenario",
+      "restoreTitle": "Restore Scenario",
+      "restoreDescription": "Return this archived Scenario to Draft so admins can review it again before publishing.",
+      "restoreButton": "Restore Scenario",
+      "deleteTitle": "Permanently Delete",
+      "deleteDescription": "Only unused Draft Scenarios can be permanently deleted. Type the exact slug to confirm.",
+      "deleteUnavailableDescription": "This Scenario cannot be permanently deleted because it has learner or system references.",
+      "neverPublished": "Never published",
+      "firstPublished": "First published",
+      "availability": "Availability",
+      "learnerVisible": "Learner visible",
+      "learnerHidden": "Learner hidden",
+      "identity": {
+        "slug": "Slug",
+        "status": "Current status"
+      },
+      "confirmSlugLabel": "Type the exact Scenario slug",
+      "deleteButton": "Permanently Delete Scenario",
+      "counts": {
+        "steps": "Steps",
+        "choices": "Choices",
+        "attempts": "Attempts",
+        "completedAttempts": "Completed attempts",
+        "decisions": "Decisions",
+        "progressReferences": "Progress references",
+        "recommendationReferences": "Recommendation references",
+        "ragDocuments": "RAG documents"
+      },
+      "reasons": {
+        "scenario_published": "Published Scenarios must be archived before permanent deletion.",
+        "scenario_previously_published": "Scenario has been published before.",
+        "attempts_exist": "{{count}} learner attempt reference exists.",
+        "completed_attempts_exist": "{{count}} completed attempt reference exists.",
+        "decisions_exist": "{{count}} learner decision reference exists.",
+        "progress_references_exist": "{{count}} progress reference exists.",
+        "rag_documents_exist": "{{count}} RAG document reference exists."
+      },
+      "errors": {
+        "load": "Unable to load Scenario lifecycle information.",
+        "archive": "Unable to archive Scenario.",
+        "restore": "Unable to restore Scenario.",
+        "delete": "Unable to permanently delete Scenario.",
+        "dirty": "Save or discard your Scenario changes before changing its lifecycle.",
+        "slugMismatch": "The confirmation slug must match exactly.",
+        "notEligible": "This Scenario is not eligible for permanent deletion."
+      }
+    },
+    "notFound": {
+      "badge": "Admin route",
+      "title": "Admin page not found",
+      "description": "This Admin route is not available. Use the canonical Admin navigation to continue.",
+      "backToResources": "Back to Resources"
+    }
+  },
+  "common": {
+    "loading": "Loading",
+    "save": "Save",
+    "saving": "Saving...",
+    "saved": "Saved.",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "edit": "Edit",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "next": "Next",
+    "continueActivity": "Continue activity",
+    "leaveToDashboard": "Leave and return to Dashboard",
+    "leavePage": "Leave Page",
+    "notFound": "Not found",
+    "unauthorized": "Unauthorized",
+    "networkError": "Network error",
+    "somethingWentWrong": "Something went wrong. Please try again.",
+    "backToHome": "Back to Home",
+    "backToDashboard": "Back to Dashboard",
+    "learnMore": "Learn more →",
+    "notSet": "Not set"
+  },
+  "errors": {
+    "codes": {
+      "ACCOUNT_INVALID": "Please check your account details and try again.",
+      "ACCOUNT_NOT_FOUND": "We could not find this account.",
+      "ASSESSMENT_ALREADY_SUBMITTED": "This assessment has already been submitted.",
+      "ASSESSMENT_ANSWER_INVALID": "Please choose a valid answer.",
+      "ASSESSMENT_ATTEMPT_NOT_FOUND": "We could not find this assessment attempt.",
+      "ASSESSMENT_ATTEMPT_NOT_OPEN": "This assessment is no longer open for answers.",
+      "ASSESSMENT_INCOMPLETE": "Please answer all questions before submitting.",
+      "ASSESSMENT_NOT_AVAILABLE": "The initial assessment is not available right now.",
+      "ASSESSMENT_OPTION_INVALID": "Please choose one of the available options.",
+      "ASSESSMENT_QUESTION_MISMATCH": "That question does not belong to this assessment.",
+      "AUTH_ACCOUNT_DISABLED": "This account is disabled.",
+      "AUTH_EMAIL_ALREADY_REGISTERED": "An account with this email already exists.",
+      "AUTH_FORBIDDEN": "You do not have access to this page.",
+      "AUTH_INVALID_CREDENTIALS": "Invalid email or password.",
+      "AUTH_LOGIN_FIELDS_REQUIRED": "Email and password are required.",
+      "AUTH_RATE_LIMITED": "Too many authentication attempts. Please try again later.",
+      "AUTH_REGISTRATION_INVALID": "Please check your registration details.",
+      "AUTH_REQUIRED": "Please sign in to continue.",
+      "AI_ASSISTANT_PERSISTENCE_FAILED": "CyberGuard could not save the reply. Try again.",
+      "AI_GENERATION_ALREADY_COMPLETED": "CyberGuard already prepared this reply.",
+      "AI_GENERATION_IN_PROGRESS": "CyberGuard is already preparing a reply.",
+      "AI_INVALID_RESPONSE": "CyberGuard could not prepare a safe reply. Try rephrasing the question.",
+      "AI_NOT_CONFIGURED": "CyberGuard is not configured yet.",
+      "AI_PROVIDER_UNAVAILABLE": "CyberGuard is temporarily unavailable. Try again shortly.",
+      "AI_RATE_LIMITED": "Too many requests. Wait briefly before trying again.",
+      "AI_TIMEOUT": "The reply took too long. Try again.",
+      "AI_UNSAFE_REQUEST": "CyberGuard cannot help with that request, but it can explain safe and defensive alternatives.",
+      "CHAT_CONVERSATION_NOT_FOUND": "We could not find this chat conversation.",
+      "CHAT_INVALID_ID": "Please choose a valid chat conversation.",
+      "CHAT_INVALID_MESSAGE": "Enter a message from 1 to 4000 characters.",
+      "CHAT_INVALID_TITLE": "Enter a chat title from 1 to 80 characters.",
+      "CHAT_MESSAGE_ROLE_INVALID": "Only your messages can be sent in this phase.",
+      "INTERNAL_SERVER_ERROR": "Something went wrong on our side. Please try again.",
+      "NETWORK_UNAVAILABLE": "Network error. Please check your connection and try again.",
+      "PROFILE_INVALID": "Please check your learner profile details.",
+      "PROGRESS_ASSESSMENT_NOT_FOUND": "We could not find a completed initial assessment.",
+      "PROGRESS_TOPIC_SCORES_UNAVAILABLE": "Assessment topic scores are not available yet.",
+      "RECOMMENDATION_NOT_FOUND": "We could not find this recommendation.",
+      "RESOURCE_NOT_FOUND": "We could not find this resource.",
+      "SCENARIO_ALREADY_COMPLETED": "This scenario attempt is already completed.",
+      "SCENARIO_ATTEMPT_NOT_FOUND": "We could not find this scenario attempt.",
+      "SCENARIO_CHOICE_FINAL": "Scenario choices are final after submission.",
+      "SCENARIO_DECISION_INVALID": "Please choose a valid scenario decision.",
+      "SCENARIO_INCOMPLETE": "Please answer all scenario steps before completing.",
+      "SCENARIO_NOT_FOUND": "We could not find this scenario.",
+      "SCENARIO_OPTION_INVALID": "Please choose one of the available scenario options.",
+      "SCENARIO_RESULT_NOT_FOUND": "We could not find this completed scenario result.",
+      "SCENARIO_STEP_MISMATCH": "That step does not belong to this scenario.",
+      "SCENARIO_STEP_OUT_OF_ORDER": "Complete the current scenario step before moving ahead."
+    },
+    "fallback": {
+      "completeRecommendation": "Unable to complete recommendation.",
+      "completeScenario": "Unable to complete scenario.",
+      "generic": "Something went wrong. Please try again.",
+      "createChatConversation": "Unable to create chat conversation.",
+      "deleteChatConversation": "Unable to delete chat conversation.",
+      "generateChatReply": "Unable to generate a CyberGuard reply.",
+      "loadChatConversations": "Unable to load chat conversations.",
+      "loadChatMessages": "Unable to load chat messages.",
+      "loadAssessment": "Unable to load assessment.",
+      "loadAssessmentStatus": "Unable to load assessment status.",
+      "loadProgress": "Unable to load progress.",
+      "loadRecommendation": "Unable to load recommendation.",
+      "loadRecommendedScenarios": "Unable to load recommended scenarios.",
+      "loadResources": "Unable to load resources.",
+      "loadScenario": "Unable to load scenario.",
+      "loadScenarioActivity": "Unable to load scenario activity.",
+      "loadScenarioResult": "Unable to load scenario result.",
+      "loadScenarios": "Unable to load scenarios.",
+      "network": "Network error. Please check your connection and try again.",
+      "register": "Failed to register. Please try again.",
+      "restoreScenario": "Unable to restore scenario.",
+      "renameChatConversation": "Unable to rename chat conversation.",
+      "saveAccount": "Unable to save account information.",
+      "saveAssessmentAnswer": "Unable to save answer.",
+      "saveProfile": "Unable to save learner profile.",
+      "saveScenarioDecision": "Unable to save decision.",
+      "sendChatMessage": "Unable to send chat message.",
+      "session": "Unable to check your session.",
+      "signIn": "Unable to sign in.",
+      "startAssessment": "Unable to start assessment.",
+      "startScenario": "Unable to start scenario.",
+      "submitAssessment": "Unable to submit assessment.",
+      "updateRecommendation": "Unable to update recommendation."
+    }
+  },
+  "levels": {
+    "beginner": "Beginner",
+    "developing": "Developing",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "scenarioResults": {
+    "needs_review": "Needs review",
+    "developing": "Developing",
+    "proficient": "Proficient",
+    "strong": "Strong"
+  },
+  "topics": {
+    "phishing_and_scams": "Scams & Social Engineering",
+    "password_and_account_security": "Passwords & Account Security",
+    "privacy_and_personal_information": "Privacy & Personal Data Protection",
+    "misinformation_and_deepfakes": "Misinformation, Media & AI Safety"
+  }
+}

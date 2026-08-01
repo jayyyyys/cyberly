@@ -1,0 +1,29 @@
+﻿dry_run_id,content_type,title,has_question,has_answer,answer_availability,content_completeness,disposition,import_readiness
+workbook:02_Content_Inventory:8,faq,What is the National Scam Response Centre (NSRC)?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:9,faq,Who should contact NSRC?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:10,faq,What should I do if I have been scammed?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:11,faq,What information should I prepare when reporting a scam?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:17,faq,What is fake news?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:18,faq,How can I check if information is true?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:19,faq,Why do people share fake news?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:20,faq,What should I do if I see fake news?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:26,faq,What is AI-generated content?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:27,faq,What is a deepfake?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:28,faq,How can I tell if content is AI-generated?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:29,faq,Why should I verify AI-generated content?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:35,faq,What is personal data?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:36,faq,Why should I be careful when using public Wi-Fi?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:37,faq,What is a digital footprint?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:38,faq,How can I protect my privacy online?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:44,faq,What is cyberbullying?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:45,faq,What is online grooming?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:46,faq,What is sextortion?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:47,faq,How can I stay safe online?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:53,faq,What makes a strong password?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:54,faq,Why should I use different passwords for different accounts?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:55,faq,What is multi-factor authentication (MFA)?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:56,faq,Should I use a password manager?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:62,faq,What is a digital citizen?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:63,faq,What is social engineering?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:64,faq,Why should I think before clicking?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:65,faq,Who should I ask if I'm unsure about something online?,True,False,no answer/response/guidance column found for FAQ rows,content_brief,missing_required_fields,planning_only

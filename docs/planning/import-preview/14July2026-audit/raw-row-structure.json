@@ -1,0 +1,513 @@
+{
+  "categoryPlan": {
+    "sampleRows": [
+      {
+        "row": 1,
+        "values": [
+          "Cyberly Content Category Plan"
+        ]
+      },
+      {
+        "row": 2,
+        "values": [
+          "Purpose: Translate the current 02_Content_Inventory into a clearer category/subcategory plan for content expansion, RAG coverage, action cards, and Agentic learning routes."
+        ]
+      },
+      {
+        "row": 4,
+        "values": [
+          "Total subcategories",
+          49.0,
+          "Coverage Status",
+          "Count",
+          "Priority",
+          "Count",
+          "Planning Use"
+        ]
+      },
+      {
+        "row": 5,
+        "values": [
+          "Existing / Partial",
+          21.0,
+          "Existing",
+          17.0,
+          "High",
+          29.0,
+          "MVP content + demo"
+        ]
+      },
+      {
+        "row": 6,
+        "values": [
+          "Missing gaps",
+          28.0,
+          "Partial",
+          4.0,
+          "Medium",
+          19.0,
+          "Near-term expansion"
+        ]
+      },
+      {
+        "row": 7,
+        "values": [
+          "High priority",
+          29.0,
+          "Missing",
+          28.0,
+          "Low",
+          1.0,
+          "Future enhancement"
+        ]
+      },
+      {
+        "row": 10,
+        "values": [
+          "main_category_code",
+          "main_category_name",
+          "subcategory_code",
+          "subcategory_name",
+          "related_topic_code",
+          "learner_level",
+          "priority",
+          "current_coverage",
+          "needed_content",
+          "reason",
+          "suggested_source_type",
+          "example_content_or_gap",
+          "relationship_use",
+          "notes"
+        ]
+      },
+      {
+        "row": 11,
+        "values": [
+          "CAT-BEGINNER",
+          "Beginner / Digital Foundations",
+          "SUB-DIGITAL-CITIZENSHIP",
+          "Digital Citizenship",
+          "TOPIC-BEGINNER",
+          "L1",
+          "High",
+          "Existing",
+          "Resource / FAQ / Scenario",
+          "Builds the entry-level foundation before learners move into specific risks.",
+          "Education / Government",
+          "Existing beginner content covers basic responsible online behaviour.",
+          "prerequisite",
+          "Use as the first route step for low-confidence learners."
+        ]
+      },
+      {
+        "row": 12,
+        "values": [
+          "CAT-BEGINNER",
+          "Beginner / Digital Foundations",
+          "SUB-SOCIAL-ENGINEERING-BASICS",
+          "Social Engineering Basics",
+          "TOPIC-BEGINNER",
+          "L1",
+          "High",
+          "Existing",
+          "Resource / Scenario",
+          "Helps learners understand manipulation before phishing or scam content.",
+          "Education / Cybersecurity agency",
+          "Existing content explains social engineering and stranger information requests.",
+          "prepare_before",
+          "Can prepare learners for scams and password safety topics."
+        ]
+      },
+      {
+        "row": 13,
+        "values": [
+          "CAT-BEGINNER",
+          "Beginner / Digital Foundations",
+          "SUB-SAFE-DIGITAL-HABITS",
+          "Safe Digital Habits",
+          "TOPIC-BEGINNER",
+          "L1",
+          "High",
+          "Partial",
+          "FAQ / Safety Summary",
+          "Gives simple daily habits for teens using phones, school accounts, and social platforms.",
+          "Education / NGO",
+          "Needs a more concise safety summary for repeated CyberGuard use.",
+          "remedial",
+          "Useful after weak initial assessment results."
+        ]
+      }
+    ]
+  },
+  "contentInventory": {
+    "headerRow": 4,
+    "headers": [
+      {
+        "columnIndex": 1,
+        "columnLetter": "A",
+        "header": "content_code"
+      },
+      {
+        "columnIndex": 2,
+        "columnLetter": "B",
+        "header": "content_type"
+      },
+      {
+        "columnIndex": 3,
+        "columnLetter": "C",
+        "header": "topic_code"
+      },
+      {
+        "columnIndex": 4,
+        "columnLetter": "D",
+        "header": "slug"
+      },
+      {
+        "columnIndex": 5,
+        "columnLetter": "E",
+        "header": "title_en"
+      },
+      {
+        "columnIndex": 6,
+        "columnLetter": "F",
+        "header": "title_ms"
+      },
+      {
+        "columnIndex": 7,
+        "columnLetter": "G",
+        "header": "title_zh"
+      },
+      {
+        "columnIndex": 8,
+        "columnLetter": "H",
+        "header": "summary_en"
+      },
+      {
+        "columnIndex": 9,
+        "columnLetter": "I",
+        "header": "summary_ms"
+      },
+      {
+        "columnIndex": 10,
+        "columnLetter": "J",
+        "header": "summary_zh"
+      },
+      {
+        "columnIndex": 11,
+        "columnLetter": "K",
+        "header": "difficulty_level"
+      },
+      {
+        "columnIndex": 12,
+        "columnLetter": "L",
+        "header": "estimated_minutes"
+      },
+      {
+        "columnIndex": 13,
+        "columnLetter": "M",
+        "header": "source_organisation"
+      },
+      {
+        "columnIndex": 14,
+        "columnLetter": "N",
+        "header": "source_url"
+      },
+      {
+        "columnIndex": 15,
+        "columnLetter": "O",
+        "header": "review_status"
+      },
+      {
+        "columnIndex": 16,
+        "columnLetter": "P",
+        "header": "rag_ready"
+      },
+      {
+        "columnIndex": 17,
+        "columnLetter": "Q",
+        "header": "last_reviewed_at"
+      },
+      {
+        "columnIndex": 18,
+        "columnLetter": "R",
+        "header": "reviewed_by"
+      },
+      {
+        "columnIndex": 19,
+        "columnLetter": "S",
+        "header": "notes"
+      }
+    ],
+    "samples": {
+      "faq": [
+        {
+          "excelRow": 8,
+          "values": {
+            "content_code": "FAQ-SC-001",
+            "content_type": "faq",
+            "difficulty_level": "",
+            "estimated_minutes": "",
+            "last_reviewed_at": "2026-07-08T00:00:00",
+            "notes": "FAQ can be indexed for RAG after source review.",
+            "rag_ready": "no",
+            "review_status": "reviewed",
+            "reviewed_by": "Group 20",
+            "slug": "what-is-the-national-scam-response-centre",
+            "source_organisation": "",
+            "source_url": "",
+            "summary_en": "The NSRC is Malaysia's national response centre that helps victims of online financial scams by coordinating with banks, law enforcement, and government agencies to respond quickly.",
+            "summary_ms": "NSRC ialah pusat tindak balas kebangsaan Malaysia yang membantu mangsa penipuan kewangan dalam talian dengan menyelaraskan tindakan bersama bank, pihak berkuasa dan agensi kerajaan.",
+            "summary_zh": "国家诈骗应对中心（NSRC）是马来西亚的全国诈骗应对机构，负责协调银行、执法机构和政府部门，为网络金融诈骗受害者提供快速协助。",
+            "title_en": "What is the National Scam Response Centre (NSRC)?",
+            "title_ms": "Apakah itu Pusat Respons Penipuan Kebangsaan (NSRC)?",
+            "title_zh": "什么是国家诈骗应对中心（NSRC）？",
+            "topic_code": "TOPIC-SCAMS"
+          }
+        },
+        {
+          "excelRow": 9,
+          "values": {
+            "content_code": "FAQ-SC-002",
+            "content_type": "faq",
+            "difficulty_level": "",
+            "estimated_minutes": "",
+            "last_reviewed_at": "2026-07-08T00:00:00",
+            "notes": "",
+            "rag_ready": "no",
+            "review_status": "reviewed",
+            "reviewed_by": "Group 20",
+            "slug": "who-should-contact-nsrc",
+            "source_organisation": "",
+            "source_url": "",
+            "summary_en": "Anyone who believes they have become a victim of an online financial scam, such as phishing, malware, or unauthorized bank transfers, should contact their bank or NSRC immediately.",
+            "summary_ms": "Sesiapa yang percaya mereka menjadi mangsa penipuan kewangan dalam talian seperti phishing, perisian hasad atau pemindahan wang tanpa kebenaran perlu segera menghubungi bank atau NSRC.",
+            "summary_zh": "任何怀疑自己遭遇网络金融诈骗（如网络钓鱼、恶意软件或未经授权的银行转账）的人，都应立即联系银行或 NSRC。",
+            "title_en": "Who should contact NSRC?",
+            "title_ms": "Siapakah yang perlu menghubungi NSRC?",
+            "title_zh": "谁应该联系 NSRC？",
+            "topic_code": "TOPIC-SCAMS"
+          }
+        }
+      ],
+      "resource": [
+        {
+          "excelRow": 5,
+          "values": {
+            "content_code": "RES-SC-001",
+            "content_type": "resource",
+            "difficulty_level": "L1",
+            "estimated_minutes": 5.0,
+            "last_reviewed_at": "2026-07-08T00:00:00",
+            "notes": "Starter example. Replace or verify source details before publication.",
+            "rag_ready": "no",
+            "review_status": "reviewed",
+            "reviewed_by": "Group 20",
+            "slug": "how-to-recognize-and-avoid-phishing-scams",
+            "source_organisation": "Federal Trade Commission (FTC)",
+            "source_url": "https://consumer.ftc.gov/articles/how-recognize-avoid-phishing-scams",
+            "summary_en": "Learn how to identify phishing emails, fake websites, suspicious messages, and common online scam techniques.",
+            "summary_ms": "Pelajari cara mengenal pasti e-mel phishing, laman web palsu, mesej mencurigakan dan teknik penipuan dalam talian.",
+            "summary_zh": "学习如何识别网络钓鱼邮件、虚假网站、可疑信息以及常见的网络诈骗手法。",
+            "title_en": "How To Recognize and Avoid Phishing Scams",
+            "title_ms": "Cara Mengenal Pasti dan Mengelakkan Penipuan Phishing",
+            "title_zh": "如何识别和避免网络钓鱼诈骗",
+            "topic_code": "TOPIC-SCAMS"
+          }
+        },
+        {
+          "excelRow": 6,
+          "values": {
+            "content_code": "RES-SC-002",
+            "content_type": "resource",
+            "difficulty_level": "L2",
+            "estimated_minutes": 5.0,
+            "last_reviewed_at": "2026-07-08T00:00:00",
+            "notes": "",
+            "rag_ready": "no",
+            "review_status": "reviewed",
+            "reviewed_by": "Group 20",
+            "slug": "national-scam-response-centre-malaysia",
+            "source_organisation": "National Scam Response Centre (NSRC), National Anti-Financial Crime Centre (NFCC), Malaysia",
+            "source_url": "https://nfcc.jpm.gov.my/index.php/en/about-nsrc",
+            "summary_en": "Learn how to recognise online financial scams, respond quickly if you become a victim, and report scams through Malaysia's official response centre.",
+            "summary_ms": "Ketahui cara mengenal pasti penipuan kewangan dalam talian, bertindak pantas jika menjadi mangsa dan membuat laporan melalui pusat rasmi Malaysia.",
+            "summary_zh": "了解如何识别网络金融诈骗、在受骗后迅速采取行动，并通过马来西亚官方诈骗应对中心举报诈骗。",
+            "title_en": "National Scam Response Centre (NSRC) Malaysia",
+            "title_ms": "Pusat Respons Penipuan Kebangsaan (NSRC) Malaysia",
+            "title_zh": "马来西亚国家诈骗应对中心（NSRC）",
+            "topic_code": "TOPIC-SCAMS"
+          }
+        }
+      ],
+      "safety_summary": [
+        {
+          "excelRow": 12,
+          "values": {
+            "content_code": "SAFE-SC-001",
+            "content_type": "safety_summary",
+            "difficulty_level": "L1",
+            "estimated_minutes": 3.0,
+            "last_reviewed_at": "2026-07-08T00:00:00",
+            "notes": "",
+            "rag_ready": "no",
+            "review_status": "reviewed",
+            "reviewed_by": "Group 10",
+            "slug": "how-to-avoid-a-scam",
+            "source_organisation": "U.S. Federal Trade Commission (FTC)",
+            "source_url": "https://consumer.ftc.gov/articles/how-avoid-scam",
+            "summary_en": "Learn simple habits to recognise scams, protect your personal information, and respond safely if you suspect fraudulent activity.",
+            "summary_ms": "Pelajari langkah mudah untuk mengenal pasti penipuan, melindungi maklumat peribadi dan bertindak dengan selamat jika mengesyaki aktiviti penipuan.",
+            "summary_zh": "学习简单的方法来识别诈骗、保护个人资料，并在怀疑遇到诈骗时采取安全行动。",
+            "title_en": "How to Avoid a Scam",
+            "title_ms": "Cara Mengelakkan Penipuan",
+            "title_zh": "如何避免诈骗",
+            "topic_code": "TOPIC-SCAMS"
+          }
+        },
+        {
+          "excelRow": 21,
+          "values": {
+            "content_code": "SAFE-MS-001",
+            "content_type": "safety_summary",
+            "difficulty_level": "L1",
+            "estimated_minutes": 3.0,
+            "last_reviewed_at": "2026-07-08T00:00:00",
+            "notes": "",
+            "rag_ready": "no",
+            "review_status": "reviewed",
+            "reviewed_by": "Group 20",
+            "slug": "think-before-you-share",
+            "source_organisation": "UNESCO",
+            "source_url": "https://www.unesco.org/en/media-information-literacy",
+            "summary_en": "Learn simple steps to verify online information, identify fake news, and share information responsibly.",
+            "summary_ms": "Pelajari langkah mudah untuk menyemak maklumat dalam talian, mengenal pasti berita palsu dan berkongsi maklumat secara bertanggungjawab.",
+            "summary_zh": "学习简单的方法来验证网络信息、识别假新闻，并负责任地分享内容。",
+            "title_en": "Think Before You Share",
+            "title_ms": "Fikir Dahulu Sebelum Berkongsi",
+            "title_zh": "分享前先思考",
+            "topic_code": "TOPIC-MISINFORMATION"
+          }
+        }
+      ],
+      "scenario": [
+        {
+          "excelRow": 7,
+          "values": {
+            "content_code": "SCN-SC-001",
+            "content_type": "scenario",
+            "difficulty_level": "L2",
+            "estimated_minutes": 5.0,
+            "last_reviewed_at": "2026-07-08T00:00:00",
+            "notes": "Scenario can link to RES-PH-001 as practice_after.",
+            "rag_ready": "no",
+            "review_status": "reviewed",
+            "reviewed_by": "Group 20",
+            "slug": "avoid-social-engineering-and-phishing-attacks",
+            "source_organisation": "Cybersecurity and Infrastructure Security Agency (CISA)",
+            "source_url": "https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks",
+            "summary_en": "Experience realistic scam situations involving phishing emails, fake messages, phone scams, and malicious links. Learn how to identify warning signs and choose the safest response.",
+            "summary_ms": "Alami situasi penipuan yang realistik melibatkan e-mel phishing, mesej palsu, panggilan telefon penipuan dan pautan berniat jahat. Pelajari cara mengenal pasti tanda amaran dan memilih tindakan yang paling selamat.",
+            "summary_zh": "体验真实的诈骗情境，包括网络钓鱼邮件、虚假短信、电话诈骗和恶意链接。学习识别危险信号，并选择最安全的应对方式。",
+            "title_en": "Avoiding Social Engineering and Phishing Attacks",
+            "title_ms": "Mengelakkan Kejuruteraan Sosial dan Serangan Phishing",
+            "title_zh": "避免社会工程与网络钓鱼攻击",
+            "topic_code": "TOPIC-SCAMS"
+          }
+        },
+        {
+          "excelRow": 16,
+          "values": {
+            "content_code": "SCN-MS-001",
+            "content_type": "scenario",
+            "difficulty_level": "L2",
+            "estimated_minutes": 5.0,
+            "last_reviewed_at": "2026-07-08T00:00:00",
+            "notes": "",
+            "rag_ready": "no",
+            "review_status": "reviewed",
+            "reviewed_by": "Group 20",
+            "slug": "verifying-viral-news-before-sharing",
+            "source_organisation": "Sebernanya.my",
+            "source_url": "https://sebenarnya.my/",
+            "summary_en": "Practice identifying whether a viral social media post is true by checking reliable sources before sharing it with others.",
+            "summary_ms": "Latih diri mengenal pasti sama ada sesuatu berita tular adalah benar dengan menyemak sumber yang dipercayai sebelum berkongsi.",
+            "summary_zh": "学习在分享网络热门消息前，通过可靠来源验证其真实性。",
+            "title_en": "Verifying Viral News Before Sharing",
+            "title_ms": "Menyemak Berita Tular Sebelum Berkongsi",
+            "title_zh": "分享前验证网络流传新闻",
+            "topic_code": "TOPIC-MISINFORMATION"
+          }
+        }
+      ]
+    },
+    "unusedNonEmptyColumns": [
+      {
+        "columnIndex": 18,
+        "columnLetter": "R",
+        "header": "reviewed_by",
+        "reasonNotMapped": "Governance/authoring metadata only; not learner-facing body, FAQ answer, scenario step, or option content.",
+        "sampleValue": "Group 20"
+      }
+    ]
+  },
+  "contentRelationships": {
+    "headerRow": 4,
+    "headers": [
+      {
+        "columnIndex": 1,
+        "columnLetter": "A",
+        "header": "relationship_id"
+      },
+      {
+        "columnIndex": 2,
+        "columnLetter": "B",
+        "header": "source_content_code"
+      },
+      {
+        "columnIndex": 3,
+        "columnLetter": "C",
+        "header": "target_content_code"
+      },
+      {
+        "columnIndex": 4,
+        "columnLetter": "D",
+        "header": "relationship_type"
+      },
+      {
+        "columnIndex": 5,
+        "columnLetter": "E",
+        "header": "topic_code"
+      },
+      {
+        "columnIndex": 6,
+        "columnLetter": "F",
+        "header": "priority"
+      },
+      {
+        "columnIndex": 7,
+        "columnLetter": "G",
+        "header": "sequence_order"
+      },
+      {
+        "columnIndex": 8,
+        "columnLetter": "H",
+        "header": "reason_en"
+      },
+      {
+        "columnIndex": 9,
+        "columnLetter": "I",
+        "header": "reason_zh"
+      },
+      {
+        "columnIndex": 10,
+        "columnLetter": "J",
+        "header": "is_active"
+      },
+      {
+        "columnIndex": 11,
+        "columnLetter": "K",
+        "header": "notes"
+      }
+    ]
+  }
+}

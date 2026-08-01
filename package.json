@@ -1,0 +1,17 @@
+{
+  "name": "cyber-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -n SERVER,CLIENT -c auto \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm --prefix server start",
+    "dev:client": "npm --prefix client start",
+    "build": "npm --prefix client run build",
+    "db:ensure": "npm --prefix server run db:ensure",
+    "migrate": "npm --prefix server run migrate",
+    "migrate:status": "npm --prefix server run migrate:status"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}

@@ -1,0 +1,8 @@
+﻿dry_run_id,content_type,title,has_title,has_summary,has_body,guidance_availability,content_completeness,disposition,import_readiness
+workbook:02_Content_Inventory:12,safety_summary,How to Avoid a Scam,True,True,False,concise summary present; no full body/guidance column found,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:21,safety_summary,Think Before You Share,True,True,False,concise summary present; no full body/guidance column found,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:30,safety_summary,Using AI Safely Online,True,True,False,concise summary present; no full body/guidance column found,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:39,safety_summary,Protecting Your Personal Information,True,True,False,concise summary present; no full body/guidance column found,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:48,safety_summary,Staying Safe Online,True,True,False,concise summary present; no full body/guidance column found,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:57,safety_summary,Protect Your Accounts,True,True,False,concise summary present; no full body/guidance column found,content_brief,missing_required_fields,planning_only
+workbook:02_Content_Inventory:66,safety_summary,Safe Digital Habits,True,True,False,concise summary present; no full body/guidance column found,content_brief,missing_required_fields,planning_only

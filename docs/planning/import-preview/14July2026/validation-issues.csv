@@ -1,0 +1,57 @@
+﻿severity,dry_run_id,field,issue_code,message,recommended_action
+error,workbook:02_Content_Inventory:8,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:9,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:10,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:11,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:17,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:18,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:19,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:20,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:26,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:27,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:28,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:29,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:35,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:36,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:37,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:38,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:44,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:45,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:46,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:47,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:53,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:54,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:55,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:56,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:62,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:63,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:64,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+error,workbook:02_Content_Inventory:65,answer,missing_faq_answer,FAQ answer is missing.,Add a reviewed FAQ answer.
+warning,workbook:02_Content_Inventory:5,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:6,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:14,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:15,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:23,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:24,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:32,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:33,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:41,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:42,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:50,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:51,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:59,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:60,body,missing_body,Workbook does not include Resource body/content text.,Provide body content before import.
+warning,workbook:02_Content_Inventory:7,scenario_steps,missing_scenario_steps,Scenario step structure is not present in the workbook row.,Model scenario steps before import.
+warning,workbook:02_Content_Inventory:7,scenario_options,missing_scenario_options,Scenario options/decisions are not present in the workbook row.,Model decision options before import.
+warning,workbook:02_Content_Inventory:16,scenario_steps,missing_scenario_steps,Scenario step structure is not present in the workbook row.,Model scenario steps before import.
+warning,workbook:02_Content_Inventory:16,scenario_options,missing_scenario_options,Scenario options/decisions are not present in the workbook row.,Model decision options before import.
+warning,workbook:02_Content_Inventory:25,scenario_steps,missing_scenario_steps,Scenario step structure is not present in the workbook row.,Model scenario steps before import.
+warning,workbook:02_Content_Inventory:25,scenario_options,missing_scenario_options,Scenario options/decisions are not present in the workbook row.,Model decision options before import.
+warning,workbook:02_Content_Inventory:34,scenario_steps,missing_scenario_steps,Scenario step structure is not present in the workbook row.,Model scenario steps before import.
+warning,workbook:02_Content_Inventory:34,scenario_options,missing_scenario_options,Scenario options/decisions are not present in the workbook row.,Model decision options before import.
+warning,workbook:02_Content_Inventory:43,scenario_steps,missing_scenario_steps,Scenario step structure is not present in the workbook row.,Model scenario steps before import.
+warning,workbook:02_Content_Inventory:43,scenario_options,missing_scenario_options,Scenario options/decisions are not present in the workbook row.,Model decision options before import.
+warning,workbook:02_Content_Inventory:52,scenario_steps,missing_scenario_steps,Scenario step structure is not present in the workbook row.,Model scenario steps before import.
+warning,workbook:02_Content_Inventory:52,scenario_options,missing_scenario_options,Scenario options/decisions are not present in the workbook row.,Model decision options before import.
+warning,workbook:02_Content_Inventory:61,scenario_steps,missing_scenario_steps,Scenario step structure is not present in the workbook row.,Model scenario steps before import.
+warning,workbook:02_Content_Inventory:61,scenario_options,missing_scenario_options,Scenario options/decisions are not present in the workbook row.,Model decision options before import.

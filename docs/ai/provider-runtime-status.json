@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-07-18T06:00:11.063Z",
+  "defaultProvider": "openai",
+  "purposeAssignments": {
+    "cyberguard_chat": "openai",
+    "agent_route_planning": "openai",
+    "lightweight_tool_selection": "openai",
+    "translation_assistance": "openai",
+    "safety_evaluation": "openai"
+  },
+  "providers": [
+    {
+      "provider": "openai",
+      "configured": true,
+      "runtimeAvailable": true,
+      "lastRuntimeStatus": "runtime_ok",
+      "lastRuntimeError": null,
+      "healthy": true,
+      "latencyMs": 1975,
+      "capabilities": {
+        "chat": true,
+        "structuredOutput": true,
+        "toolCalling": true,
+        "streaming": false,
+        "usageReporting": true
+      },
+      "lastTested": "2026-07-18T06:00:07.711Z",
+      "model": "gpt-5.4-mini",
+      "usageAvailable": true,
+      "finishReason": "completed",
+      "providerRequestIdAvailable": true,
+      "structuredOutputOk": true,
+      "toolCallNormalizationOk": true,
+      "returnedToolCallCount": 1,
+      "status": "runtime_ok"
+    },
+    {
+      "provider": "gemini",
+      "configured": true,
+      "runtimeAvailable": false,
+      "lastRuntimeStatus": "runtime_AI_AUTH_FAILED",
+      "lastRuntimeError": "AI_AUTH_FAILED",
+      "healthy": false,
+      "latencyMs": null,
+      "capabilities": {
+        "chat": true,
+        "structuredOutput": true,
+        "toolCalling": true,
+        "streaming": false,
+        "usageReporting": true
+      },
+      "lastTested": "2026-07-18T06:00:08.123Z",
+      "model": "gemini-2.5-flash",
+      "usageAvailable": false,
+      "finishReason": null,
+      "providerRequestIdAvailable": false,
+      "structuredOutputOk": false,
+      "toolCallNormalizationOk": false,
+      "returnedToolCallCount": null,
+      "status": "runtime_AI_AUTH_FAILED"
+    },
+    {
+      "provider": "ilmu",
+      "configured": true,
+      "runtimeAvailable": true,
+      "lastRuntimeStatus": "runtime_ok",
+      "lastRuntimeError": null,
+      "healthy": true,
+      "latencyMs": 420,
+      "capabilities": {
+        "chat": true,
+        "structuredOutput": false,
+        "toolCalling": true,
+        "streaming": false,
+        "usageReporting": true
+      },
+      "lastTested": "2026-07-18T06:00:08.551Z",
+      "model": "nemo-super",
+      "usageAvailable": true,
+      "finishReason": "stop",
+      "providerRequestIdAvailable": true,
+      "structuredOutputOk": true,
+      "toolCallNormalizationOk": false,
+      "returnedToolCallCount": null,
+      "status": "runtime_ok"
+    }
+  ]
+}

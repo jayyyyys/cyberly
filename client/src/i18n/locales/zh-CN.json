@@ -1,0 +1,2211 @@
+{
+  "nav": {
+    "home": "首页",
+    "dashboard": "仪表板",
+    "assessment": "测评",
+    "scenarios": "情境练习",
+    "resources": "资源",
+    "aiChat": "AI 聊天助手",
+    "admin": "Admin",
+    "about": "关于",
+    "profile": "个人资料",
+    "settings": "设置",
+    "signOut": "退出登录",
+    "language": "语言",
+    "languageControlTitle": "切换语言",
+    "languageAriaLabel": "选择界面语言",
+    "brandHomeAriaLabel": "前往 Cyberly 首页",
+    "brandDashboardAriaLabel": "前往 Cyberly 仪表板",
+    "primaryAriaLabel": "主导航",
+    "openMenuAriaLabel": "打开导航菜单",
+    "closeMenuAriaLabel": "关闭导航菜单",
+    "mobileNavigationLabel": "移动端导航",
+    "accountMenu": {
+      "triggerAriaLabel": "打开 {{name}} 的账号菜单",
+      "menuAriaLabel": "账号菜单",
+      "userFallback": "用户",
+      "personalProgress": "个人进度",
+      "profileSettings": "个人资料与设置",
+      "adminConsole": "Admin 控制台",
+      "logOut": "退出登录"
+    },
+    "logoutModal": {
+      "title": "退出 Cyberly？",
+      "description": "你可以安全取消并继续学习。如果退出登录，此设备上的当前会话将结束。",
+      "cancel": "取消",
+      "confirm": "退出登录"
+    }
+  },
+  "auth": {
+    "login": "登录",
+    "register": "注册",
+    "getStarted": "开始使用",
+    "email": "电子邮箱",
+    "password": "密码",
+    "displayName": "显示名称",
+    "age": "年龄",
+    "confirmPassword": "确认密码",
+    "continue": "继续",
+    "back": "返回",
+    "next": "下一步",
+    "submit": "提交",
+    "loading": "正在加载",
+    "invalidCredentials": "登录信息不正确",
+    "networkError": "网络错误",
+    "accountCreated": "账号已创建",
+    "signInPrompt": "已经有账号？",
+    "registerPrompt": "第一次使用 Cyberly？",
+    "createAccount": "创建你的账号",
+    "accountDetailsHint": "账号资料会保存在你的用户账号中。学习偏好会在引导完成后保存。",
+    "passwordRequirements": "密码必须至少包含 8 个字符，并同时包含字母和数字。",
+    "registerFailed": "无法创建账号。",
+    "goToLogin": "登录",
+    "emailPlaceholder": "xiaoming@example.com",
+    "displayNamePlaceholder": "你的名称",
+    "agePlaceholder": "例如：16",
+    "passwordPlaceholder": "至少 8 个字符",
+    "welcomeBack": "欢迎回来",
+    "loginDescription": "登录以继续你的网络安全之旅。",
+    "emailInvalid": "请输入有效的邮箱地址。",
+    "passwordRequired": "请输入你的密码。",
+    "signInButton": "登录",
+    "goToRegister": "创建账号",
+    "displayNameRequired": "显示名称必须是 2 到 50 个字符。",
+    "ageInvalid": "请输入 1 到 120 之间的整数年龄。"
+  },
+  "onboarding": {
+    "account": "账号",
+    "nickname": "昵称",
+    "education": "教育",
+    "language": "语言",
+    "experience": "经验",
+    "goals": "目标",
+    "learningStyle": "学习方式",
+    "progress": "第 {{step}} 步，共 {{total}} 步 — {{label}}",
+    "previous": "上一步",
+    "next": "下一步",
+    "completeSetup": "完成设置",
+    "aiNickname": "AI 昵称",
+    "educationLevel": "教育程度",
+    "preferredLanguage": "偏好语言",
+    "familiarityLevel": "熟悉程度",
+    "helpTopics": "想学习的主题",
+    "learningStyleLabel": "学习方式",
+    "nicknameQuestion": "你希望 AI 怎么称呼你？",
+    "nicknameHint": "可以是昵称或代号。这只会给 CyberGuard 使用。",
+    "educationQuestion": "哪一个教育程度最符合你？",
+    "languageQuestion": "你比较习惯使用哪种语言？",
+    "familiarityQuestion": "你对网络安全有多熟悉？",
+    "helpTopicsQuestion": "你想在哪些方面获得帮助？",
+    "helpTopicsHint": "最多选择 3 个主题。",
+    "learningStyleQuestion": "你比较喜欢怎样学习？",
+    "nicknameRequired": "请输入供 AI 使用的昵称。",
+    "educationRequired": "请选择教育程度。",
+    "languageRequired": "请选择偏好语言。",
+    "familiarityRequired": "请选择熟悉程度。",
+    "helpTopicsRequired": "请至少选择一个主题。",
+    "learningStyleRequired": "请选择学习方式。",
+    "profileSaveFailed": "账号已创建，但学习资料未成功保存。请重新保存资料后再继续。",
+    "savingProfile": "正在保存学习资料...",
+    "settingUp": "正在设置...",
+    "retrySavingProfile": "重新保存学习资料",
+    "letsGo": "🚀 开始吧！",
+    "continue": "继续 →",
+    "nicknamePlaceholder": "例如：Alex、Koko、ZK...",
+    "selectedCount": "已选择 {{count}}/{{max}}"
+  },
+  "profileOptions": {
+    "education": {
+      "form_1": "中一",
+      "form_2": "中二",
+      "form_3": "中三",
+      "form_4": "中四",
+      "form_5": "中五",
+      "other": "其他",
+      "prefer_not_to_say": "不想透露"
+    },
+    "language": {
+      "english": "English",
+      "bahasa_melayu": "Bahasa Melayu",
+      "chinese": "中文",
+      "mixed": "混合"
+    },
+    "familiarity": {
+      "beginner": {
+        "label": "初学者",
+        "description": "我刚开始学习，基础知识对我来说还很新。"
+      },
+      "intermediate": {
+        "label": "中级",
+        "description": "我了解基础知识，并想进一步深入学习。"
+      },
+      "advanced": {
+        "label": "高级",
+        "description": "我有信心，并希望挑战更高阶的内容。"
+      }
+    },
+    "helpTopics": {
+      "staying_safe_online": "保持网络安全",
+      "learning_cybersecurity": "学习网络安全",
+      "avoiding_scams": "避免诈骗",
+      "protecting_privacy": "保护隐私",
+      "understanding_cyber_threats": "理解网络威胁",
+      "cybersecurity_careers": "探索网络安全职业"
+    },
+    "learningStyle": {
+      "step_by_step": "逐步指导",
+      "short_explanations": "简短说明",
+      "quizzes_and_challenges": "测验与挑战"
+    }
+  },
+  "dashboard": {
+    "welcome": "欢迎回来，{{name}}",
+    "yourDashboard": "你的仪表板",
+    "recommendations": "推荐",
+    "assessmentStatus": "测评状态",
+    "scenarioProgress": "情境进度",
+    "resources": "资源",
+    "continueLearning": "继续学习",
+    "startAssessment": "开始测评",
+    "resumeAssessment": "继续测评",
+    "startScenario": "开始情境",
+    "resumeScenario": "继续情境",
+    "noRecommendationYet": "目前还没有推荐。",
+    "recommendedNextStep": "推荐的下一步",
+    "measuredProgress": "学习活动",
+    "welcomeBack": "欢迎回来，{{name}}",
+    "beginner": "初学者",
+    "levelDisplay": "{{level}}级",
+    "learningProfile": "你的学习资料",
+    "learningProfileDescription": "学习概况描述",
+    "profileSavedDescription": "学习偏好已保存到你的资料中，并会在刷新页面或重新登录后恢复。",
+    "editProfile": "编辑资料",
+    "stats": {
+      "learningTopics": "学习主题",
+      "languages": "语言",
+      "powered": "AI 驱动"
+    },
+    "sectionNav": {
+      "title": "仪表板分区",
+      "ariaLabel": "仪表板分区导航",
+      "overview": "学习路径",
+      "learningProfile": "学习资料",
+      "initialAssessment": "初始测评",
+      "measuredProgress": "学习进度",
+      "recommendedNextStep": "推荐的下一步",
+      "scenarioPractice": "情境练习",
+      "topicMastery": "测评结果",
+      "quickActions": "快捷操作",
+      "cyberGuardAi": "CyberGuard AI"
+    },
+    "assessment": {
+      "completed": "初始测评已完成",
+      "inProgress": "初始测评进行中",
+      "pending": "初始测评尚未完成",
+      "checking": "正在检查测评状态...",
+      "completedDescription": "你的测评结果可在“我的学习旅程”中查看。",
+      "resumeDescription": "继续已保存的答案，并在准备好后完成测评。",
+      "pendingDescription": "你可以现在或稍后完成。在建立基础水平前，自适应推荐不会启用。",
+      "viewResults": "查看测评结果",
+      "resume": "继续",
+      "start": "开始／稍后完成"
+    },
+    "tips": {
+      "phishing": "不要点击意外收到的电子邮件或短信中的链接，应直接前往官方网站。",
+      "password": "每个账号应使用不同密码。密码管理器可以让这项工作更轻松。",
+      "fakeNews": "在网上分享新闻前，请先通过马来西亚官方事实核查网站 Sebenarnya.my 验证。",
+      "phoneScam": "有人自称来自银行或政府机构时，应挂断电话并主动拨打官方号码确认。"
+    },
+    "actions": {
+      "resources": "浏览资源",
+      "resourcesDescription": "查看诈骗、隐私等主题指南",
+      "assessment": "初始测评",
+      "assessmentDescription": "建立你的测评基线",
+      "scenarios": "情境练习",
+      "scenariosDescription": "在真实情境中练习安全选择",
+      "profile": "编辑资料",
+      "profileDescription": "更新你的学习偏好",
+      "about": "关于项目",
+      "aboutDescription": "认识 Cyberly 项目团队",
+      "progress": "我的进度",
+      "progressDescription": "查看学习统计与主题",
+      "home": "返回首页",
+      "homeDescription": "返回网站首页"
+    },
+    "progress": {
+      "progress": "进度",
+      "title": "学习活动",
+      "loading": "正在加载已记录活动...",
+      "assessmentTopicsLabel": "个测评主题结果",
+      "summary": "已记录 {{count}} 个测评主题 · {{activityCount}} 条学习活动记录。",
+      "recordedActivitiesLabel": "已记录活动",
+      "activitySummary": "{{scenarios}} 个已完成情境 · {{recommendations}} 个已完成推荐",
+      "viewJourney": "查看我的学习旅程",
+      "empty": "完成初始测评后即可开始记录学习活动。"
+    },
+    "recommendation": {
+      "title": "建议的下一步",
+      "loading": "正在检查建议...",
+      "initialAssessment": "初始测评",
+      "practiceScenario": "查看推荐情境",
+      "readResource": "阅读资源",
+      "startAssessment": "开始测评",
+      "empty": "目前没有有效建议。"
+    },
+    "scenarios": {
+      "practiceTitle": "情境练习",
+      "loadingActivity": "正在载入情境活动...",
+      "completed": "已完成",
+      "inProgress": "进行中",
+      "latest": "最近完成",
+      "continueScenario": "继续情境练习",
+      "openLibrary": "打开情境库",
+      "recommendedTitle": "推荐情境",
+      "finding": "正在寻找合适的情境...",
+      "minutes": "{{count}} 分钟",
+      "unlockDescription": "完成测评后即可解锁情境推荐。"
+    },
+    "topicMastery": {
+      "title": "测评结果",
+      "viewProgress": "查看进度"
+    },
+    "dailyTip": "每日网络安全提示",
+    "quickActions": {
+      "title": "快捷操作",
+      "description": "快速前往你需要的功能。"
+    },
+    "cyberGuard": {
+      "title": "CyberGuard AI",
+      "description": "预览聊天界面。实时 AI 回复将在后续阶段通过后端 AI Gateway 提供。",
+      "badge": "已保存资料预览"
+    }
+  },
+  "settings": {
+    "accountInformation": "账号信息",
+    "learningPreferences": "学习偏好",
+    "email": "电子邮箱",
+    "displayName": "显示名称",
+    "age": "年龄",
+    "ageGroup": "年龄组",
+    "aiNickname": "AI 昵称",
+    "educationLevel": "教育程度",
+    "preferredLanguage": "偏好语言",
+    "familiarity": "熟悉程度",
+    "helpTopics": "想学习的主题",
+    "learningStyle": "学习方式",
+    "saveAccount": "保存账号",
+    "savePreferences": "保存偏好",
+    "saving": "正在保存...",
+    "saved": "已保存。",
+    "accountSaved": "账号已保存。",
+    "preferencesSaved": "偏好已保存。",
+    "cancel": "取消",
+    "displayNameRequired": "显示名称必须是 2 到 50 个字符。",
+    "ageInvalid": "请输入 1 到 120 之间的整数年龄。",
+    "nicknameRequired": "请输入 AI 要使用的昵称。",
+    "chooseOne": "请选择",
+    "learnerProfile": "学习者资料",
+    "title": "定制你的 Cyberly 学习体验",
+    "description": "这些学习偏好与账号身份资料分开保存。年龄与教育程度也会分别处理。",
+    "finishOnboarding": "完成初始设置",
+    "finishOnboardingDescription": "你的账号已经登录，但学习者资料尚未完成。请保存此资料后再前往仪表板。",
+    "displayNamePlaceholder": "你的显示名称",
+    "aiNicknamePlaceholder": "你希望 CyberGuard 如何称呼你？",
+    "saveProfile": "保存学习资料",
+    "profileSaved": "学习资料已保存。",
+    "accountSaveFailed": "无法保存账号资料。",
+    "profileSaveFailed": "无法保存学习者资料。",
+    "identityNote": "显示名称与年龄属于账号资料。系统不会根据教育程度推断年龄，也不会将年龄或教育程度视为学习能力。",
+    "ageGroups": {
+      "child": "儿童（1–12 岁）",
+      "teen": "青少年（13–17 岁）",
+      "young_adult": "年轻成人（18–24 岁）",
+      "adult": "成人（25–120 岁）",
+      "invalid": "年龄无效"
+    }
+  },
+  "assessment": {
+    "title": "网络健康初始测评",
+    "introduction": "这是一项 12 题基础测评，帮助 Cyberly 之后的学习内容了解你的实际网络安全水平。",
+    "start": "开始测评",
+    "resume": "继续测评",
+    "questionProgress": "第 {{current}} 题，共 {{total}} 题",
+    "answeredProgress": "已回答 {{answered}}/{{total}}",
+    "previous": "上一题",
+    "next": "下一题",
+    "submit": "提交测评",
+    "submitting": "正在提交...",
+    "confirmSubmit": "要提交初始测评吗？这个基础结果会被保存。",
+    "score": "分数",
+    "level": "等级",
+    "measuredLevel": "测量等级",
+    "topicBreakdown": "主题分析",
+    "loading": "正在加载测评...",
+    "error": "无法加载测评。",
+    "retry": "重试",
+    "completed": "测评已完成",
+    "answerAll": "请先回答所有题目再提交。",
+    "finalSubmissionReminder": "请先回答所有题目，再进行最终提交。",
+    "loadingTitle": "正在加载测评",
+    "errorTitle": "无法加载测评",
+    "submitConfirmTitle": "提交测评？",
+    "leaveTitle": "离开这个测评？",
+    "leaveDescription": "已保存的答案会保留，你之后可以继续这个测评。",
+    "result": "初始结果",
+    "resultSummary": "得分 {{score}}/{{maxScore}}。此测量等级仅根据你的答案计算。",
+    "questionReview": "题目回顾",
+    "reviewAnswers": "查看答案",
+    "correct": "正确",
+    "incorrect": "错误",
+    "yourAnswer": "你的答案",
+    "correctAnswer": "正确答案",
+    "explanation": "解释",
+    "backToDashboard": "返回仪表板",
+    "viewProgress": "查看进度",
+    "relativeStrength": "相对优势",
+    "areaToImprove": "需要提升",
+    "strengths": "优势",
+    "areasToImprove": "需要提升的方面",
+    "noStrengthsYet": "目前还没有主题达到优势阈值。没关系，这只是起始基线。",
+    "allTopicsMetThreshold": "所有主题都已达到当前优势阈值。",
+    "baselineLabel": "基础水平测评",
+    "measurementNote": "你自行填写的熟悉程度与本次测量结果分开处理。题目、评分和反馈均不使用 AI。",
+    "doLater": "稍后完成",
+    "stats": {
+      "questions": "道单选题",
+      "minutes": "分钟",
+      "negativeMarks": "倒扣分",
+      "topicAreas": "个主题领域"
+    }
+  },
+  "scenario": {
+    "title": "情境练习",
+    "library": "情境库",
+    "filterByTopic": "按主题筛选",
+    "start": "开始",
+    "resume": "继续",
+    "stepProgress": "第 {{current}} 步，共 {{total}} 步",
+    "chooseResponse": "选择回应",
+    "submitChoice": "提交选择",
+    "continue": "继续",
+    "result": "情境结果",
+    "score": "分数",
+    "feedback": "反馈",
+    "recommendation": "推荐",
+    "completed": "已完成",
+    "loading": "正在加载情境...",
+    "error": "无法加载情境。",
+    "retry": "重试",
+    "allTopics": "所有主题",
+    "allDifficulty": "所有难度",
+    "recommended": "推荐",
+    "completeScenario": "完成情境"
+  },
+  "scenarios": {
+    "library": {
+      "title": "情境库",
+      "description": "练习真实的网络安全决策，并在每次最终选择后立即获得反馈。",
+      "recommended": "推荐",
+      "recommendedNext": "推荐下一步",
+      "all": "所有情境",
+      "loadingTitle": "正在加载情境",
+      "loading": "正在加载情境...",
+      "empty": "未找到情境",
+      "emptyDescription": "可以尝试选择其他主题或难度筛选。",
+      "targetUnavailable": "推荐的情境已不再可用。这里有其他学习情境。",
+      "backToLibrary": "返回情境库",
+      "backToDashboard": "返回仪表板"
+    },
+    "leaveTitle": "要离开此场景吗？",
+    "leaveDescription": "已保存的选择会继续保留。你之后可以从场景库继续此场景。",
+    "filters": {
+      "topic": "主题筛选",
+      "difficulty": "难度筛选",
+      "allTopics": "所有主题",
+      "allDifficulties": "所有难度"
+    },
+    "card": {
+      "estimatedTime": "预计时间",
+      "minutes": "{{count}} 分钟",
+      "decisions": "{{count}} 个决策",
+      "start": "开始情境",
+      "resume": "继续情境",
+      "viewResult": "查看结果"
+    },
+    "intro": {
+      "details": "情境详情",
+      "topic": "主题",
+      "difficulty": "难度",
+      "estimatedDuration": "预计时长",
+      "whatYouWillPractise": "你将练习的内容",
+      "choiceNotice": "选择提交后即为最终答案。每次决策后都会显示反馈，评分由后端计算。",
+      "startPractice": "开始练习",
+      "continueSavedAttempt": "继续已保存的尝试"
+    },
+    "attempt": {
+      "stepProgress": "第 {{current}} 步，共 {{total}} 步",
+      "confirmChoice": "确认选择",
+      "savingDecision": "正在保存决策...",
+      "decisionSaved": "决策已保存",
+      "complete": "完成情境",
+      "completing": "正在完成...",
+      "exit": "退出情境",
+      "progressSaved": "进度已保存",
+      "chooseOption": "请先选择一个选项再继续",
+      "readyToComplete": "可以完成了",
+      "readyToCompleteDescription": "所有决策都已提交。完成情境后将计算你的结果并更新进度。"
+    },
+    "result": {
+      "completed": "情境已完成",
+      "result": "结果",
+      "score": "分数",
+      "percentage": "百分比",
+      "performanceLevel": "表现等级",
+      "masteryDelta": "掌握度变化",
+      "decisionsReviewed": "已回顾的决策",
+      "yourChoice": "你的选择",
+      "recommendedChoice": "推荐选择",
+      "feedback": "反馈",
+      "keyLesson": "关键收获",
+      "tryAnother": "尝试另一个情境",
+      "returnToLibrary": "返回情境库",
+      "viewProgress": "查看进度",
+      "step": "第 {{step}} 步",
+      "stepChoice": "第 {{step}} 步：你的选择 {{choice}}",
+      "updatedRecommendation": "已更新推荐"
+    },
+    "continueScenario": "继续场景",
+    "leaveScenario": "离开场景",
+    "localeFallback": "此场景目前以{{displayed}}显示，因为{{requested}}暂不可用。"
+  },
+  "home": {
+    "hero": {
+      "title": "在数字世界中保持安全 🛡",
+      "description": "Cyberly 是你的个人网络安全指南，由 AI 驱动，并会根据你的水平、语言和学习方式进行调整。",
+      "cta": "免费开始 →",
+      "continueLearning": "开始吧！",
+      "chips": {
+        "students": "为马来西亚学生打造",
+        "languages": "支持 3 种语言",
+        "aiPersonalised": "AI 个性化"
+      }
+    },
+    "threats": {
+      "eyebrow": "你知道吗？— 马来西亚青少年正在面对的网络威胁"
+    },
+    "stats": {
+      "scamVictim": "的马来西亚青少年曾成为网络诈骗受害者",
+      "scamMessages": "的学生曾收到与诈骗相关的电子邮件或短信",
+      "noWorkshop": "的学生从未参加过诈骗意识工作坊",
+      "dailyOnline": "的 12–17 岁马来西亚青少年每天都会上网"
+    },
+    "why": {
+      "title": "为什么选择 Cyberly？",
+      "description": "从你的当前水平出发的网络安全教育。",
+      "cards": {
+        "adaptive": {
+          "title": "自适应 AI",
+          "description": "我们的 AI 会根据你的经验水平和偏好语言调整解释方式。"
+        },
+        "skills": {
+          "title": "真实技能",
+          "description": "学习实用技能，包括识别诈骗、保护账号和安全浏览。"
+        },
+        "topics": {
+          "title": "聚焦主题",
+          "description": "选择对你重要的内容，从网络安全到网络安全职业方向。"
+        }
+      }
+    },
+    "threatOfWeek": {
+      "badge": "本周威胁",
+      "title": "AI 语音与视频诈骗（Deepfake）",
+      "description": "马来西亚的诈骗者现在会使用 AI 克隆名人和家人的声音与面孔，诱骗人们汇款。如果你收到意外的视频通话或语音消息要求转账，即使看起来很真实，也请先通过其他渠道确认。"
+    },
+    "quickTopics": {
+      "title": "你今天想学什么？",
+      "description": "选择一个主题，马上开始。"
+    },
+    "topics": {
+      "phishing": "网络钓鱼",
+      "onlineScams": "网络诈骗",
+      "fakeNews": "假新闻",
+      "aiDeepfakes": "AI 与 Deepfake",
+      "passwords": "密码",
+      "privacy": "隐私"
+    },
+    "how": {
+      "title": "Cyberly 如何运作",
+      "description": "三个简单步骤即可开始。"
+    },
+    "steps": {
+      "signUp": {
+        "title": "免费注册",
+        "description": "不到一分钟即可创建个人资料，告诉我们你的年龄、语言和想学习的内容。"
+      },
+      "aiTutor": {
+        "title": "认识你的 AI 导师",
+        "description": "CyberGuard AI 会根据你的水平调整，并可用英语、马来语或中文与你聊天。"
+      },
+      "levelUp": {
+        "title": "学习并提升",
+        "description": "探索指南、完成模拟，并在网络安全技能提升时追踪你的进度。"
+      }
+    },
+    "bottomCta": {
+      "title": "准备提升你的网络安全技能了吗？",
+      "description": "加入成千上万正在学习如何安全上网的马来西亚青少年，免费、使用你的语言、按照你的节奏学习。",
+      "note": "无需信用卡 · 支持 English、BM 和中文"
+    }
+  },
+  "resources": {
+    "title": "网络健康资源",
+    "description": "精选指南，涵盖马来西亚青少年最需要关注的网络威胁。点击任意卡片即可阅读完整指南。",
+    "loading": "正在加载资源...",
+    "error": "无法加载资源。",
+    "empty": "未找到资源。",
+    "stats": {
+      "learningTopics": "学习主题",
+      "guides": "指南",
+      "freeAccess": "免费访问",
+      "malaysiaFocused": "聚焦马来西亚"
+    },
+    "focus": {
+      "title": "推荐关注",
+      "description": "根据目前可用的测评结果，正在显示 {{topic}} 相关指南。",
+      "showAll": "显示所有指南"
+    },
+    "guideCount_one": "{{count}} 篇指南",
+    "guideCount_other": "{{count}} 篇指南",
+    "readGuide": "阅读指南 →",
+    "source": "来源",
+    "tip": {
+      "title": "小提示",
+      "prefix": "不知道从哪里开始？可以试试",
+      "phishing": "网络钓鱼",
+      "or": "或",
+      "passwordSecurity": "密码安全",
+      "suffix": "— 它们是目前马来西亚青少年最常面对的威胁。"
+    },
+    "categories": {
+      "All": "全部",
+      "Scams": "诈骗与社会工程",
+      "Misinformation": "错误信息与媒体素养",
+      "AI & Technology": "AI 与科技安全",
+      "Privacy": "隐私与个人数据保护",
+      "Safety": "网络安全与数字健康",
+      "Passwords": "密码与账户安全",
+      "Beginner": "入门 / 数字基础"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Capstone 项目 · 第 20 组 · Taylor's University",
+      "title": "面向青少年的互动网络健康工具包",
+      "description": "一个由 AI 驱动的平台，旨在提升 13–17 岁马来西亚青少年的网络安全意识，并促进更安全的数字行为。",
+      "collaboration": "与 Cybersecurity Hub DISS – Impact Lab 合作"
+    },
+    "why": {
+      "title": "为什么这很重要",
+      "description": "马来西亚青少年面对的网络威胁形势严峻且持续增长。"
+    },
+    "stats": {
+      "identifyScams": "的马来西亚青少年表示自己能识别诈骗",
+      "scamVictim": "已经成为网络诈骗受害者",
+      "noWorkshop": "的学生从未参加过诈骗意识工作坊",
+      "dailyOnline": "的 12–17 岁青少年每天都会上网"
+    },
+    "built": {
+      "title": "我们构建了什么",
+      "description": "一个模块化、AI 驱动的工具包，具备六项核心能力。"
+    },
+    "features": {
+      "agentic": {
+        "title": "Agentic AI 指导",
+        "description": "自主、目标导向的学习支持，结合情境决策帮助与实时个性化推荐。"
+      },
+      "chatbot": {
+        "title": "网络健康聊天机器人",
+        "description": "通过自然语言互动，实时回答网络安全问题。"
+      },
+      "adaptive": {
+        "title": "自适应难度",
+        "description": "根据用户的知识和进度自动选择难度，提供更有效的学习体验。"
+      },
+      "simulations": {
+        "title": "网络威胁模拟",
+        "description": "模拟网络钓鱼、诈骗和虚假信息情境，锻炼批判性思维和网络安全决策能力。"
+      },
+      "progress": {
+        "title": "进度追踪",
+        "description": "监测学习进度和参与模式，以评估效果并推动自适应推荐。"
+      },
+      "gamified": {
+        "title": "游戏化挑战",
+        "description": "可选测验、成就和互动活动，用于提升动力、参与度和知识保留。"
+      }
+    },
+    "how": {
+      "title": "它如何运作",
+      "description": "每一次体验都会围绕个人学习者进行调整。",
+      "steps": {
+        "signUp": {
+          "title": "你注册账号",
+          "description": "完成简短的入门资料，包括年龄、语言、熟悉程度和学习目标。"
+        },
+        "path": {
+          "title": "AI 构建你的路径",
+          "description": "Agentic AI 模块会根据你的回答构建个性化学习路径。"
+        },
+        "learn": {
+          "title": "按你的方式学习",
+          "description": "与 CyberGuard AI 聊天、探索资源并完成模拟，全部都会根据你的水平调整。"
+        },
+        "track": {
+          "title": "追踪你的成长",
+          "description": "系统会追踪你的进度，并持续优化后续推荐。"
+        }
+      }
+    },
+    "objectives": {
+      "title": "项目目标",
+      "description": "五个目标指引我们构建的一切。",
+      "items": {
+        "toolkit": "设计并开发 AI 驱动的网络健康工具包，提升 13–17 岁马来西亚青少年的网络安全意识。",
+        "chatbot": "创建智能网络安全聊天机器人，支持多语言实时对话式学习。",
+        "agentic": "构建 Agentic AI 模块，用于个性化学习推荐和自适应难度调整。",
+        "gamified": "加入可选的游戏化学习区域，包括测验、模拟和真实网络威胁情境。",
+        "evaluate": "通过用户互动分析、前后测评和反馈收集来评估系统。"
+      }
+    },
+    "team": {
+      "title": "认识团队",
+      "description": "第 20 组 — Taylor's University Capstone 项目",
+      "supervisor": {
+        "role": "项目导师 · Cybersecurity Hub DISS – Impact Lab",
+        "description": "在整个项目期间提供指导、专业监督和行业客户方向。"
+      },
+      "members": {
+        "jayron": {
+          "role": "网页开发",
+          "description": "确保逻辑和网页可用性正常，并负责实现 Agentic AI 功能和自适应学习工具。"
+        },
+        "jinHong": {
+          "role": "UI/UX 设计师",
+          "description": "开发核心线框图和低保真原型设计，确保界面适合青少年目标用户。"
+        },
+        "edward": {
+          "role": "系统架构师与聊天机器人负责人",
+          "description": "负责后端架构和 AI 工作流规划，确保组件能支持自适应学习功能。"
+        },
+        "arman": {
+          "role": "Agentic AI 个性化",
+          "description": "构建用于个性化功能和自适应学习的 Agentic AI 分析，关注用户行为分析。"
+        },
+        "puah": {
+          "role": "Agentic AI 模块负责人",
+          "description": "负责系统架构和 Agentic AI 模块实现，并支持聊天机器人功能。"
+        }
+      }
+    }
+  },
+  "progress": {
+    "title": "我的学习旅程",
+    "heroTitle": "{{name}} 的学习旅程 📊",
+    "baselineSummary": "已记录 {{count}} 个测评主题",
+    "profileFamiliaritySummary": "{{level}} 资料熟悉度",
+    "backToDashboard": "返回仪表板",
+    "selectedTopics": "已选择 {{count}} 个",
+    "sectionNav": {
+      "title": "进度分区",
+      "ariaLabel": "进度页面分区",
+      "overview": "概览",
+      "assessmentResults": "测评结果",
+      "recommendation": "推荐",
+      "learningActivity": "活动历史",
+      "badges": "成就"
+    },
+    "snapshot": {
+      "assessmentStatus": "测评状态",
+      "baselineAvailable": "已记录基线",
+      "noBaseline": "暂无基线",
+      "language": "语言",
+      "style": "学习方式",
+      "topics": "学习兴趣"
+    },
+    "learningPath": {
+      "title": "Cyberly 学习路径进度",
+      "shortDescription": "你在 Cyberly 学习体验中的进度。",
+      "shortDisclaimer": "这不是对你整体网络安全能力的衡量。",
+      "disclaimer": "这显示你在 Cyberly 当前学习体验中的进度。它不是对你整体网络安全能力的衡量。",
+      "coreReached": "核心学习进度已达成。",
+      "viewJourney": "查看我的学习旅程",
+      "percentAria": "Cyberly 学习路径进度 {{percent}}%",
+      "barAriaLabel": "学习路径进度贡献条，显示 {{percent}}%",
+      "breakdownTitle": "组成细分",
+      "pointsOutOf": "{{earned}} / {{maximum}} 分",
+      "assessmentCount": "{{correct}} / {{total}} 正确",
+      "scenarioCount": "{{completed}} / {{total}} 已完成",
+      "recommendationCount": "{{count}} 已完成",
+      "noAssessment": "尚未完成测评",
+      "noEligibleScenarios": "暂无符合条件的情境",
+      "noCompletedRecommendations": "尚未完成推荐",
+      "components": {
+        "assessment": "测评贡献",
+        "scenarios": "情境贡献",
+        "engagement": "参与奖励"
+      },
+      "segments": {
+        "assessment": "测评",
+        "scenarios": "情境",
+        "engagement": "参与奖励",
+        "remaining": "剩余"
+      }
+    },
+    "assessmentResults": {
+      "title": "测评结果",
+      "description": "来自初始网络健康测评的主题结果。这只是起点基线，不是完整能力评估。",
+      "correctOutOfTotal": "{{correct}}/{{total}} 正确",
+      "noQuestionCount": "题目数量不可用",
+      "resultLevel": "{{level}} · 此测评主题 {{percent}}%",
+      "assessmentResult": "测评结果：{{level}}",
+      "source": "来源：初始测评"
+    },
+    "recommendation": {
+      "title": "当前推荐",
+      "markComplete": "标记完成",
+      "completedSaved": "推荐已标记为完成。"
+    },
+    "currentFocus": {
+      "title": "当前学习重点",
+      "basedOn": "基于目前可用的学习记录",
+      "suggestedNextStep": "建议下一步"
+    },
+    "activityComposition": {
+      "title": "学习活动概览",
+      "description": "你的进度由 Cyberly 中已记录的学习活动组成。",
+      "recordedActivities": "已记录 {{count}} 项活动",
+      "recordedActivities_plural": "已记录 {{count}} 项活动",
+      "recordedActivitiesCount": "已记录活动：{{count}}",
+      "barAriaLabel": "Cyberly 已记录学习活动的活动构成",
+      "legendLabel": "活动构成图例",
+      "shareOfActivity": "占已记录活动的 {{share}}%",
+      "segmentShare": "{{label}}：{{count}} 个记录单位，占已记录活动的 {{share}}%",
+      "explanation": "每个分段代表一种不同类型的已记录活动。分段大小表示相对占比，不代表学习价值。",
+      "disclaimer": "此概览反映你在 Cyberly 中已记录的学习活动，并不衡量你的整体网络安全能力。",
+      "empty": "还没有记录任何学习活动。",
+      "assessmentOnlyNote": "你当前的活动概览主要基于已完成的测评。",
+      "singleCategory": "当前已记录活动：{{label}}",
+      "segments": {
+        "assessment_topics": "测评主题",
+        "completed_scenarios": "已完成情境",
+        "completed_recommendations": "已完成推荐",
+        "learning_events": "学习事件"
+      },
+      "segmentCounts": {
+        "assessment_topics": "{{count}} 个测评主题",
+        "assessment_topics_plural": "{{count}} 个测评主题",
+        "completed_scenarios": "{{count}} 个已完成情境",
+        "completed_scenarios_plural": "{{count}} 个已完成情境",
+        "completed_recommendations": "{{count}} 个已完成推荐",
+        "completed_recommendations_plural": "{{count}} 个已完成推荐",
+        "learning_events": "{{count}} 个学习事件",
+        "learning_events_plural": "{{count}} 个学习事件"
+      }
+    },
+    "recentActivity": {
+      "title": "最近学习活动",
+      "description": "最近项目只使用 Cyberly 已记录的活动。",
+      "empty": "暂无最近学习活动。",
+      "types": {
+        "assessment_completed": "已完成初始测评",
+        "scenario_completed": "已完成情境",
+        "recommendation_completed": "已完成推荐"
+      }
+    },
+    "learningActivity": {
+      "title": "活动历史",
+      "description": "此部分显示 Cyberly 当前记录的活动。",
+      "recordedActivity": "{{count}} 条活动记录",
+      "recordedActivity_plural": "{{count}} 条活动记录",
+      "recordedActivityDescription": "这些来自受支持的活动记录，例如情境进度，而不是隐藏的总分。",
+      "exploreAll": "探索所有指南 →"
+    },
+    "learningInterests": {
+      "title": "你的学习兴趣",
+      "description": "这些是你在学习者资料中选择的主题。",
+      "selected": "已选择",
+      "notSelected": "未选择"
+    },
+    "achievements": {
+      "title": "成就",
+      "description": "由真实 Cyberly 活动解锁的里程碑。",
+      "joined": "加入 Cyberly",
+      "resourceExplorer": "资源探索者",
+      "setGoals": "设置学习目标",
+      "multilingual": "多语言学习者",
+      "assessmentCompleted": "测评已完成",
+      "baselineAssessmentCompleted": "基线测评已完成",
+      "earned": "已获得 ✓"
+    }
+  },
+  "agent": {
+    "title": "CyberGuard AI",
+    "welcome": "嗨，{{name}}！CyberGuard 聊天界面已准备好，但实时 AI 回复将在后端 AI Gateway 阶段启用。",
+    "thinking": "CyberGuard 正在思考...",
+    "placeholder": "询问网络安全问题...",
+    "send": "发送"
+  },
+  "chat": {
+    "title": "网络健康助手",
+    "welcome": "嗨，{{name}}！这个聊天界面已准备好，但实时 CyberGuard 回复将在后端 AI Gateway 阶段启用。",
+    "disabledReply": "CyberGuard 聊天界面已准备好，但实时 AI 回复要等到后端 AI Gateway 阶段才会启用。你的消息目前只保存在这个页面会话中。",
+    "guest": "访客",
+    "signInPrompt": "登录后可使用你的会话资料预览 CyberGuard 聊天界面。",
+    "signInCta": "登录 / 注册",
+    "thinking": "正在思考...",
+    "sending": "正在发送...",
+    "aiDisabledNotice": "实时 CyberGuard AI 回复将在后续阶段启用。你的消息已安全保存，但目前还不会生成助手回复。",
+    "placeholder": "输入问题...",
+    "send": "发送",
+    "page": {
+      "title": "AI 聊天助手",
+      "description": "把 CyberGuard AI 当作专注的学习伙伴使用。实时 AI 回复会在 AI Gateway 阶段连接。",
+      "chatAreaLabel": "当前聊天对话"
+    },
+    "actions": {
+      "fullPage": "完整页面",
+      "newChat": "新聊天",
+      "continueChat": "继续聊天",
+      "startConversation": "开始对话",
+      "chatHistory": "聊天历史",
+      "collapseHistory": "收起历史",
+      "expandHistory": "展开历史",
+      "openHistory": "打开聊天历史",
+      "closeHistory": "关闭聊天历史",
+      "startResource": "开始资源",
+      "startScenario": "开始情境练习",
+      "viewProgress": "查看进度",
+      "continueLearning": "继续学习",
+      "reviewRecommendation": "查看推荐",
+      "openResources": "打开资源",
+      "openScenarios": "打开情境练习",
+      "startAssessment": "开始评估",
+      "actionUnavailable": "操作不可用",
+      "rename": "重命名",
+      "delete": "删除",
+      "deleting": "正在删除...",
+      "renameConversation": "重命名对话",
+      "deleteConversation": "删除对话"
+    },
+    "conversation": {
+      "newTitle": "新聊天"
+    },
+    "history": {
+      "title": "对话历史",
+      "description": "已安全保存到你的账号。",
+      "ariaLabel": "对话历史",
+      "emptyTitle": "还没有对话",
+      "emptyDescription": "开始聊天后，你的安全账号历史会显示在这里。",
+      "lastUpdated": "最后更新 {{time}}",
+      "unknownTime": "未知时间",
+      "noActive": "还没有当前对话"
+    },
+    "loading": {
+      "conversations": "正在加载对话",
+      "messages": "正在加载消息",
+      "pleaseWait": "请稍等。"
+    },
+    "errors": {
+      "syncFailed": "聊天同步失败",
+      "unableToCreate": "无法创建此聊天。",
+      "unableToSend": "无法发送此消息。",
+      "unableToRename": "无法重命名此对话。",
+      "unableToDelete": "无法删除此对话。"
+    },
+    "generation": {
+      "preparing": "CyberGuard 正在准备回复...",
+      "preparingShort": "正在准备...",
+      "failedTitle": "无法生成回复。",
+      "failedDescription": "CyberGuard 无法准备回复。请稍后再试。",
+      "retry": "重试回复"
+    },
+    "actionCards": {
+      "groupLabel": "建议的学习行动",
+      "openAction": "打开 {{title}}",
+      "unavailable": "不可用"
+    },
+    "proposals": {
+      "suggestedAction": "建议操作",
+      "reviewAction": "查看操作",
+      "confirm": "确认",
+      "cancel": "取消",
+      "dismiss": "关闭",
+      "nothingChanged": "目前还没有任何改变。",
+      "confirmationRequired": "此操作需要你确认。",
+      "processing": "处理中...",
+      "completed": "已完成",
+      "cancelled": "已取消",
+      "expired": "已过期",
+      "failed": "无法准备此操作。",
+      "noLongerAvailable": "此建议已不再可用。",
+      "openResource": "打开资源",
+      "viewScenario": "查看情境练习",
+      "viewRecommendation": "查看推荐",
+      "markRecommendationViewed": "标记推荐为已查看",
+      "markRecommendationCompleted": "标记推荐为已完成",
+      "updateLearningPreferences": "更新学习偏好",
+      "statusOnly": "这只会更新推荐状态。",
+      "noScoreProgressChange": "这不会改变你的分数、掌握度或进度。",
+      "learnerConfirmationRequired": "需要学习者确认",
+      "automaticExecutionDisabled": "自动执行已关闭",
+      "replayProtectionEnabled": "重放保护已启用",
+      "writeToolsExposedNone": "暴露给 AI 的写入工具：无",
+      "canIgnore": "你可以忽略或取消任何建议。"
+    },
+    "sources": {
+      "heading": "来源",
+      "groupLabel": "此回复的已审核来源",
+      "summaryOne": "基于 {{count}} 个已审核来源",
+      "summaryMany": "基于 {{count}} 个已审核来源",
+      "show": "显示来源",
+      "hide": "隐藏来源",
+      "openResource": "打开资源",
+      "openExternal": "打开 {{title}} 的外部来源",
+      "externalLabel": "外部来源",
+      "sourceUnavailable": "来源不可用"
+    },
+    "migrationNotice": {
+      "title": "聊天历史现在会保存到你的账号",
+      "description": "新的对话会安全保存到你的 Cyberly 账号。旧的设备本地聊天历史会留在此设备上，不会被上传或删除。",
+      "acknowledge": "知道了"
+    },
+    "validation": {
+      "titleRequired": "请输入对话标题。",
+      "titleTooLong": "标题请控制在 {{max}} 个字符以内。"
+    },
+    "delete": {
+      "title": "删除对话？",
+      "description": "删除“{{title}}”？这会从你的账号中移除此对话。"
+    },
+    "empty": {
+      "title": "向 CyberGuard 提问",
+      "description": "可以先询问诈骗、隐私、密码、错误信息，或安全上网选择。",
+      "shortDescription": "准备好后开始对话。"
+    },
+    "dashboard": {
+      "ready": "可以开始新对话",
+      "latestConversation": "最近对话",
+      "description": "打开完整聊天页面，继续和 CyberGuard 学习。",
+      "launcherTitle": "开始新的 CyberGuard 聊天",
+      "launcherDescription": "在这里提一个问题，Cyberly 会打开专属聊天页面并使用这个新对话。",
+      "launcherPlaceholder": "输入你的第一个问题..."
+    },
+    "accessibility": {
+      "messageHistory": "聊天消息历史",
+      "composer": "输入你的聊天消息",
+      "send": "发送聊天消息",
+      "fullPage": "打开聊天助手完整页面",
+      "newChat": "开始新聊天",
+      "collapseHistory": "收起聊天历史",
+      "expandHistory": "展开聊天历史",
+      "openHistory": "打开聊天历史",
+      "closeHistory": "关闭聊天历史",
+      "openWidget": "打开聊天组件",
+      "conversationMenu": "打开 {{title}} 的菜单",
+      "deleteConversation": "删除对话 {{title}}",
+      "dashboardLauncher": "从仪表板向 CyberGuard 提出新问题",
+      "retryGeneration": "重试 CyberGuard 回复",
+      "retryMessages": "重试加载聊天消息"
+    }
+  },
+  "footer": {
+    "builtWithCare": "用心构建",
+    "description": "面向所有人的网络健康教育 · AI Gateway 将在后续阶段推出。"
+  },
+  "app": {
+    "loadingTitle": "正在加载 Cyberly...",
+    "checkingSession": "正在检查你的会话。"
+  },
+  "admin": {
+    "badge": "Admin 基础",
+    "title": "Admin 控制台",
+    "description": "内容治理、RAG 治理和 AI 安全管理基础。",
+    "workspace": {
+      "badge": "Admin 工作区",
+      "title": "Admin 控制台",
+      "description": "用于内容、RAG 和 AI 安全的治理工具。"
+    },
+    "navigation": {
+      "label": "Admin 分区",
+      "resources": "资源",
+      "resourcesDescription": "审核学习资源的发布、批准和 CyberGuard 检索。",
+      "scenarios": "场景",
+      "scenariosDescription": "管理现有情境练习内容。",
+      "assessments": "评估",
+      "assessmentsDescription": "评估治理稍后推出。",
+      "faqGuidance": "FAQ 与指导",
+      "faqGuidanceDescription": "FAQ 与指导治理稍后推出。",
+      "aiAgentic": "AI 与 Agentic",
+      "aiAgenticDescription": "查看提供商诊断、用途路由和 Agentic 安全边界。",
+      "comingLater": "稍后推出"
+    },
+    "accessDenied": {
+      "badge": "受限",
+      "title": "需要 Admin 权限",
+      "description": "此区域仅供 Cyberly 管理员使用。"
+    },
+    "status": {
+      "title": "访问状态",
+      "loading": "正在检查 Admin 访问权限...",
+      "verified": "Admin 访问已验证",
+      "role": "角色",
+      "modules": "规划模块",
+      "error": "无法验证 Admin 访问权限。"
+    },
+    "ai": {
+      "badge": "AI 网关",
+      "overview": {
+        "badge": "Admin 概览",
+        "serviceStatus": "AI 服务状态",
+        "cyberGuardStatus": "CyberGuard 状态",
+        "readyWithSafeguards": "已启用安全控制",
+        "needsProvider": "需要配置提供商",
+        "currentProvider": "当前提供商",
+        "backupProviders": "备用提供商可用性",
+        "available": "可用",
+        "notAvailable": "不可用",
+        "notConfigured": "未配置",
+        "geminiStatus": "Gemini 状态",
+        "geminiUnavailable": "Gemini 不可用",
+        "lastProviderTest": "上次提供商测试",
+        "responseStatus": "响应状态",
+        "capabilityBadge": "能力",
+        "whatCyberGuardCanDo": "CyberGuard 可以做什么",
+        "answerCyberSafetyQuestions": "回答网络安全和网络健康问题。",
+        "recommendLearningContent": "推荐已审核资源和已发布情境。",
+        "useLearningRecords": "使用学习记录提供个性化指导。",
+        "provideWellnessGuidance": "提供非诊断性的网络健康指导。",
+        "prepareConfirmedActions": "准备需要学习者确认的受控操作。",
+        "boundaryBadge": "安全",
+        "safetyBoundaries": "安全边界",
+        "cannotChangeScores": "CyberGuard 不能直接更改分数。",
+        "cannotChangeMastery": "CyberGuard 不能直接更改掌握度信号。",
+        "cannotChangeProgress": "CyberGuard 不能直接更改进度记录。",
+        "cannotCompleteScenarios": "CyberGuard 不能替学习者完成情境。",
+        "cannotAccessOtherLearners": "CyberGuard 不能访问其他学习者的数据。",
+        "confirmationRequired": "CyberGuard 不能在没有学习者确认的情况下执行操作。",
+        "nonDiagnostic": "CyberGuard 不能诊断心理健康。",
+        "focusedDomain": "CyberGuard 专注于网络安全、在线安全、网络健康和 Cyberly 学习。",
+        "advancedTechnicalDetails": "高级技术详情"
+      },
+      "providers": {
+        "title": "AI 提供商",
+        "description": "查看服务器端 OpenAI、Gemini 和 ILMU 提供商配置。连接测试只会在 Admin 点击“测试连接”时运行。",
+        "configuration": "提供商配置",
+        "provider": "提供商",
+        "status": "提供商状态",
+        "configured": "已配置",
+        "notConfigured": "未配置",
+        "notConfiguredHelp": "请在服务器端添加 API 密钥并重启后端，然后再测试此提供商。",
+        "runtimeAvailable": "可用",
+        "runtimeUnavailable": "不可用",
+        "runtimeUnavailableNote": "此提供商已配置，但当前不可用于运行时请求。",
+        "runtimeAuthFailed": "运行时认证失败",
+        "runtimeState": "运行时状态",
+        "geminiRuntimeUnavailableNote": "Gemini 适配器已安装，但当前不可用于运行时请求。不会自动重试。",
+        "model": "模型",
+        "capabilities": "能力",
+        "testConnection": "测试连接",
+        "testing": "测试中...",
+        "connectionSuccessful": "连接成功",
+        "connectionFailed": "连接失败",
+        "safeFailure": "提供商测试已安全失败。",
+        "testLatency": "测试延迟：{{latency}} 毫秒",
+        "latency": "延迟",
+        "runtimeOk": "运行正常",
+        "lastTest": "上次测试",
+        "notTested": "尚未测试",
+        "finishReason": "结束原因",
+        "requestIdAvailable": "请求 ID 可用",
+        "costNoteLabel": "提供商测试费用说明",
+        "costNoteTitle": "费用提醒",
+        "costNote": "此测试会向所选提供商发送一个很小的真实请求，可能会使用提供商配额。",
+        "defaultProvider": "默认：{{provider}}",
+        "usedFor": "用途：{{purposes}}",
+        "loading": "正在加载 AI 提供商诊断...",
+        "errors": {
+          "load": "无法加载 AI 提供商诊断。"
+        }
+      },
+      "capabilities": {
+        "chat": "聊天",
+        "structuredOutput": "结构化输出",
+        "toolCalling": "工具调用",
+        "streaming": "流式输出",
+        "usageReporting": "用量报告"
+      },
+      "purposes": {
+        "title": "用途路由",
+        "heading": "由后端控制的提供商选择",
+        "cyberguard": "CyberGuard 聊天",
+        "agentRouter": "Agent 路由器",
+        "lightweight": "轻量选择",
+        "translation": "翻译辅助",
+        "safety": "安全评估"
+      },
+      "safety": {
+        "badge": "Agentic 安全边界",
+        "title": "当前 Agentic 限制",
+        "readOnlyTools": "仅限只读工具",
+        "backendControlled": "工具执行仍由后端控制",
+        "noScoreChanges": "不会自动更改分数或掌握度",
+        "noProgressMutation": "不会自动更改学习进度",
+        "learnerControlled": "学习者可以接受、修改或忽略建议"
+      },
+      "agentic": {
+        "badge": "受控 Agentic 运行时",
+        "title": "受控 Agentic 运行时",
+        "description": "CyberGuard 可以在最终回答前使用一个已批准的只读工具。没有自主循环，也没有写入操作。",
+        "productionRouter": "生产 Agent 路由器",
+        "executionMode": "执行模式",
+        "singleStep": "单步执行",
+        "maxModelCalls": "最大模型调用次数",
+        "maxToolExecutions": "最大工具执行次数",
+        "approvedTools": "已批准工具",
+        "readOnly": "仅限只读",
+        "readOnlyShort": "只读",
+        "autonomousLoop": "自主循环",
+        "writeActions": "写入操作",
+        "disabled": "已禁用",
+        "backendControlled": "后端控制执行",
+        "deterministicFallback": "确定性回退",
+        "toolValidation": "工具验证",
+        "secureSessionIdentity": "学习者身份来自安全会话",
+        "noAutomaticProgressChanges": "不会自动更改进度",
+        "toolListLabel": "已批准的受控 Agentic 工具",
+        "mode": "模式",
+        "allowedRole": "允许角色",
+        "riskLevel": "风险等级"
+      },
+      "learnerActions": {
+        "badge": "学习者控制的操作",
+        "title": "学习者控制的操作",
+        "description": "CyberGuard 可以准备安全的操作建议，但学习者必须先查看，之后才会发生任何操作。",
+        "status": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用",
+        "executionAuthority": "执行权限",
+        "learnerConfirmation": "学习者确认",
+        "automaticExecution": "自动执行",
+        "maxProposals": "每次回复最多建议数",
+        "writeToolsExposed": "暴露给 AI 的写入工具",
+        "revalidation": "确认时重新验证",
+        "replayProtection": "重放保护",
+        "cancelAllowed": "学习者可取消",
+        "enabledActions": "已启用的学习者控制操作",
+        "deferred": "已延后",
+        "noWriteTools": "暴露给 AI 的写入工具：无",
+        "noAutomaticExecution": "自动执行已禁用",
+        "prohibitedSummary": "禁止的操作包括分数、掌握度、进度、情境决策、评估结果和 Admin 内容。",
+        "actions": {
+          "open_resource": "打开资源",
+          "open_scenario": "查看情境练习",
+          "open_recommendation": "查看推荐",
+          "mark_recommendation_viewed": "标记推荐为已查看",
+          "mark_recommendation_completed": "标记推荐为已完成",
+          "update_learning_preferences": "更新学习偏好",
+          "change_score": "更改分数",
+          "change_mastery": "更改掌握度",
+          "change_progress": "更改进度",
+          "start_scenario_attempt": "开始情境尝试",
+          "restore_scenario_attempt": "恢复情境尝试",
+          "submit_scenario_decision": "提交情境决策",
+          "complete_assessment_attempt": "完成评估尝试",
+          "create_recommendation": "创建推荐",
+          "publish_content": "发布内容",
+          "delete_content": "删除内容",
+          "execute_sql": "执行 SQL",
+          "read_api_keys": "读取 API key",
+          "bypass_safety_rules": "绕过安全规则"
+        }
+      },
+      "adaptive": {
+        "badge": "自适应学习智能",
+        "title": "自适应学习智能",
+        "description": "CyberGuard 会把已有学习信号合成为确定性、可解释的学习支持建议。它不会更改分数、进度或推荐记录。",
+        "status": "状态",
+        "enabled": "已启用",
+        "disabled": "已禁用",
+        "mode": "模式",
+        "deterministicExplainable": "确定性且可解释",
+        "dataSources": "自适应数据来源",
+        "persistentAiRecommendations": "持久化 AI 推荐",
+        "automaticDifficultyChanges": "自动难度调整",
+        "automaticScoreChanges": "自动分数更改",
+        "learnerChoiceRequired": "需要学习者自行选择",
+        "basedOnAvailableRecords": "基于可用学习记录",
+        "limitedLearningData": "会说明学习数据有限",
+        "whyThisSuggestion": "为什么这样建议？",
+        "youAreAlwaysInControl": "你始终可以自己决定下一步",
+        "sources": {
+          "learner_profile": "学习者资料",
+          "initial_assessment": "初始测评",
+          "topic_progress": "主题进度",
+          "scenario_outcomes": "场景结果",
+          "active_recommendations": "当前推荐"
+        },
+        "rules": {
+          "strengths": "优势主题",
+          "support_priorities": "支持优先级",
+          "confidence_data_quality": "信号质量",
+          "response_guidance": "回答指导",
+          "suggested_next_steps": "建议的下一步"
+        }
+      },
+      "wellness": {
+        "badge": "网络健康",
+        "title": "网络健康指导",
+        "description": "CyberGuard 可以为普通线上情境提供确定性、非诊断的数字健康支持建议。",
+        "status": "状态",
+        "enabled": "已启用",
+        "mode": "模式",
+        "deterministicNonDiagnostic": "确定性且非诊断",
+        "targetUsers": "目标用户",
+        "teenagers13To17": "13-17 岁青少年",
+        "highRiskSafetyHandling": "高风险安全处理",
+        "existingSafetyPathway": "现有安全路径",
+        "domainListLabel": "网络健康领域",
+        "psychologicalDiagnosisDisabled": "心理诊断已禁用",
+        "riskScoringDisabled": "健康风险评分已禁用",
+        "automaticInterventionDisabled": "自动干预已禁用",
+        "learnerChoiceRequired": "需要学习者自行选择",
+        "practicalNextSteps": "实用下一步",
+        "takeShortBreak": "短暂休息",
+        "reduceDistractions": "减少干扰",
+        "pauseBeforeResponding": "回复前先暂停",
+        "protectYourBoundaries": "保护你的边界",
+        "blockOrReport": "屏蔽或举报",
+        "talkToTrustedAdult": "和可信任的大人沟通",
+        "reviewSecuritySteps": "检查你的安全步骤",
+        "youAreInControl": "你可以自己决定",
+        "limitedContext": "上下文有限",
+        "domains": {
+          "digital_balance": "数字平衡",
+          "focus_and_distraction": "专注与干扰",
+          "online_pressure_and_boundaries": "线上压力与边界",
+          "healthy_online_communication": "健康的线上沟通",
+          "safe_help_seeking": "安全求助",
+          "digital_resilience": "数字韧性"
+        }
+      },
+      "traces": {
+        "badge": "审计记录",
+        "title": "Agentic 执行记录",
+        "description": "查看已脱敏的 CyberGuard 执行元数据，不包含提示词、学习者隐私、工具参数或密钥。",
+        "refresh": "刷新",
+        "filters": "记录筛选",
+        "loading": "正在加载最近记录...",
+        "loadingDetail": "正在加载记录详情...",
+        "error": "无法加载执行记录。",
+        "detailError": "无法加载记录详情。",
+        "empty": "暂无执行记录。",
+        "tableLabel": "最近的 Agentic 执行记录",
+        "detailLabel": "Agentic 记录详情",
+        "detailTitle": "记录详情",
+        "viewDetails": "查看详情",
+        "status": "状态",
+        "proposalStatus": "提案状态",
+        "all": "全部",
+        "learner": "学习者引用",
+        "provider": "提供方",
+        "tool": "工具",
+        "proposal": "提案",
+        "wellness": "网络健康",
+        "wellnessPrepared": "网络健康指导已准备",
+        "scope": "范围",
+        "scopeTypes": {
+          "in_scope": "范围内",
+          "casual_allowed": "日常问候",
+          "out_of_scope": "范围外",
+          "unsafe": "不安全",
+          "high_risk": "高风险"
+        },
+        "actions": "操作",
+        "requestId": "请求 ID",
+        "previous": "上一页",
+        "next": "下一页",
+        "total": "共 {{total}} 条",
+        "statuses": {
+          "completed": "已完成",
+          "completedWithFallback": "已用备用方案完成",
+          "safetyBlocked": "已安全拦截",
+          "failedSafely": "已安全失败"
+        },
+        "proposals": {
+          "pending": "待处理",
+          "completed": "已完成",
+          "cancelled": "已取消",
+          "expired": "已过期",
+          "rejected": "已拒绝"
+        }
+      }
+    },
+    "resourceReview": {
+      "badge": "只读审核",
+      "title": "资源审核元数据",
+      "description": "用于查看已发布资源、来源质量和未来 RAG 就绪状态的小型治理概览。",
+      "readOnly": "只读",
+      "loading": "正在加载资源审核摘要...",
+      "error": "无法加载资源审核摘要。",
+      "metrics": {
+        "totalResources": "资源总数",
+        "needsReview": "需要审核",
+        "ragReady": "RAG 就绪",
+        "replacementSourceNeeded": "需要替换来源",
+        "malaysiaGuidance": "马来西亚指导标记"
+      },
+      "fields": {
+        "source": "来源",
+        "sourceType": "来源类型",
+        "translationCount": "翻译",
+        "flags": "标记"
+      },
+      "flags": {
+        "ragReady": "RAG 就绪",
+        "notRagReady": "未就绪 RAG",
+        "malaysiaGuidance": "马来西亚指导",
+        "sensitiveTopic": "敏感主题",
+        "replacementNeeded": "需要替换来源"
+      }
+    },
+    "resourceGovernance": {
+      "badge": "资源治理",
+      "title": "资源发布与 RAG 控制",
+      "description": "搜索资源、审核治理状态，并控制 CyberGuard 是否可以检索这些资源。",
+      "summaryLabel": "资源治理摘要",
+      "summaryScope": "摘要卡显示全部资源。下方表格会根据当前筛选条件变化。",
+      "loading": "正在加载资源...",
+      "loadingDetail": "正在加载资源详情...",
+      "empty": "没有符合这些筛选条件的资源。",
+      "reviewAction": "审核治理",
+      "quickReviewAction": "快速审核",
+      "drawerActionsLabel": "资源抽屉操作",
+      "drawerLabel": "资源治理详情",
+      "drawerBadge": "治理详情",
+      "unsaved": "有未保存的更改",
+      "saved": "资源治理已保存。",
+      "savedWithRagDisabled": "资源已保存。由于资源未发布并获批，RAG 就绪已自动关闭。",
+      "confirmation": {
+        "badge": "确认更改",
+        "confirm": "确认",
+        "saveConfirm": "保存更改",
+        "discardTitle": "放弃未保存的更改？",
+        "discardMessage": "你在此资源面板中的编辑尚未保存。",
+        "discardConfirm": "放弃更改",
+        "publicationTitle": "更改学习者可见性",
+        "publicationMessage": "取消发布或归档此资源后，学习者资源页面在刷新后将不再显示它。",
+        "aiUseTitle": "更改 CyberGuard 检索",
+        "aiUseMessage": "关闭 AI 使用后，CyberGuard 将不会在新的回复中检索此资源。已保存的旧回复不会改变。",
+        "publicationAndAiUseMessage": "此更改会影响学习者可见性，并阻止 CyberGuard 在新的回复中检索此资源。已保存的旧回复不会改变。"
+      },
+      "metrics": {
+        "total": "总数",
+        "published": "已发布",
+        "needsReview": "需要审核",
+        "approved": "已批准",
+        "ragReady": "RAG 就绪",
+        "effectivelyEligible": "实际可用"
+      },
+      "filters": {
+        "search": "搜索",
+        "searchPlaceholder": "标题或 slug",
+        "publicationStatus": "发布状态",
+        "reviewStatus": "审核状态",
+        "ragReady": "RAG 就绪",
+        "all": "全部",
+        "clear": "清除筛选"
+      },
+      "publicationStatus": {
+        "published": "已发布",
+        "draft": "草稿",
+        "archived": "已归档"
+      },
+      "reviewStatus": {
+        "approved": "已批准",
+        "needs_review": "需要审核",
+        "draft": "草稿审核",
+        "rejected": "已拒绝"
+      },
+      "ragDocumentReviewStatus": {
+        "approved": "已批准",
+        "pending": "等待审核",
+        "rejected": "已拒绝"
+      },
+      "flags": {
+        "ragReady": "RAG 就绪",
+        "notRagReady": "未就绪 RAG",
+        "effective": "CyberGuard 已启用",
+        "notEffective": "CyberGuard 已停用",
+        "cyberGuardEnabled": "CyberGuard 已启用",
+        "cyberGuardDisabled": "CyberGuard 已停用"
+      },
+      "eligibilityReasons": {
+        "resource_not_published": "资源尚未发布。",
+        "resource_not_approved": "资源尚未批准。",
+        "resource_rag_disabled": "RAG 就绪已关闭。"
+      },
+      "table": {
+        "resource": "资源",
+        "category": "类别",
+        "publication": "发布",
+        "review": "审核",
+        "rag": "RAG",
+        "updated": "更新",
+        "action": "操作",
+        "scrollLabel": "资源治理表格。可横向滚动查看所有列。"
+      },
+      "pagination": "第 {{page}} 页，共 {{totalPages}} 页 · {{totalItems}} 个资源",
+      "detail": {
+        "overview": "学习者预览",
+        "source": "来源元数据",
+        "rag": "CyberGuard 检索",
+        "controls": "可编辑治理控制",
+        "translations": "有 {{count}} 个翻译",
+        "flags": "马来西亚指导：{{malaysia}} · 敏感主题：{{sensitive}}",
+        "retrievableChunks": "{{count}} 个可检索片段",
+        "chunks": "{{count}} 个片段"
+      },
+      "fields": {
+        "ragReady": "在已发布并获批时允许 CyberGuard 检索",
+        "nextReviewAt": "下次审核日期",
+        "reviewNotes": "审核备注"
+      },
+      "errors": {
+        "list": "无法加载资源。",
+        "detail": "无法加载资源详情。",
+        "save": "无法保存资源治理。"
+      }
+    },
+    "translation": {
+      "tabsLabel": "内容语言标签",
+      "coverage": "翻译覆盖",
+      "coverageValue": "{{complete}} / {{total}} 完成",
+      "required": "必需",
+      "optional": "可选",
+      "requiredReady": "必需英文已完成",
+      "requiredMissing": "必需英文未完成",
+      "locales": {
+        "en": "英语",
+        "ms": "马来语",
+        "zh-CN": "简体中文"
+      },
+      "status": {
+        "complete": "完成",
+        "incomplete": "未完成",
+        "missing": "缺失",
+        "unsaved": "未保存"
+      }
+    },
+    "publication": {
+      "label": "发布准备情况",
+      "ready": "可发布",
+      "cannotPublish": "不能发布",
+      "missing": "缺失",
+      "publishResource": "发布资源",
+      "publishScenario": "发布场景",
+      "returnToDraft": "返回草稿",
+      "publishWithFallback": "使用英文 fallback 发布",
+      "restoreInLifecycle": "发布前请先在生命周期对话框中恢复。",
+      "publishedResource": "资源已发布。",
+      "returnedResourceToDraft": "资源已返回草稿。",
+      "returnedScenarioToDraft": "场景已返回草稿。",
+      "optionalLocaleWarning": "缺少可选翻译：{{locales}}。使用这些语言的学习者可能会看到英文 fallback。",
+      "confirmPublishResource": "学习者将可以查看此资源。CyberGuard 检索仍需要审核通过并开启 RAG 就绪。",
+      "confirmPublishScenario": "学习者将可以开始此场景。它的评分结构会面向学习者。",
+      "confirmReturnToDraft": "学习者将不再看到或开始此项目。已保存内容和历史引用会保留。",
+      "confirmOptionalFallback": "缺少可选翻译：{{locales}}。学习者可能会看到英文 fallback。",
+      "status": {
+        "draft": "草稿",
+        "published": "已发布",
+        "archived": "已归档"
+      },
+      "reasons": {
+        "unknown": "必需检查尚未完成。",
+        "english_required": "英文内容未完成。",
+        "english_title_required": "缺少英文标题。",
+        "english_summary_required": "缺少英文摘要。",
+        "english_body_required": "缺少英文正文。",
+        "category_required": "缺少类别。",
+        "archived": "已归档内容必须先恢复。",
+        "resource_archived": "已归档资源必须先恢复。",
+        "title_required": "缺少标题。",
+        "summary_required": "缺少摘要。",
+        "topic_invalid": "主题无效。",
+        "difficulty_invalid": "难度无效。",
+        "duration_invalid": "时长无效。",
+        "total_steps_invalid": "总步骤数无效。",
+        "step_count_mismatch": "步骤数与预期总数不一致。",
+        "step_situation_required": "缺少步骤情境。",
+        "step_prompt_required": "缺少步骤提示。",
+        "choice_text_required": "缺少选项文字。",
+        "choice_feedback_required": "缺少选项反馈。",
+        "choice_safety_explanation_required": "缺少选项安全说明。"
+      },
+      "errors": {
+        "publishResource": "无法发布资源。",
+        "unpublishResource": "无法将资源返回草稿。"
+      }
+    },
+    "resourceLifecycle": {
+      "badge": "资源生命周期",
+      "headerLabel": "资源操作标题区",
+      "tabsLabel": "资源部分",
+      "actionsLabel": "资源生命周期操作",
+      "moreActions": "更多操作",
+      "loading": "正在加载生命周期...",
+      "loadingInformation": "正在加载生命周期信息...",
+      "archiveOrDelete": "归档或删除资源",
+      "archiveDeleteShort": "归档 / 删除",
+      "manageTitle": "归档或删除资源",
+      "manageDescription": "在归档、恢复或永久删除此资源前，请先查看当前生命周期状态。",
+      "archiveTitle": "归档资源",
+      "archiveDescription": "学习者将不再看到此资源，CyberGuard 也不再检索它。内容、元数据和历史来源记录会保留，方便之后再次审核。",
+      "deleteTitle": "永久删除资源",
+      "restoreTitle": "恢复资源",
+      "restoreDescription": "将此资源恢复为草稿，并保持 CyberGuard 检索关闭，直到再次完成审核。",
+      "deleteDescription": "此操作无法撤销。此草稿资源拥有的所有翻译和元数据都会被删除。请输入完全相同的 slug 进行确认。",
+      "deleteUnavailableDescription": "此资源已有发布、审核、RAG 或历史引用记录。它不能被永久删除；请改为归档。",
+      "archiveButton": "归档资源",
+      "restoreButton": "恢复资源",
+      "deleteButton": "永久删除",
+      "archiveShort": "归档",
+      "deleteShort": "永久删除",
+      "confirmSlugLabel": "输入完全相同的 slug 以确认",
+      "blockingReasons": "阻止原因",
+      "archiveStillAvailable": "此资源仍可归档。",
+      "restoreStillAvailable": "此已归档资源仍可恢复。",
+      "breadcrumbLabel": "资源面包屑",
+      "breadcrumbResources": "资源",
+      "cyberGuardStatus": "CyberGuard 状态",
+      "deletionEligibility": "删除资格",
+      "deleteAvailable": "可以永久删除",
+      "deleteBlocked": "永久删除被阻止",
+      "countsLabel": "生命周期引用计数",
+      "counts": {
+        "translations": "翻译",
+        "ragDocuments": "RAG 文档",
+        "ragChunks": "RAG 片段",
+        "chatSourceReferences": "已保存的 CyberGuard 回复"
+      },
+      "tabs": {
+        "content": "内容",
+        "metadata": "元数据",
+        "governance": "治理"
+      },
+      "reasons": {
+        "resource_not_draft": "资源已发布或已归档。",
+        "review_not_draft": "资源审核状态不是草稿。",
+        "resource_rag_ready": "资源已设置为 RAG 就绪。",
+        "rag_documents_exist": "此资源已有 {{count}} 个 RAG 文档。",
+        "rag_chunks_exist": "此资源已有 {{count}} 个 RAG 片段。",
+        "chat_sources_exist": "已保存的 CyberGuard 回复引用了此资源。",
+        "chat_source_history_exists": "此资源出现在 {{count}} 条已保存的 CyberGuard 回复中。",
+        "content_relationships_exist": "{{count}} 个内容关系引用了此资源。",
+        "resource_not_found": "未找到资源。"
+      },
+      "errors": {
+        "archive": "无法归档资源。",
+        "restore": "无法恢复资源。",
+        "delete": "无法永久删除资源。",
+        "load": "生命周期详情仍在加载。",
+        "loadFailed": "无法加载生命周期信息。",
+        "slugMismatch": "确认 slug 不匹配。",
+        "notEligible": "此资源不能永久删除。请改为归档。"
+      }
+    },
+    "resourceEditor": {
+      "title": "编辑资源内容",
+      "description": "更新此现有资源面向学习者的翻译内容。",
+      "editContent": "编辑内容",
+      "backToResources": "返回资源",
+      "loading": "正在加载资源内容...",
+      "languageTabs": "资源翻译语言",
+      "unsavedChanges": "有未保存的更改",
+      "governanceStatus": "资源治理状态",
+      "previewLabel": "学习者预览",
+      "previewOnly": "仅预览",
+      "previewUntitled": "未命名资源",
+      "previewEmpty": "输入时，主要内容会显示在这里。",
+      "saved": "内容已成功保存。",
+      "savedRagSynced": "内容已保存，并已刷新 CyberGuard 检索。",
+      "savedRagFailed": "内容已保存，但 CyberGuard 刷新失败。请稍后再刷新 RAG。",
+      "reloadLatest": "重新加载最新版本",
+      "discardTitle": "放弃未保存的内容更改？",
+      "discardLocaleMessage": "你的 {{locale}} 编辑尚未保存。",
+      "discardBackMessage": "你的 {{locale}} 编辑尚未保存。要返回资源吗？",
+      "discardInterfaceLocaleMessage": "你在 {{locale}} 资源翻译中有未保存的更改。切换 Cyberly 界面语言会放弃这些更改。",
+      "discardSectionMessage": "你的资源内容编辑尚未保存。",
+      "logoutMessage": "退出登录会放弃你尚未保存的资源内容编辑。",
+      "navigationCancelled": "导航已取消。你的编辑仍然保留。",
+      "discardChanges": "放弃更改",
+      "discardAndChangeLanguage": "放弃并切换语言",
+      "continueEditing": "继续编辑",
+      "reset": "重置",
+      "save": "保存更改",
+      "bodyHint": "{{count}}/{{max}} 个字符。段落之间请留一个空行。",
+      "locales": {
+        "en": "English",
+        "ms": "Bahasa Melayu",
+        "zh-CN": "简体中文"
+      },
+      "status": {
+        "exists": "已有翻译",
+        "missing": "缺少翻译",
+        "unsaved": "未保存"
+      },
+      "fields": {
+        "title": "标题",
+        "summary": "摘要",
+        "body": "主要内容"
+      },
+      "validation": {
+        "titleRequired": "标题为必填。",
+        "titleTooLong": "标题不能超过 {{max}} 个字符。",
+        "summaryRequired": "摘要为必填。",
+        "summaryTooLong": "摘要不能超过 {{max}} 个字符。",
+        "bodyRequired": "主要内容为必填。",
+        "bodyTooLong": "主要内容不能超过 {{max}} 个字符。"
+      },
+      "errors": {
+        "load": "无法加载资源内容。",
+        "save": "无法保存资源内容。",
+        "stale": "此翻译已在其他地方更改。保存前请重新加载最新版本。",
+        "notFound": "未找到资源内容。"
+      }
+    },
+    "resourceCreate": {
+      "createResource": "创建资源",
+      "createDraft": "创建草稿",
+      "draftPreview": "草稿预览",
+      "title": "创建资源",
+      "description": "创建安全的资源草稿，包含 English 内容、来源元数据和默认治理状态。",
+      "identity": "资源身份",
+      "classification": "分类",
+      "slug": "Slug",
+      "slugHint": "只能使用小写字母、数字和连字符。此阶段之后不能更改 slug。",
+      "invalidSlug": "只能使用小写字母、数字，并用单个连字符连接。",
+      "invalidSourceUrl": "请输入有效的 http 或 https 来源网址。",
+      "duplicateSlug": "已有资源使用这个 slug。",
+      "englishContent": "English 内容",
+      "created": "资源已创建为草稿。",
+      "nextStepsTitle": "创建后的下一步",
+      "addMalay": "在内容编辑器中添加马来语翻译。",
+      "addChinese": "在内容编辑器中添加简体中文翻译。",
+      "reviewMetadata": "在治理批准前审核来源元数据。",
+      "reviewBeforePublishing": "发布或允许 CyberGuard 检索前，请先审核治理状态。",
+      "unsavedTitle": "放弃新的资源草稿？",
+      "unsavedMessage": "你的新资源表单有未保存的更改。",
+      "unsavedLogoutMessage": "退出登录会放弃未保存的资源创建表单。",
+      "errors": {
+        "options": "无法加载资源创建选项。",
+        "create": "无法创建资源。"
+      }
+    },
+    "resourceMetadata": {
+      "title": "编辑资源元数据",
+      "editMetadata": "编辑元数据",
+      "sourceInformation": "来源信息",
+      "sourceLabel": "来源标签",
+      "sourceUrl": "来源网址",
+      "openSource": "打开来源",
+      "missingSource": "尚未设置可点击的来源网址。",
+      "sourceClassification": "来源分类",
+      "sourceType": "来源类型",
+      "sourceCountry": "来源国家",
+      "authorityLevel": "权威级别",
+      "sourceMaintenance": "来源维护",
+      "lastSourceChecked": "上次检查来源日期",
+      "markCheckedToday": "标记为今天已检查",
+      "markCheckedTodayHint": "记录管理员已手动检查此来源。",
+      "replacementSourceNeeded": "需要替换来源",
+      "replacementWarning": "此资源已标记为需要替换来源。这不会自动归档或停用该资源。",
+      "safetyMetadata": "安全元数据",
+      "ageSuitability": "年龄适合度",
+      "sensitiveTopic": "敏感主题",
+      "malaysiaGuidance": "马来西亚指导",
+      "saveMetadata": "保存元数据",
+      "saved": "元数据已保存。",
+      "loading": "正在加载资源元数据...",
+      "unsavedTitle": "放弃元数据更改？",
+      "unsavedMessage": "你的资源元数据更改尚未保存。",
+      "unsavedLogoutMessage": "退出登录会放弃未保存的资源元数据更改。",
+      "sourceTypes": {
+        "government_cybersecurity_agency": "政府网络安全机构",
+        "government": "政府",
+        "education": "教育",
+        "ngo": "非政府组织",
+        "international_organisation": "国际组织",
+        "general_web": "普通网站",
+        "test_source": "测试来源"
+      },
+      "sourceCountries": {
+        "MY": "马来西亚",
+        "SG": "新加坡",
+        "GLOBAL": "全球",
+        "OTHER": "其他"
+      },
+      "authorityLevels": {
+        "official_agency": "官方机构",
+        "recognised_organisation": "认可组织",
+        "education_provider": "教育提供方",
+        "general_reference": "一般参考",
+        "unknown": "未知"
+      },
+      "ageOptions": {
+        "13-17": "13-17",
+        "all_teens": "所有青少年",
+        "older_teens": "较年长青少年",
+        "general": "一般"
+      },
+      "errors": {
+        "load": "无法加载资源元数据。",
+        "save": "无法保存资源元数据。",
+        "stale": "元数据已在其他地方更改。保存前请重新加载最新版本。"
+      }
+    },
+    "moduleStatus": {
+      "planned": "规划中"
+    },
+    "moduleApiNames": {
+      "dashboard": "仪表板",
+      "resources": "资源",
+      "rag": "RAG",
+      "aiSafety": "AI 安全",
+      "contentRelationships": "内容关系",
+      "malaysiaGuidance": "马来西亚指导"
+    },
+    "modules": {
+      "resourceReview": {
+        "title": "资源审核",
+        "description": "审核学习资源、来源元数据，以及未来的 RAG 就绪状态。"
+      },
+      "ragKnowledge": {
+        "title": "RAG 知识",
+        "description": "未来用于查看已批准知识、检索检查和 ingest 状态的面板。"
+      },
+      "contentRelationships": {
+        "title": "内容关系",
+        "description": "未来管理前置、下一步、练习、补救和相关主题链接。"
+      },
+      "malaysiaGuidance": {
+        "title": "马来西亚指导",
+        "description": "未来审核由官方来源支持的本地报告与安全指导。"
+      },
+      "aiSafety": {
+        "title": "AI 安全评估",
+        "description": "未来检查安全提示词、拒答、来源 grounding 和模型回复质量。"
+      },
+      "roleManagement": {
+        "title": "角色管理",
+        "description": "未来为管理员和审核者提供最小权限访问控制。"
+      }
+    },
+    "scenarioManagement": {
+      "badge": "情境管理",
+      "title": "情境管理",
+      "description": "查看、预览和管理现有 Cyberly 情境练习内容，不更改学习者分数。",
+      "create": "创建草稿情境",
+      "summaryLabel": "情境管理摘要",
+      "metrics": {
+        "total": "总数",
+        "published": "已发布",
+        "draft": "草稿",
+        "archived": "已归档",
+        "incomplete": "结构待完善"
+      },
+      "filters": {
+        "search": "搜索",
+        "searchPlaceholder": "搜索标题、slug 或摘要",
+        "status": "状态",
+        "topic": "主题",
+        "difficulty": "难度",
+        "all": "全部",
+        "clear": "清除筛选"
+      },
+      "status": {
+        "published": "已发布",
+        "draft": "草稿",
+        "archived": "已归档"
+      },
+      "table": {
+        "scenario": "情境",
+        "topic": "主题",
+        "difficulty": "难度",
+        "status": "状态",
+        "updated": "更新时间",
+        "actions": "操作",
+        "scrollLabel": "情境管理表格"
+      },
+      "structure": {
+        "ready": "就绪",
+        "needsWork": "需完善"
+      },
+      "loading": "正在加载情境...",
+      "empty": "没有找到情境。",
+      "pagination": "第 {{page}} 页，共 {{totalPages}} 页",
+      "preview": "预览",
+      "quickPreview": "快速查看",
+      "quickReview": "快速查看",
+      "edit": "编辑",
+      "drawerLabel": "情境预览",
+      "loadingDetail": "正在加载情境详情...",
+      "previewHeading": "学习者预览",
+      "stepsHeading": "情境步骤",
+      "minutes": "{{count}} 分钟",
+      "updatedAt": "更新于 {{date}}",
+      "errors": {
+        "list": "无法加载情境。",
+        "detail": "无法加载情境详情。"
+      }
+    },
+    "scenarioEditor": {
+      "createBadge": "新情境",
+      "editBadge": "情境编辑器",
+      "createTitle": "创建草稿情境",
+      "createDraftScenario": "创建草稿情境",
+      "createScenarioTitle": "创建情境",
+      "createDescription": "创建一个安全的草稿情境。完成并发布前，学习者不会看到它。",
+      "backToScenarios": "← 返回情境",
+      "learnerHidden": "对学习者隐藏",
+      "draftPreview": "草稿预览",
+      "previewOnly": "仅供预览。发布前，学习者不会看到此情境。",
+      "previewSubmissionDisabled": "预览模式已禁用学习者提交。",
+      "previewSituationPlaceholder": "步骤情境会显示在这里。",
+      "previewChoicePlaceholder": "选项文本会显示在这里。",
+      "previewFeedbackPlaceholder": "学习者选择选项后，示例反馈会显示在这里。",
+      "previewStepProgress": "第 {{current}} 步，共 {{total}} 步",
+      "currentStep": "当前步骤",
+      "decisionsCount": "{{count}} 个决策",
+      "structureCompleteness": "结构完整度",
+      "structureCompletenessValue": "{{ready}} / {{total}} 已就绪",
+      "identityHeading": "情境身份",
+      "classificationHeading": "分类",
+      "structureHeading": "结构规划",
+      "description": "管理元数据和结构化决策步骤。评分仍由后端控制。",
+      "discardTitle": "放弃情境更改？",
+      "discardDescription": "你有尚未保存的情境更改。",
+      "logoutDescription": "你有尚未保存的情境更改。退出前请先保存。",
+      "loading": "正在加载情境编辑器...",
+      "back": "← 返回",
+      "tabsLabel": "情境编辑器分区",
+      "overviewHeading": "概览",
+      "metadataHeading": "元数据",
+      "stepsHeading": "决策步骤",
+      "previewHeading": "预览",
+      "scenarioActions": "情境操作",
+      "attempts": "{{count}} 次尝试",
+      "attemptsLock": "此情境已有学习者尝试记录，因此步骤结构编辑已锁定，以保留历史结果。",
+      "createDraft": "创建草稿",
+      "saveMetadata": "保存元数据",
+      "saveSteps": "保存步骤",
+      "publish": "发布",
+      "archive": "归档",
+      "restore": "恢复",
+      "publishScenario": "发布情境",
+      "archiveScenario": "归档情境",
+      "restoreScenario": "恢复情境",
+      "savedMetadata": "情境元数据已保存。",
+      "savedSteps": "情境步骤已保存。已发布情境在结构编辑后会回到草稿。",
+      "structuralDraftTitle": "保存结构更改？",
+      "structuralDraftDescription": "保存结构更改会将此场景返回草稿，并在重新发布前对学习者隐藏。",
+      "saveAndReturnToDraft": "保存并返回草稿",
+      "createDraftSaved": "草稿情境已创建。",
+      "previewTitlePlaceholder": "情境标题",
+      "previewSummaryPlaceholder": "情境摘要会显示在这里。",
+      "previewPromptPlaceholder": "步骤提示",
+      "previewChoices": "个选项已准备",
+      "stepTitle": "步骤 {{number}}",
+      "optionTitle": "选项 {{key}}",
+      "fields": {
+        "slug": "Slug",
+        "title": "标题",
+        "summary": "摘要",
+        "topic": "主题",
+        "difficulty": "难度",
+        "minutes": "预计分钟",
+        "totalSteps": "总步骤数",
+        "situation": "情境文本",
+        "prompt": "提示",
+        "optionText": "选项文本",
+        "score": "分数",
+        "outcome": "结果代码",
+        "feedback": "反馈",
+        "safetyExplanation": "安全解释"
+      },
+      "scores": {
+        "safest": "最安全 (2)",
+        "partial": "部分正确 (1)",
+        "unsafe": "不安全 (0)"
+      },
+      "validation": {
+        "correctFields": "请修正标出的字段。",
+        "required": "必填",
+        "slug": {
+          "required": "需要填写 slug。",
+          "format": "只能使用小写字母、数字和单个连字符。",
+          "duplicate": "此 slug 已被使用。"
+        },
+        "title": {
+          "required": "需要填写标题。",
+          "tooLong": "标题太长。"
+        },
+        "summary": {
+          "required": "需要填写摘要。",
+          "tooLong": "摘要太长。"
+        },
+        "topicCode": {
+          "invalid": "请选择支持的主题。"
+        },
+        "difficulty": {
+          "invalid": "请选择支持的难度。"
+        },
+        "estimatedMinutes": {
+          "positiveInteger": "预计分钟必须是正整数。",
+          "tooLarge": "预计分钟太大。"
+        },
+        "totalSteps": {
+          "positiveInteger": "总步骤数必须是正整数。",
+          "range": "总步骤数必须在 3 到 5 之间。"
+        }
+      },
+      "lifecycle": {
+        "publish": "情境已发布。",
+        "archive": "情境已归档。",
+        "restore": "情境已恢复为草稿。"
+      },
+      "tabs": {
+        "overview": "概览",
+        "steps": "步骤",
+        "preview": "预览"
+      },
+      "errors": {
+        "saveTranslation": "无法保存场景翻译。"
+      },
+      "slugHelp": "只能使用小写字母、数字和单个连字符。例如：phishing-practice",
+      "creating": "正在创建...",
+      "translationTabsLabel": "场景翻译语言",
+      "translationExists": "已有翻译",
+      "translationMissing": "缺少翻译",
+      "missingTranslationNotice": "缺少翻译。你可以添加本地化文本，而不改变共享的场景结构。",
+      "saveTranslation": "保存翻译",
+      "savedTranslation": "场景翻译已保存。",
+      "continueEditing": "继续编辑",
+      "discardAndSwitchTranslation": "放弃并切换语言",
+      "locales": {
+        "en": "英语",
+        "ms": "马来语",
+        "zh-CN": "简体中文"
+      },
+      "requestedLanguage": "请求语言",
+      "displayedLanguage": "显示语言",
+      "addTranslation": "添加翻译"
+    },
+    "scenarioLifecycle": {
+      "badge": "情境生命周期",
+      "archiveDeleteShort": "归档 / 删除",
+      "restoreDeleteShort": "恢复 / 删除",
+      "archiveOrDelete": "归档或删除情境",
+      "archiveDeleteTitle": "归档或删除情境",
+      "restoreDeleteTitle": "恢复或删除情境",
+      "description": "查看此情境可执行的安全生命周期操作。这些操作不会更改学习者分数。",
+      "loading": "正在加载情境生命周期...",
+      "openForScenario": "打开 {{title}} 的生命周期操作",
+      "archiveTitle": "归档情境",
+      "archiveDescription": "向学习者隐藏此情境，同时保留历史记录和管理员记录。",
+      "archiveButton": "归档情境",
+      "restoreTitle": "恢复情境",
+      "restoreDescription": "将已归档情境恢复为草稿，让管理员在发布前重新检查。",
+      "restoreButton": "恢复情境",
+      "deleteTitle": "永久删除",
+      "deleteDescription": "只有未使用的草稿情境可以永久删除。请输入完全一致的 slug 进行确认。",
+      "deleteUnavailableDescription": "此情境已有学习者或系统引用，不能永久删除。",
+      "neverPublished": "从未发布",
+      "firstPublished": "首次发布",
+      "availability": "可用性",
+      "learnerVisible": "学习者可见",
+      "learnerHidden": "学习者不可见",
+      "identity": {
+        "slug": "Slug",
+        "status": "当前状态"
+      },
+      "confirmSlugLabel": "输入完全一致的情境 slug",
+      "deleteButton": "永久删除情境",
+      "counts": {
+        "steps": "步骤",
+        "choices": "选项",
+        "attempts": "尝试",
+        "completedAttempts": "已完成尝试",
+        "decisions": "决策",
+        "progressReferences": "进度引用",
+        "recommendationReferences": "推荐引用",
+        "ragDocuments": "RAG 文档"
+      },
+      "reasons": {
+        "scenario_published": "已发布情境必须先归档，才能永久删除。",
+        "scenario_previously_published": "情境以前曾发布过。",
+        "attempts_exist": "存在 {{count}} 个学习者尝试引用。",
+        "completed_attempts_exist": "存在 {{count}} 个已完成尝试引用。",
+        "decisions_exist": "存在 {{count}} 个学习者决策引用。",
+        "progress_references_exist": "存在 {{count}} 个进度引用。",
+        "rag_documents_exist": "存在 {{count}} 个 RAG 文档引用。"
+      },
+      "errors": {
+        "load": "无法加载情境生命周期信息。",
+        "archive": "无法归档情境。",
+        "restore": "无法恢复情境。",
+        "delete": "无法永久删除情境。",
+        "dirty": "请先保存或放弃情境更改，再更改它的生命周期。",
+        "slugMismatch": "确认 slug 必须完全一致。",
+        "notEligible": "此情境不符合永久删除条件。"
+      }
+    },
+    "notFound": {
+      "badge": "管理员路线",
+      "title": "找不到管理员页面",
+      "description": "此管理员路线不可用。请使用标准管理员导航继续。",
+      "backToResources": "返回资源"
+    }
+  },
+  "common": {
+    "loading": "正在加载",
+    "save": "保存",
+    "saving": "正在保存...",
+    "saved": "已保存。",
+    "cancel": "取消",
+    "retry": "重试",
+    "edit": "编辑",
+    "close": "关闭",
+    "yes": "是",
+    "no": "否",
+    "back": "返回",
+    "next": "下一步",
+    "continueActivity": "继续活动",
+    "leaveToDashboard": "离开并返回仪表板",
+    "leavePage": "离开页面",
+    "notFound": "未找到",
+    "unauthorized": "未授权",
+    "networkError": "网络错误",
+    "somethingWentWrong": "出现问题。请再试一次。",
+    "backToHome": "返回首页",
+    "backToDashboard": "返回仪表板",
+    "learnMore": "了解更多 →",
+    "notSet": "未设置"
+  },
+  "errors": {
+    "codes": {
+      "ACCOUNT_INVALID": "请检查你的账号资料，然后再试一次。",
+      "ACCOUNT_NOT_FOUND": "找不到这个账号。",
+      "ASSESSMENT_ALREADY_SUBMITTED": "这份评估已经提交。",
+      "ASSESSMENT_ANSWER_INVALID": "请选择有效的答案。",
+      "ASSESSMENT_ATTEMPT_NOT_FOUND": "找不到这次评估记录。",
+      "ASSESSMENT_ATTEMPT_NOT_OPEN": "这份评估已不能继续作答。",
+      "ASSESSMENT_INCOMPLETE": "请回答所有问题后再提交。",
+      "ASSESSMENT_NOT_AVAILABLE": "初始评估目前不可用。",
+      "ASSESSMENT_OPTION_INVALID": "请选择其中一个可用选项。",
+      "ASSESSMENT_QUESTION_MISMATCH": "这道题不属于这份评估。",
+      "AUTH_ACCOUNT_DISABLED": "这个账号已被停用。",
+      "AUTH_EMAIL_ALREADY_REGISTERED": "这个电子邮箱已注册账号。",
+      "AUTH_FORBIDDEN": "你没有权限进入这个页面。",
+      "AUTH_INVALID_CREDENTIALS": "电子邮箱或密码不正确。",
+      "AUTH_LOGIN_FIELDS_REQUIRED": "需要填写电子邮箱和密码。",
+      "AUTH_RATE_LIMITED": "验证尝试次数太多。请稍后再试。",
+      "AUTH_REGISTRATION_INVALID": "请检查你的注册资料。",
+      "AUTH_REQUIRED": "请先登录以继续。",
+      "AI_ASSISTANT_PERSISTENCE_FAILED": "CyberGuard 无法保存回复。请再试一次。",
+      "AI_GENERATION_ALREADY_COMPLETED": "CyberGuard 已经准备好这条回复。",
+      "AI_GENERATION_IN_PROGRESS": "CyberGuard 正在准备回复。",
+      "AI_INVALID_RESPONSE": "CyberGuard 无法准备安全回复。请换一种问法。",
+      "AI_NOT_CONFIGURED": "CyberGuard 尚未配置。",
+      "AI_PROVIDER_UNAVAILABLE": "CyberGuard 暂时不可用。请稍后再试。",
+      "AI_RATE_LIMITED": "请求过多。请稍等片刻再试。",
+      "AI_TIMEOUT": "回复耗时太久。请再试一次。",
+      "AI_UNSAFE_REQUEST": "CyberGuard 不能帮助完成该请求，但可以解释安全和防御性的替代做法。",
+      "CHAT_CONVERSATION_NOT_FOUND": "找不到这个聊天对话。",
+      "CHAT_INVALID_ID": "请选择有效的聊天对话。",
+      "CHAT_INVALID_MESSAGE": "请输入 1 到 4000 个字符的消息。",
+      "CHAT_INVALID_TITLE": "请输入 1 到 80 个字符的聊天标题。",
+      "CHAT_MESSAGE_ROLE_INVALID": "此阶段只能发送你的消息。",
+      "INTERNAL_SERVER_ERROR": "我们这边出了点问题。请再试一次。",
+      "NETWORK_UNAVAILABLE": "网络错误。请检查连接后再试一次。",
+      "PROFILE_INVALID": "请检查你的学习资料。",
+      "PROGRESS_ASSESSMENT_NOT_FOUND": "找不到已完成的初始评估。",
+      "PROGRESS_TOPIC_SCORES_UNAVAILABLE": "评估主题分数还不可用。",
+      "RECOMMENDATION_NOT_FOUND": "找不到这项推荐。",
+      "RESOURCE_NOT_FOUND": "找不到这个资源。",
+      "SCENARIO_ALREADY_COMPLETED": "这次情境练习已经完成。",
+      "SCENARIO_ATTEMPT_NOT_FOUND": "找不到这次情境练习记录。",
+      "SCENARIO_CHOICE_FINAL": "情境选择提交后不能更改。",
+      "SCENARIO_DECISION_INVALID": "请选择有效的情境决定。",
+      "SCENARIO_INCOMPLETE": "请完成所有情境步骤后再结束。",
+      "SCENARIO_NOT_FOUND": "找不到这个情境。",
+      "SCENARIO_OPTION_INVALID": "请选择其中一个可用的情境选项。",
+      "SCENARIO_RESULT_NOT_FOUND": "找不到这个已完成的情境结果。",
+      "SCENARIO_STEP_MISMATCH": "这个步骤不属于该情境。",
+      "SCENARIO_STEP_OUT_OF_ORDER": "请先完成当前情境步骤，再继续下一步。"
+    },
+    "fallback": {
+      "completeRecommendation": "无法完成推荐。",
+      "completeScenario": "无法完成情境。",
+      "generic": "出现问题。请再试一次。",
+      "createChatConversation": "无法创建聊天对话。",
+      "deleteChatConversation": "无法删除聊天对话。",
+      "generateChatReply": "无法生成 CyberGuard 回复。",
+      "loadChatConversations": "无法加载聊天对话。",
+      "loadChatMessages": "无法加载聊天消息。",
+      "loadAssessment": "无法加载评估。",
+      "loadAssessmentStatus": "无法加载评估状态。",
+      "loadProgress": "无法加载进度。",
+      "loadRecommendation": "无法加载推荐。",
+      "loadRecommendedScenarios": "无法加载推荐情境。",
+      "loadResources": "无法加载资源。",
+      "loadScenario": "无法加载情境。",
+      "loadScenarioActivity": "无法加载情境活动。",
+      "loadScenarioResult": "无法加载情境结果。",
+      "loadScenarios": "无法加载情境。",
+      "network": "网络错误。请检查连接后再试一次。",
+      "register": "注册失败。请再试一次。",
+      "restoreScenario": "无法恢复情境。",
+      "renameChatConversation": "无法重命名聊天对话。",
+      "saveAccount": "无法保存账号资料。",
+      "saveAssessmentAnswer": "无法保存答案。",
+      "saveProfile": "无法保存学习资料。",
+      "saveScenarioDecision": "无法保存决定。",
+      "sendChatMessage": "无法发送聊天消息。",
+      "session": "无法检查你的会话。",
+      "signIn": "无法登录。",
+      "startAssessment": "无法开始评估。",
+      "startScenario": "无法开始情境。",
+      "submitAssessment": "无法提交评估。",
+      "updateRecommendation": "无法更新推荐。"
+    }
+  },
+  "levels": {
+    "beginner": "初学",
+    "developing": "发展中",
+    "intermediate": "中级",
+    "advanced": "高级"
+  },
+  "scenarioResults": {
+    "needs_review": "需要复习",
+    "developing": "发展中",
+    "proficient": "熟练",
+    "strong": "表现优秀"
+  },
+  "topics": {
+    "phishing_and_scams": "诈骗与社会工程",
+    "password_and_account_security": "密码与账户安全",
+    "privacy_and_personal_information": "隐私与个人数据保护",
+    "misinformation_and_deepfakes": "错误信息、媒体与 AI 安全"
+  }
+}

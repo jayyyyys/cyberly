@@ -1,6 +1,6 @@
-# Cyberly
+# Cyberly Capstone Project 2026
 
-Cyberly is an AI-powered cyber wellness toolkit for Malaysian teenagers, with a broader general-user mode for other age groups.
+Cyberly is a joint project with 5 members developed in May-June of 2026 during Capstone Project I module. The app is an AI-powered cyber wellness toolkit for Malaysian teenagers, with a broader general-user mode for other age groups.
 
 ## Project Structure
 
